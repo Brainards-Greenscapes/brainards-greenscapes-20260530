@@ -1,3 +1,5 @@
+import Image from "@11ty/eleventy-img";
+
 export default function (eleventyConfig) {
   // Date filter for copyright year
   eleventyConfig.addFilter("date", function (value, format) {
@@ -11,7 +13,38 @@ export default function (eleventyConfig) {
     return JSON.stringify(value);
   });
 
-  // Pass through static assets
+  // Responsive image shortcode
+  // Usage: {% image "src/assets/images/photo.webp", "Alt text", "class-names", "eager" %}
+  eleventyConfig.addShortcode("image", async function (src, alt, classes = "", loading = "lazy") {
+    if (!alt) {
+      throw new Error(`Missing alt text for image: ${src}`);
+    }
+
+    let metadata = await Image(src, {
+      widths: [400, 800, 1200],
+      formats: ["avif", "webp", "jpeg"],
+      outputDir: "_site/img/",
+      urlPath: "/img/",
+      filenameFormat: function (id, src, width, format) {
+        const name = src.split("/").pop().split(".")[0];
+        return `${name}-${width}w.${format}`;
+      },
+    });
+
+    let imageAttributes = {
+      alt,
+      sizes: "(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 600px",
+      loading,
+      decoding: loading === "eager" ? "sync" : "async",
+      class: classes,
+    };
+
+    return Image.generateHTML(metadata, imageAttributes, {
+      whitespaceMode: "inline",
+    });
+  });
+
+  // Pass through static assets (images handled by eleventy-img, but keep passthrough for non-optimized files)
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/favicons");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
