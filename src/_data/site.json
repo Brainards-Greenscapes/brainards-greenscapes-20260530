@@ -1,0 +1,28 @@
+{
+  "name": "Brainard's Greenscapes",
+  "shortName": "Brainard's",
+  "phone": "(575) 635-8883",
+  "phoneRaw": "575-635-8883",
+  "email": "greenscapeslc@yahoo.com",
+  "address": {
+    "city": "Las Cruces",
+    "state": "NM",
+    "full": "Las Cruces, NM"
+  },
+  "hours": "M-F: 8:00am - 5:00pm",
+  "yearsInBusiness": 19,
+  "founded": 2007,
+  "url": "https://www.brainardsgreenscapes.com",
+  "googleMapsUrl": "https://www.google.com/maps/place/Brainard's+Greenscapes/data=!4m2!3m1!1s0x0:0x3c69d063ef4f24?sa=X&ved=1t:2428&ictx=111",
+  "googleMapsEmbed": "https://www.google.com/maps?q=Las%20Cruces+NM&output=embed",
+  "social": {
+    "facebook": "https://www.facebook.com/BrainardsGreenscapes",
+    "instagram": "https://www.instagram.com/greenscapeslc",
+    "linkedin": "https://www.linkedin.com/company/brainard-s-greenscapes/"
+  },
+  "meta": {
+    "title": "Landscaping in Las Cruces, NM | Brainard's Greenscapes",
+    "description": "Award-winning landscaping in Las Cruces, NM. Xeriscape design, hardscaping, irrigation, and maintenance backed by a workmanship guarantee. Free estimate.",
+    "ogImage": "/assets/images/logo-small.png"
+  }
+}

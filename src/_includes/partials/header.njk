@@ -1,0 +1,43 @@
+<header class="bg-white shadow-sm sticky top-0 z-40">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16 md:h-20">
+
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-3" aria-label="{{ site.name }} — Home">
+        <img src="/assets/images/logo-circle-nav.webp" alt="" width="40" height="40" class="rounded-full">
+        <span class="font-heading font-bold text-lg text-green-900 hidden sm:inline">{{ site.name }}</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="hidden md:flex items-center gap-8" aria-label="Main navigation">
+        <a href="/services/" class="text-sm font-medium text-gray-700 hover:text-green-700 transition-colors">Services</a>
+        <a href="/portfolio/" class="text-sm font-medium text-gray-700 hover:text-green-700 transition-colors">Portfolio</a>
+        <a href="/service-areas/" class="text-sm font-medium text-gray-700 hover:text-green-700 transition-colors">Service Areas</a>
+        <a href="/about/" class="text-sm font-medium text-gray-700 hover:text-green-700 transition-colors">About</a>
+        <a href="/contact/" class="inline-flex items-center px-5 py-2.5 bg-green-700 text-white text-sm font-semibold rounded-lg hover:bg-green-800 transition-colors">
+          Free Estimate
+        </a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button type="button" class="md:hidden p-2 text-gray-700" aria-label="Open menu" data-nav-toggle>
+        <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile nav -->
+    <nav class="md:hidden hidden pb-4 border-t border-gray-100" aria-label="Mobile navigation" data-nav-menu>
+      <div class="flex flex-col gap-2 pt-4">
+        <a href="/services/" class="px-3 py-2 text-gray-700 hover:bg-green-50 rounded-lg">Services</a>
+        <a href="/portfolio/" class="px-3 py-2 text-gray-700 hover:bg-green-50 rounded-lg">Portfolio</a>
+        <a href="/service-areas/" class="px-3 py-2 text-gray-700 hover:bg-green-50 rounded-lg">Service Areas</a>
+        <a href="/about/" class="px-3 py-2 text-gray-700 hover:bg-green-50 rounded-lg">About</a>
+        <a href="/contact/" class="mt-2 text-center px-5 py-2.5 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-800">
+          Free Estimate
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>

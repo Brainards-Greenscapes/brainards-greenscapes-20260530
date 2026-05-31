@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ title or site.meta.title }}</title>
+  <meta name="description" content="{{ description or site.meta.description }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ title or site.meta.title }}">
+  <meta property="og:description" content="{{ description or site.meta.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.meta.ogImage }}">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
+
+  <!-- Fonts: Bitter (headings) + Lato (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  {% if pageJS %}
+    {% for js in pageJS %}
+  <script defer src="/assets/js/{{ js }}"></script>
+    {% endfor %}
+  {% endif %}
+
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7EG3QSMN7X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7EG3QSMN7X');
+  </script>
+
+  <!-- JSON-LD: LocalBusiness (Service Area Business) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LandscapingBusiness",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.phone }}",
+    "email": "{{ site.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "{{ site.address.city }}",
+      "addressRegion": "{{ site.address.state }}",
+      "addressCountry": "US"
+    },
+    "areaServed": [
+      { "@type": "City", "name": "Las Cruces", "addressRegion": "NM" },
+      { "@type": "City", "name": "Mesilla", "addressRegion": "NM" },
+      { "@type": "City", "name": "Doña Ana", "addressRegion": "NM" },
+      { "@type": "City", "name": "Organ", "addressRegion": "NM" },
+      { "@type": "City", "name": "Anthony", "addressRegion": "NM" },
+      { "@type": "City", "name": "Sunland Park", "addressRegion": "NM" },
+      { "@type": "City", "name": "Picacho Hills", "addressRegion": "NM" },
+      { "@type": "City", "name": "Sonoma Ranch", "addressRegion": "NM" },
+      { "@type": "City", "name": "East Mesa", "addressRegion": "NM" },
+      { "@type": "City", "name": "Las Alturas", "addressRegion": "NM" },
+      { "@type": "City", "name": "Talavera", "addressRegion": "NM" },
+      { "@type": "City", "name": "University Hills", "addressRegion": "NM" },
+      { "@type": "City", "name": "Dripping Springs", "addressRegion": "NM" },
+      { "@type": "City", "name": "Mesilla Park", "addressRegion": "NM" }
+    ],
+    "openingHours": "Mo-Fr 08:00-17:00",
+    "foundingDate": "2007",
+    "sameAs": [
+      "{{ site.social.facebook }}",
+      "{{ site.social.instagram }}",
+      "{{ site.social.linkedin }}"
+    ],
+    "image": "{{ site.url }}{{ site.meta.ogImage }}",
+    "priceRange": "$$"
+    {% if jsonLd %},{{ jsonLd | safe }}{% endif %}
+  }
+  </script>
+
+  {% if faqJsonLd %}
+  <!-- JSON-LD: FAQPage -->
+  <script type="application/ld+json">
+  {{ faqJsonLd | safe }}
+  </script>
+  {% endif %}
+</head>
+<body class="font-body text-gray-800 bg-white antialiased">
+  <a class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:text-green-800 focus:font-semibold" href="#main">
+    Skip to main content
+  </a>
+
+  {% include "partials/header.njk" %}
+
+  <main id="main">
+    {{ content | safe }}
+  </main>
+
+  {% include "partials/footer.njk" %}
+</body>
+</html>

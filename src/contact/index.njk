@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+title: "Contact Brainard's Greenscapes | Free Estimate"
+description: "Request a free landscaping estimate in Las Cruces, NM. Call (575) 635-8883 or fill out our contact form."
+---
+<section class="py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
+    <div>
+      <h1 class="font-heading text-4xl font-bold text-gray-900 mb-6">Get in Touch</h1>
+      <p class="text-gray-600 mb-8">Ready to transform your outdoor space? Fill out the form or give us a call for a free on-site consultation.</p>
+      <ul class="space-y-4 text-gray-700">
+        <li><strong>Phone:</strong> <a href="tel:{{ site.phoneRaw }}" class="text-green-700 hover:underline">{{ site.phone }}</a></li>
+        <li><strong>Email:</strong> <a href="mailto:{{ site.email }}" class="text-green-700 hover:underline">{{ site.email }}</a></li>
+        <li><strong>Hours:</strong> {{ site.hours }}</li>
+        <li><strong>Location:</strong> {{ site.address.full }}</li>
+      </ul>
+    </div>
+    <div>
+      <form method="POST" name="contact" class="bg-green-50 rounded-xl p-8 space-y-6" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm font-medium text-gray-700">Name <span class="text-red-500">*</span></span>
+            <input type="text" name="name" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 px-4 py-2.5">
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-gray-700">Email <span class="text-red-500">*</span></span>
+            <input type="email" name="email" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 px-4 py-2.5">
+          </label>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <label class="block">
+            <span class="text-sm font-medium text-gray-700">Phone</span>
+            <input type="tel" name="phone" class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 px-4 py-2.5">
+          </label>
+          <label class="block">
+            <span class="text-sm font-medium text-gray-700">How Did You Find Us?</span>
+            <select name="referral" class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 px-4 py-2.5">
+              <option value="">Select one...</option>
+              <option>Google Search</option>
+              <option>Facebook</option>
+              <option>Instagram</option>
+              <option>Referral / Friend</option>
+              <option>Nextdoor</option>
+              <option>Drive-by / Saw Your Work</option>
+              <option>Other</option>
+            </select>
+          </label>
+        </div>
+        <fieldset>
+          <legend class="text-sm font-medium text-gray-700 mb-2">Services Interested In <span class="text-red-500">*</span></legend>
+          <div class="grid grid-cols-2 gap-2">
+            {% for service in services %}
+            <label class="flex items-center gap-2 text-sm text-gray-700">
+              <input type="checkbox" name="services" value="{{ service.title }}" class="rounded text-green-600 focus:ring-green-500">
+              {{ service.title }}
+            </label>
+            {% endfor %}
+          </div>
+        </fieldset>
+        <label class="block">
+          <span class="text-sm font-medium text-gray-700">Message <span class="text-red-500">*</span></span>
+          <textarea name="message" rows="4" required class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:ring-green-500 focus:border-green-500 px-4 py-2.5"></textarea>
+        </label>
+        <button type="submit" class="w-full px-8 py-3 bg-green-700 text-white font-semibold rounded-lg hover:bg-green-800 transition-colors">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</section>

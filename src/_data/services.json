@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Landscape Design",
+    "slug": "landscape-design",
+    "url": "/services/landscape-design/",
+    "icon": "/assets/svgs/icon-landscape-design.svg",
+    "description": "Custom landscape plans tailored to your property, lifestyle, and the Las Cruces climate — from concept sketches to detailed planting layouts.",
+    "linkText": "Explore Landscape Design"
+  },
+  {
+    "title": "Landscaping",
+    "slug": "landscaping",
+    "url": "/services/landscaping/",
+    "icon": "/assets/svgs/icon-landscaping.svg",
+    "description": "Full-service landscaping including sod installation, artificial turf, planting, and raised garden beds built to thrive in southern New Mexico.",
+    "linkText": "View Landscaping Services"
+  },
+  {
+    "title": "Hardscaping",
+    "slug": "hardscaping",
+    "url": "/services/hardscaping/",
+    "icon": "/assets/svgs/icon-hardscaping.svg",
+    "description": "Durable patios, walkways, driveways, pavers, and stone borders designed to complement your home and handle the desert climate.",
+    "linkText": "Explore Hardscaping"
+  },
+  {
+    "title": "Xeriscaping",
+    "slug": "xeriscaping",
+    "url": "/services/landscaping/xeriscaping/",
+    "icon": "/assets/svgs/icon-xeriscaping.svg",
+    "description": "Water-wise landscape design using drought-tolerant plants, native species, and efficient irrigation to conserve water year-round.",
+    "linkText": "View Xeriscaping Options"
+  },
+  {
+    "title": "Irrigation & Sprinkler",
+    "slug": "irrigation",
+    "url": "/services/irrigation/",
+    "icon": "/assets/images/icon-irrigation-56.webp",
+    "iconType": "raster",
+    "description": "Sprinkler systems, drip irrigation, smart controllers, and repair services to keep your landscape healthy and your water bills low.",
+    "linkText": "Explore Irrigation Services"
+  },
+  {
+    "title": "Landscape Maintenance",
+    "slug": "landscape-maintenance",
+    "url": "/services/landscape-maintenance/",
+    "icon": "/assets/svgs/icon-maintenance.svg",
+    "description": "Seasonal and year-round maintenance plans that protect your investment and keep your landscape looking its best.",
+    "linkText": "View Maintenance Plans"
+  }
+]

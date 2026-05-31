@@ -1,0 +1,19 @@
+{
+  "name": "brainards-greenscapes",
+  "version": "1.0.0",
+  "description": "Brainard's Greenscapes — Las Cruces, NM landscaping website",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/styles.css --watch\" \"npx @11ty/eleventy --serve\"",
+    "build": "npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/styles.css --minify && npx @11ty/eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "concurrently": "^9.0.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
