@@ -4,7 +4,7 @@
     "slug": "landscape-design",
     "url": "/services/landscape-design/",
     "icon": "/assets/svgs/icon-landscape-design.svg",
-    "description": "Custom landscape plans tailored to your property, lifestyle, and the Las Cruces climate — from concept sketches to detailed planting layouts.",
+    "description": "David works directly with you on-site to understand your space, your goals, and what makes sense for your property. No middleman — you're getting ideas and expertise straight from the owner, tailored to your terrain and the Las Cruces climate.",
     "linkText": "Explore Landscape Design"
   },
   {
@@ -12,7 +12,7 @@
     "slug": "landscaping",
     "url": "/services/landscaping/",
     "icon": "/assets/svgs/icon-landscaping.svg",
-    "description": "Full-service landscaping including sod installation, artificial turf, planting, and raised garden beds built to thrive in southern New Mexico.",
+    "description": "Artificial turf, native plantings, sod, and more — installed by our crew and built to handle Las Cruces heat year-round. We focus on landscapes that look great without fighting the desert.",
     "linkText": "View Landscaping Services"
   },
   {
@@ -20,7 +20,7 @@
     "slug": "hardscaping",
     "url": "/services/hardscaping/",
     "icon": "/assets/svgs/icon-hardscaping.svg",
-    "description": "Durable patios, walkways, driveways, pavers, and stone borders designed to complement your home and handle the desert climate.",
+    "description": "Patios, walkways, driveways, pavers, and stone borders designed to complement your home and stand up to the desert climate. Built right the first time.",
     "linkText": "Explore Hardscaping"
   },
   {
@@ -28,7 +28,7 @@
     "slug": "xeriscaping",
     "url": "/services/landscaping/xeriscaping/",
     "icon": "/assets/svgs/icon-xeriscaping.svg",
-    "description": "Water-wise landscape design using drought-tolerant plants, native species, and efficient irrigation to conserve water year-round.",
+    "description": "Cut your water bill and your maintenance time. We remove what isn't working, reshape your landscape with drought-tolerant plants, rock, and boulders, and give you a yard that thrives in the high desert — not one that fights it.",
     "linkText": "View Xeriscaping Options"
   },
   {
@@ -37,7 +37,7 @@
     "url": "/services/irrigation/",
     "icon": "/assets/images/icon-irrigation-56.webp",
     "iconType": "raster",
-    "description": "Sprinkler systems, drip irrigation, smart controllers, and repair services to keep your landscape healthy and your water bills low.",
+    "description": "Sprinkler systems, drip irrigation, smart controllers, and repair — plus french drains, erosion control, and stormwater solutions. We keep your landscape healthy and your water usage in check.",
     "linkText": "Explore Irrigation Services"
   },
   {
@@ -45,7 +45,7 @@
     "slug": "landscape-maintenance",
     "url": "/services/landscape-maintenance/",
     "icon": "/assets/svgs/icon-maintenance.svg",
-    "description": "Seasonal and year-round maintenance plans that protect your investment and keep your landscape looking its best.",
-    "linkText": "View Maintenance Plans"
+    "description": "Seasonal cleanups, irrigation adjustments, and landscape upkeep to protect your investment. Call us when your yard needs attention — we'll keep it looking sharp.",
+    "linkText": "Get Maintenance Help"
   }
 ]
