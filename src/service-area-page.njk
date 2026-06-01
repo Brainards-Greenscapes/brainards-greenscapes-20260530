@@ -1,0 +1,150 @@
+---
+pagination:
+  data: serviceAreas
+  size: 1
+  alias: area
+permalink: "/service-areas/{{ area.slug }}/"
+layout: layouts/base.njk
+eleventyComputed:
+  title: "Landscaping in {{ area.name }}, {{ area.state }} | Brainard's Greenscapes"
+  description: "Professional landscaping, xeriscaping, hardscaping, and irrigation in {{ area.name }}, {{ area.state }}. Free estimates from Brainard's Greenscapes."
+---
+
+<!-- Breadcrumb -->
+<nav aria-label="Breadcrumb" class="bg-gray-50 py-3">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ol class="flex items-center gap-2 text-sm text-gray-500">
+      <li><a href="/" class="hover:text-green-700">Home</a></li>
+      <li><span aria-hidden="true">&rsaquo;</span></li>
+      <li><a href="/service-areas/" class="hover:text-green-700">Service Areas</a></li>
+      <li><span aria-hidden="true">&rsaquo;</span></li>
+      <li><span class="text-gray-900">{{ area.name }}, {{ area.state }}</span></li>
+    </ol>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-green-950 text-white py-16 md:py-24">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <p class="text-green-300 font-semibold text-sm uppercase tracking-wider mb-4">{{ area.tagline }}</p>
+    <h1 class="font-heading text-4xl md:text-5xl font-bold mb-6">{{ area.headline }}</h1>
+    <p class="text-green-100 text-lg max-w-2xl mb-8">{{ area.intro }}</p>
+    <div class="flex flex-col sm:flex-row gap-4">
+      <a href="/contact/" class="inline-flex items-center justify-center px-8 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-500 transition-colors">
+        Schedule an Estimate
+      </a>
+      <a href="tel:{{ site.phoneRaw }}" class="inline-flex items-center justify-center px-8 py-3 border-2 border-green-400 text-green-300 font-semibold rounded-lg hover:bg-green-900 transition-colors">
+        Call {{ site.phone }}
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Local Context -->
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-6">Why {{ area.name }}</h2>
+    <p class="text-gray-600 text-lg leading-relaxed">{{ area.localContext }}</p>
+  </div>
+</section>
+
+<!-- Services available -->
+<section class="py-16 bg-green-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="font-heading text-2xl md:text-3xl font-bold text-gray-900">{{ area.name }} Landscaping Services</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for service in services %}
+      <a href="{{ service.url }}" class="group block bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+        <h3 class="font-heading text-lg font-semibold text-green-900 mb-2 group-hover:text-green-700">{{ service.title }}</h3>
+        <span class="text-green-700 text-sm font-medium">{{ service.linkText }} &rarr;</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Neighborhoods (if any) -->
+{% if area.neighborhoods.length > 0 %}
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-8">{{ area.name }} Neighborhoods We Serve</h2>
+    {% if area.zipCodes.length > 0 %}
+    <p class="text-gray-600 mb-8">We cover zip codes: <strong>{{ area.zipCodes | join(", ") }}</strong></p>
+    {% endif %}
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {% for hood in area.neighborhoods %}
+      <div class="bg-green-50 rounded-xl p-6">
+        <h3 class="font-heading font-semibold text-green-900 mb-1">{{ hood.name }} <span class="text-gray-400 text-sm font-normal">{{ hood.zip }}</span></h3>
+        <p class="text-gray-600 text-sm leading-relaxed">{{ hood.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- Map + Stats -->
+<section class="py-16 bg-green-800 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="font-heading text-2xl md:text-3xl font-bold mb-6">Where We Work in {{ area.name }}</h2>
+        <div class="grid grid-cols-2 gap-6 mb-8">
+          <div>
+            <span class="font-heading text-3xl font-bold">500+</span>
+            <span class="block text-green-200 text-sm mt-1">Projects Completed</span>
+          </div>
+          <div>
+            <span class="font-heading text-3xl font-bold">19+</span>
+            <span class="block text-green-200 text-sm mt-1">Years in the Valley</span>
+          </div>
+          <div>
+            <span class="font-heading text-3xl font-bold">5/5</span>
+            <span class="block text-green-200 text-sm mt-1">Average Rating</span>
+          </div>
+          <div>
+            <span class="font-heading text-3xl font-bold">100%</span>
+            <span class="block text-green-200 text-sm mt-1">Quality Guarantee</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <iframe
+          src="https://www.google.com/maps?q={{ area.name | urlencode }}+{{ area.state }}&output=embed"
+          title="Map of {{ area.name }}, {{ area.state }} service area"
+          width="100%" height="350"
+          class="rounded-xl border-0"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Nearby Areas -->
+{% if area.nearbyAreas.length > 0 %}
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-8">Neighboring Areas We Serve</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {% for nearSlug in area.nearbyAreas %}
+        {% for nearArea in serviceAreas %}
+          {% if nearArea.slug == nearSlug %}
+      <a href="/service-areas/{{ nearArea.slug }}/" class="block bg-green-50 rounded-xl p-5 hover:bg-green-100 transition-colors">
+        <span class="font-heading font-semibold text-green-900">Landscaping in {{ nearArea.name }}, {{ nearArea.state }}</span>
+        <span class="block text-green-700 text-sm mt-1">&rarr;</span>
+      </a>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<!-- CTA -->
+{% include "partials/banner.njk" %}

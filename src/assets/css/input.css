@@ -2,9 +2,16 @@
 
 /* Custom theme overrides */
 @theme {
-  /* Font families */
-  --font-heading: "Bitter", serif;
-  --font-body: "Lato", sans-serif;
+  /* Font families — uncomment ONE set, comment the other two */
+  /* Option A: Bitter + Lato (earthy/traditional) */
+  /* --font-heading: "Bitter", serif; */
+  /* --font-body: "Lato", sans-serif; */
+  /* Option B: Outfit + Source Sans 3 (modern/clean) */
+  /* --font-heading: "Outfit", sans-serif; */
+  /* --font-body: "Source Sans 3", sans-serif; */
+  /* Option C: Archivo + Inter (strong/readable) */
+  --font-heading: "Archivo", sans-serif; 
+  --font-body: "Inter", sans-serif; 
 
   /* Brand colors — earthy greens to match landscaping vibe */
   --color-green-50: #f0fdf4;

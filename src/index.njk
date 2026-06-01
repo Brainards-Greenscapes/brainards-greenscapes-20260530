@@ -46,7 +46,25 @@ pageJS: ['nav.js']
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for service in services %}
-      <a href="{{ service.url }}" class="group block bg-green-50 rounded-xl p-8 hover:bg-green-100 transition-colors">
+      <a href="{{ service.url }}" class="group relative block bg-green-50 rounded-xl p-8 hover:bg-green-100 transition-colors overflow-hidden">
+        <!-- Tree watermark -->
+        <img src="/assets/images/BG_logo_tree_only.png" alt="" aria-hidden="true" class="absolute -bottom-6 -right-6 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity" loading="lazy">
+        <!-- Service icon -->
+        <div class="w-12 h-12 bg-green-700 text-white rounded-lg flex items-center justify-center mb-4">
+          {% if service.slug == "landscape-design" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.395m3.42 3.42a15.995 15.995 0 004.764-4.648l3.876-5.814a1.151 1.151 0 00-1.597-1.597L14.146 6.32a15.996 15.996 0 00-4.649 4.763m3.42 3.42a6.776 6.776 0 00-3.42-3.42"/></svg>
+          {% elif service.slug == "landscaping" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"/></svg>
+          {% elif service.slug == "hardscaping" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"/></svg>
+          {% elif service.slug == "xeriscaping" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418"/></svg>
+          {% elif service.slug == "irrigation" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 2.25c0 0-6.75 8.25-6.75 12.75a6.75 6.75 0 0013.5 0C18.75 10.5 12 2.25 12 2.25z"/></svg>
+          {% elif service.slug == "landscape-maintenance" %}
+          <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17l-5.1-5.1a2.34 2.34 0 010-3.31l.71-.71a2.34 2.34 0 013.31 0l5.1 5.1M20.49 3.51a3.75 3.75 0 010 5.3L12 17.31l-5.3-5.3a3.75 3.75 0 015.3-5.3l.7.7.7-.7a3.75 3.75 0 015.3 0z"/></svg>
+          {% endif %}
+        </div>
         <h3 class="font-heading text-xl font-semibold text-green-900 mb-3 group-hover:text-green-700">{{ service.title }}</h3>
         <p class="text-gray-600 text-sm leading-relaxed mb-4">{{ service.description }}</p>
         <span class="text-green-700 text-sm font-medium">{{ service.linkText }} &rarr;</span>

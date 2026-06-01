@@ -44,13 +44,15 @@ export default function (eleventyConfig) {
     });
   });
 
-  // Pass through static assets (images handled by eleventy-img, but keep passthrough for non-optimized files)
+  // Pass through static assets
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/favicons");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
+  eleventyConfig.addPassthroughCopy("src/assets/js");
 
-  // Watch for changes in CSS (Tailwind recompile)
+  // Watch for changes
   eleventyConfig.addWatchTarget("src/assets/css/");
+  eleventyConfig.addWatchTarget("src/assets/js/");
 
   return {
     dir: {

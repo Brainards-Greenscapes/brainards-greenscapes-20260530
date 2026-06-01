@@ -1,11 +1,59 @@
 ---
 layout: layouts/base.njk
 title: "Privacy Policy | Brainard's Greenscapes"
-description: "Privacy policy for Brainard's Greenscapes website."
+description: "Privacy policy for the Brainard's Greenscapes website."
 ---
 <section class="py-20">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 prose">
-    <h1 class="font-heading text-4xl font-bold text-gray-900 mb-6">Privacy Policy</h1>
-    <p class="text-gray-600">Privacy policy content to be added.</p>
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="font-heading text-4xl font-bold text-gray-900 mb-8">Privacy Policy</h1>
+    <p class="text-sm text-gray-500 mb-10">Last updated: May 30, 2026</p>
+
+    <div class="space-y-8 text-gray-600 leading-relaxed">
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Who We Are</h2>
+        <p>This website is operated by {{ site.name }}, a landscaping company based in {{ site.address.full }}. When we say "we," "us," or "our," we mean {{ site.name }}. This policy explains what information we collect through this website and how we use it.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Information We Collect</h2>
+        <p>We collect information you provide directly through our contact form: your name, email address, phone number (optional), how you found us, services you're interested in, and your message. We do not collect payment information through this website.</p>
+        <p class="mt-3">We also collect basic analytics data through Google Analytics (GA4), which may include your IP address (anonymized), browser type, device type, pages visited, and time spent on the site. This data is aggregated and does not personally identify you.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">How We Use Your Information</h2>
+        <p>We use the information you submit through our contact form to respond to your inquiry, provide estimates, and communicate about potential projects. We use analytics data to understand how visitors use our website so we can improve it.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">How We Share Your Information</h2>
+        <p>We do not sell, trade, or rent your personal information to anyone. Your contact form submissions are processed through Netlify (our hosting provider) and delivered to us via email. Google Analytics data is processed by Google under their privacy terms. We do not share your information with any other third parties.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Cookies</h2>
+        <p>This website uses cookies set by Google Analytics to distinguish unique visitors and track sessions. These are small text files stored on your device. You can disable cookies through your browser settings, though this may affect how some features work.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Third-Party Links</h2>
+        <p>Our website may contain links to third-party sites such as Google Maps, Facebook, Instagram, and LinkedIn. We are not responsible for the privacy practices of those sites. We encourage you to review their privacy policies separately.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Your Rights</h2>
+        <p>You may contact us at any time to request access to, correction of, or deletion of any personal information we hold about you. Email us at <a href="mailto:{{ site.email }}" class="text-green-700 hover:underline">{{ site.email }}</a> or call <a href="tel:{{ site.phoneRaw }}" class="text-green-700 hover:underline">{{ site.phone }}</a>.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Changes to This Policy</h2>
+        <p>We may update this policy from time to time. Changes will be posted on this page with an updated date. Your continued use of the website after changes are posted constitutes acceptance of the updated policy.</p>
+      </div>
+
+      <div>
+        <h2 class="font-heading text-xl font-semibold text-gray-900 mb-3">Contact</h2>
+        <p>If you have questions about this privacy policy, contact us at <a href="mailto:{{ site.email }}" class="text-green-700 hover:underline">{{ site.email }}</a> or call <a href="tel:{{ site.phoneRaw }}" class="text-green-700 hover:underline">{{ site.phone }}</a>.</p>
+      </div>
+    </div>
   </div>
 </section>
