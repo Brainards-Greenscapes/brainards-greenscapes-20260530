@@ -48,7 +48,7 @@ pageJS: ['nav.js']
       {% for service in services %}
       <a href="{{ service.url }}" class="group relative block bg-green-50 rounded-xl p-8 hover:bg-green-100 transition-colors overflow-hidden">
         <!-- Tree watermark -->
-        <img src="/assets/images/BG_logo_tree_only.png" alt="" aria-hidden="true" class="absolute -bottom-6 -right-6 w-32 h-32 opacity-5 group-hover:opacity-10 transition-opacity" loading="lazy">
+        <img src="/assets/images/BG_logo_tree_only.png" alt="" aria-hidden="true" class="absolute -bottom-6 -right-6 w-32 h-32 transition-opacity watermark" loading="lazy">
         <!-- Service icon -->
         <div class="w-12 h-12 bg-green-700 text-white rounded-lg flex items-center justify-center mb-4">
           {% if service.slug == "landscape-design" %}

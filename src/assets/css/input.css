@@ -4,14 +4,14 @@
 @theme {
   /* Font families — uncomment ONE set, comment the other two */
   /* Option A: Bitter + Lato (earthy/traditional) */
-  /* --font-heading: "Bitter", serif; */
-  /* --font-body: "Lato", sans-serif; */
+  --font-heading: "Bitter", serif;
+  --font-body: "Lato", sans-serif;
   /* Option B: Outfit + Source Sans 3 (modern/clean) */
   /* --font-heading: "Outfit", sans-serif; */
   /* --font-body: "Source Sans 3", sans-serif; */
   /* Option C: Archivo + Inter (strong/readable) */
-  --font-heading: "Archivo", sans-serif; 
-  --font-body: "Inter", sans-serif; 
+  /* --font-heading: "Archivo", sans-serif; */
+  /* --font-body: "Inter", sans-serif; */
 
   /* Brand colors — earthy greens to match landscaping vibe */
   --color-green-50: #f0fdf4;
@@ -36,6 +36,14 @@
   --color-earth-700: #6e4e28;
   --color-earth-800: #5a3f22;
   --color-earth-900: #4a351d;
+}
+
+/* Watermark on service cards */
+.watermark {
+  opacity: 0.05;
+}
+.group:hover .watermark {
+  opacity: 0.1;
 }
 
 /* Base styles */
