@@ -11,7 +11,8 @@ description: "Full-service landscaping, hardscaping, xeriscaping, irrigation, an
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for service in services %}
-      <a href="{{ service.url }}" class="group block bg-white border border-gray-200 rounded-xl p-8 hover:border-green-300 hover:shadow-lg transition-all">
+      <a href="{{ service.url }}" class="group relative block bg-white border border-gray-200 rounded-xl p-8 hover:border-green-300 hover:shadow-lg transition-all overflow-hidden">
+        <img src="/assets/images/BG_logo_tree_only.png" alt="" aria-hidden="true" class="absolute -bottom-6 -right-6 w-32 h-32 transition-opacity watermark" loading="lazy">
         <h2 class="font-heading text-xl font-semibold text-green-900 mb-3 group-hover:text-green-700">{{ service.title }}</h2>
         <p class="text-gray-600 text-sm leading-relaxed mb-4">{{ service.description }}</p>
         <span class="text-green-700 text-sm font-medium">{{ service.linkText }} &rarr;</span>
