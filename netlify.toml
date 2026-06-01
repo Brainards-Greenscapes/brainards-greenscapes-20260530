@@ -44,6 +44,36 @@
   to = "/service-areas/las-cruces-nm/"
   status = 301
 
+[[redirects]]
+  from = "/contact-us/"
+  to = "/contact/"
+  status = 301
+
+[[redirects]]
+  from = "/landscaping/commercial-landscaping-maintenance/"
+  to = "/services/landscape-maintenance/"
+  status = 301
+
+[[redirects]]
+  from = "/other/"
+  to = "/services/"
+  status = 301
+
+[[redirects]]
+  from = "/other/sod-installation-service/"
+  to = "/services/landscaping/sod-installation/"
+  status = 301
+
+[[redirects]]
+  from = "/landscaping/landscaping-services/"
+  to = "/services/landscaping/"
+  status = 301
+
+[[redirects]]
+  from = "/landscaping/landscape-architecture-services/"
+  to = "/services/landscape-design/"
+  status = 301
+
 # --- Cache headers ---
 
 [[headers]]
