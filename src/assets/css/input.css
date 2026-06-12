@@ -77,10 +77,10 @@
 
 /* Watermark on service cards */
 .watermark {
-  opacity: 0.05;
+  opacity: 0.08;
 }
 .group:hover .watermark {
-  opacity: 0.1;
+  opacity: 0.15;
 }
 
 /* Base styles */
