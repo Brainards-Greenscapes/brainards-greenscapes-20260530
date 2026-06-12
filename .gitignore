@@ -17,3 +17,7 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Utility scripts
+cleanup-images.sh
+_orphaned-images/
