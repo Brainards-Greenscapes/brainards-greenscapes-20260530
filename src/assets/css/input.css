@@ -1,5 +1,42 @@
 @import "tailwindcss";
 
+/* Self-hosted fonts — eliminates Google Fonts round-trip (~300-500ms on mobile) */
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/bitter-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/assets/fonts/bitter-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bitter";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/bitter-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/lato-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/assets/fonts/lato-latin-700-normal.woff2") format("woff2");
+}
+
 /* Custom theme overrides */
 @theme {
   /* Font families — uncomment ONE set, comment the other two */

@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/styles.css --watch\" \"npx @11ty/eleventy --serve\"",
-    "build": "npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/styles.css --minify && npx @11ty/eleventy",
+    "build": "rm -rf _site && npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/styles.css --minify && npx @11ty/eleventy",
     "clean": "rm -rf _site"
   },
   "devDependencies": {
@@ -18,6 +18,8 @@
     "tailwindcss": "^4.0.0"
   },
   "dependencies": {
+    "@fontsource/bitter": "^5.2.10",
+    "@fontsource/lato": "^5.2.7",
     "sharp": "^0.34.5"
   }
 }

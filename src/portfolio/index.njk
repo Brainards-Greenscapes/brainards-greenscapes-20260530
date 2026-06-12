@@ -30,7 +30,9 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5" data-portfolio-grid>
       {% for photo in gallery %}
       <div class="gallery-item group relative overflow-hidden rounded-xl cursor-pointer transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl" data-category="{{ photo.category }}">
-        {% if loop.index0 < 4 %}
+        {% if loop.index0 == 0 %}
+          {% image "src/assets/images/" + photo.src, photo.alt, "w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105", "eager", "high" %}
+        {% elif loop.index0 < 2 %}
           {% image "src/assets/images/" + photo.src, photo.alt, "w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105", "eager" %}
         {% else %}
           {% image "src/assets/images/" + photo.src, photo.alt, "w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105" %}

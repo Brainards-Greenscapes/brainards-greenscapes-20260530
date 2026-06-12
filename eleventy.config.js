@@ -14,8 +14,8 @@ export default function (eleventyConfig) {
   });
 
   // Responsive image shortcode
-  // Usage: {% image "src/assets/images/photo.webp", "Alt text", "class-names", "eager" %}
-  eleventyConfig.addShortcode("image", async function (src, alt, classes = "", loading = "lazy") {
+  // Usage: {% image "src/assets/images/photo.webp", "Alt text", "class-names", "eager", "high" %}
+  eleventyConfig.addShortcode("image", async function (src, alt, classes = "", loading = "lazy", fetchpriority = "") {
     if (!alt) {
       throw new Error(`Missing alt text for image: ${src}`);
     }
@@ -38,6 +38,10 @@ export default function (eleventyConfig) {
       decoding: loading === "eager" ? "sync" : "async",
       class: classes,
     };
+
+    if (fetchpriority) {
+      imageAttributes.fetchpriority = fetchpriority;
+    }
 
     return Image.generateHTML(metadata, imageAttributes, {
       whitespaceMode: "inline",
