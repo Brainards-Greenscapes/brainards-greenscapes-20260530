@@ -9,17 +9,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const rect = container.getBoundingClientRect();
       let pct = ((x - rect.left) / rect.width) * 100;
       pct = Math.max(0, Math.min(100, pct));
-      const px = (pct / 100) * rect.width;
-      beforeImg.style.clip = "rect(0, " + px + "px, " + rect.height + "px, 0)";
+      beforeImg.style.clipPath = "inset(0 " + (100 - pct) + "% 0 0)";
       line.style.left = pct + "%";
       knob.style.left = pct + "%";
     }
 
-    // Set initial position at 50%
     function setAt(pct) {
-      const rect = container.getBoundingClientRect();
-      const px = (pct / 100) * rect.width;
-      beforeImg.style.clip = "rect(0, " + px + "px, " + rect.height + "px, 0)";
+      beforeImg.style.clipPath = "inset(0 " + (100 - pct) + "% 0 0)";
       line.style.left = pct + "%";
       knob.style.left = pct + "%";
     }
