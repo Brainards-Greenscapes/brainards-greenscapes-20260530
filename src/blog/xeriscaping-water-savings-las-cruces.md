@@ -1,7 +1,7 @@
 ---
 layout: layouts/blog.njk
 title: "How Much Water Can Xeriscaping Save in Las Cruces?"
-description: "Las Cruces homeowners can cut outdoor water use by 50–75% with xeriscaping. See real numbers for LCU, Moongate, and Dona Ana Water Mutual customers."
+description: "Las Cruces homeowners can cut outdoor water use by 50–75% with xeriscaping. See real rate comparisons for LCU, Moongate, and DAMDWCA customers."
 excerpt: "Your water provider changes the math. See how much xeriscaping can actually save LCU, Moongate, and mutual water customers in Las Cruces — with real rate comparisons."
 date: 2026-06-16
 tags: blog
@@ -10,7 +10,7 @@ tags: blog
 ## Key Takeaways
 
 - **[50–75% less landscape water use](#what-xeriscaping-actually-saves)** — Xeriscaping cuts the biggest chunk of your water bill: outdoor irrigation.
-- **[Your water provider changes the math](#the-rate-breakdown)** — Moongate customers pay ~$2.20/1,000 gal. LCU customers pay $3.73 at the higher tier. Smaller mutuals pay even more. The more you pay per gallon, the faster xeriscaping pays for itself.
+- **[Your water provider changes the math](#the-rate-breakdown)** — Moongate customers pay ~$2.20/1,000 gal. LCU customers pay $3.73 at the higher tier. DAMDWCA customers pay up to $5.22 — or $6.99 if you're a heavy user. The more you pay per gallon, the faster xeriscaping pays for itself.
 - **[$800–$2,000+ saved over 10 years](#lets-do-the-math)** — On water alone, depending on yard size and utility provider.
 - **[No turf rebate in Las Cruces yet](#what-about-rebates)** — But free "Lush and Lean" workshops are available, and the water savings alone make the case.
 - **[Less maintenance, no watering restrictions to track](#beyond-the-water-bill)** — No mowing, no odd/even schedule headaches, no fertilizer.
@@ -46,7 +46,9 @@ Here's where it gets interesting — and where your water provider matters a lot
 
 **Las Cruces Utilities (LCU)** uses a tiered rate structure. You'll pay a $13.60 monthly access charge, $2.85 per 1,000 gallons for the first 3,000, and $3.73 per 1,000 after that. At 10,000 gallons, your water bill runs close to $48 a month — nearly double what Moongate customers pay.
 
-**Smaller mutual systems** throughout Dona Ana County — like Dona Ana Mutual Domestic Water (DAMDWCA), Picacho Hills, Lower Rio Grande, and others — tend to charge significantly more. According to the NMED 2020 Rate Survey, residential rates at 6,000 gallons ranged from $32 to over $48 per month for these systems, compared to about $16 for Moongate and $21 for LCU at the same usage level. If you're on one of these systems, you're paying a premium for every gallon that evaporates off your lawn.
+**Dona Ana Mutual Domestic Water (DAMDWCA)** is where the numbers really jump. Their rate structure is aggressively tiered: $2.94/1,000 gallons for the first 4,999, $3.92/1,000 from 5,000–9,999, $5.22/1,000 from 10,000–19,999, and $6.99/1,000 gallons if you go over 20,000. At 10,000 gallons, a DAMDWCA customer is paying well over $35 just in usage charges — and if your summer sprinklers push you into that 10,000–20,000 tier, you're at $5.22 per thousand gallons. That's more than double what Moongate charges for the same water.
+
+Other Dona Ana County mutuals — Picacho Hills, Lower Rio Grande, and others — have similarly steep rates. If you're on any of these systems, you're paying a premium for every gallon that evaporates off your lawn.
 
 ### Let's Do the Math
 
@@ -59,7 +61,14 @@ Xeriscaping cuts that landscape water by 50–75%. Let's use a conservative 60% 
 - **Monthly savings:** ~$11/month during watering season
 - **Annual savings:** ~$88–110/year (factoring in that winter months are lower)
 
-That's with *city water rates*. If you're on a smaller mutual system paying $5–8 per 1,000 gallons, those savings roughly double. And this doesn't account for reducing or eliminating sprinkler maintenance, mower fuel, fertilizer, and the time you spend dealing with all of it.
+Now run the same math for a **DAMDWCA customer** at the same 12,000 gallons. Those 5,000 landscape gallons land in the $5.22/1,000 tier:
+
+- **Before:** 5,000 gallons/month on landscape = roughly $26.10
+- **After:** 2,000 gallons/month = roughly $10.44
+- **Monthly savings:** ~$16/month during watering season
+- **Annual savings:** ~$125–160/year
+
+That's nearly 50% more savings than the LCU customer — same yard, same xeriscaping, just a different water bill. And this doesn't account for reducing or eliminating sprinkler maintenance, mower fuel, fertilizer, and the time you spend dealing with all of it.
 
 Over 10 years, a xeriscaped yard can save a Las Cruces homeowner $800–$2,000+ on water alone, depending on yard size and which utility you're on.
 
