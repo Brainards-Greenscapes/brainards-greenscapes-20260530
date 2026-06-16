@@ -1,11 +1,24 @@
 import Image from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
-  // Date filter for copyright year
+  // Date filter for copyright year and blog dates
   eleventyConfig.addFilter("date", function (value, format) {
     const d = value === "now" ? new Date() : new Date(value);
     if (format === "Y") return d.getFullYear().toString();
+    if (format === "iso") return d.toISOString().split("T")[0];
+    if (format === "readable") {
+      return d.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "long",
+        day: "numeric",
+      });
+    }
     return d.toLocaleDateString();
+  });
+
+  // Blog collection — all files tagged "blog", sorted by date
+  eleventyConfig.addCollection("blog", function (collectionApi) {
+    return collectionApi.getFilteredByTag("blog").sort((a, b) => a.date - b.date);
   });
 
   // JSON stringify filter for JSON-LD

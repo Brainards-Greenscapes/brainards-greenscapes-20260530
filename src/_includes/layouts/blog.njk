@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+---
+
+<!-- JSON-LD: BlogPosting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "datePublished": "{{ date | date('iso') }}",
+  {% if updated %}"dateModified": "{{ updated | date('iso') }}",{% endif %}
+  "author": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "url": "{{ site.url }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.meta.ogImage }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+}
+</script>
+
+<!-- Breadcrumb -->
+<nav aria-label="Breadcrumb" class="bg-gray-50 py-3">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ol class="flex items-center gap-2 text-sm text-gray-500">
+      <li><a href="/" class="hover:text-green-700">Home</a></li>
+      <li><span aria-hidden="true">&rsaquo;</span></li>
+      <li><a href="/blog/" class="hover:text-green-700">Blog</a></li>
+      <li><span aria-hidden="true">&rsaquo;</span></li>
+      <li><span class="text-gray-900">{{ title }}</span></li>
+    </ol>
+  </div>
+</nav>
+
+<!-- Article -->
+<article class="py-12 md:py-16">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Header -->
+    <header class="mb-10">
+      <h1 class="font-heading text-4xl md:text-5xl font-bold text-gray-900 mb-4">{{ title }}</h1>
+      <div class="flex items-center gap-4 text-sm text-gray-500">
+        <time datetime="{{ date | date('iso') }}">{{ date | date('readable') }}</time>
+        {% if updated %}
+        <span>&middot;</span>
+        <span>Updated {{ updated | date('readable') }}</span>
+        {% endif %}
+      </div>
+    </header>
+
+    <!-- Prose content -->
+    <div class="prose prose-lg prose-gray prose-headings:font-heading prose-headings:text-gray-900 prose-a:text-green-700 hover:prose-a:text-green-900 prose-img:rounded-xl max-w-none">
+      {{ content | safe }}
+    </div>
+
+  </div>
+</article>
+
+<!-- Related posts -->
+{% set allPosts = collections.blog %}
+{% set related = [] %}
+{% for post in allPosts %}
+  {% if post.url !== page.url %}
+    {% set related = (related.push(post), related) %}
+  {% endif %}
+{% endfor %}
+{% if related.length > 0 %}
+<section class="py-12 bg-green-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="font-heading text-2xl font-bold text-gray-900 mb-8 text-center">More from the Blog</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for post in related | reverse %}
+        {% if loop.index0 < 3 %}
+        <a href="{{ post.url }}" class="group block bg-white border border-gray-200 rounded-xl p-8 hover:border-green-300 hover:shadow-lg transition-all">
+          <time datetime="{{ post.date | date('iso') }}" class="text-sm text-gray-400">{{ post.date | date('readable') }}</time>
+          <h3 class="font-heading text-lg font-semibold text-green-900 mt-2 mb-3 group-hover:text-green-700">{{ post.data.title }}</h3>
+          <p class="text-gray-600 text-sm leading-relaxed">{{ post.data.excerpt }}</p>
+          <span class="text-green-700 text-sm font-medium mt-4 inline-block">Read more &rarr;</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+{% include "partials/banner.njk" %}
