@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 /* Self-hosted fonts — eliminates Google Fonts round-trip (~300-500ms on mobile) */
 @font-face {
@@ -73,6 +74,35 @@
   --color-earth-700: #6e4e28;
   --color-earth-800: #5a3f22;
   --color-earth-900: #4a351d;
+}
+
+/* Blog prose overrides */
+.prose a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose a:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Key Takeaways callout box */
+.prose .key-takeaways {
+  background-color: var(--color-green-50);
+  border-left: 4px solid var(--color-green-700);
+  border-radius: 0.5rem;
+  padding: 1.5rem 1.5rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+.prose .key-takeaways h2 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: var(--color-green-900);
+}
+.prose .key-takeaways ul {
+  margin-bottom: 0;
+}
+.prose .key-takeaways li {
+  font-size: 0.95rem;
 }
 
 /* Watermark on service cards */

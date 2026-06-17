@@ -7,16 +7,18 @@ date: 2026-06-16
 tags: blog
 ---
 
+<div class="key-takeaways">
+
 ## Key Takeaways
 
-- **[50–75% less landscape water use](#what-xeriscaping-actually-saves)** — Xeriscaping cuts the biggest chunk of your water bill: outdoor irrigation.
-- **[Your water provider changes the math](#the-rate-breakdown)** — Moongate customers pay ~$2.20/1,000 gal. LCU customers pay $3.73 at the higher tier. DAMDWCA customers pay up to $5.22 — or $6.99 if you're a heavy user. The more you pay per gallon, the faster xeriscaping pays for itself.
-- **[$800–$2,000+ saved over 10 years](#lets-do-the-math)** — On water alone, depending on yard size and utility provider.
-- **[No turf rebate in Las Cruces yet](#what-about-rebates)** — But free "Lush and Lean" workshops are available, and the water savings alone make the case.
-- **[Less maintenance, no watering restrictions to track](#beyond-the-water-bill)** — No mowing, no odd/even schedule headaches, no fertilizer.
-- **[It's not just gravel](#what-goes-into-a-xeriscape-conversion)** — A proper conversion involves soil evaluation, desert-adapted plants, drip irrigation, and smart grading for monsoon runoff.
+- [50–75% less landscape water use](#what-xeriscaping-actually-saves) — Xeriscaping cuts the biggest chunk of your water bill: outdoor irrigation.
+- [Your water provider changes the math](#the-rate-breakdown) — Moongate customers pay ~$2.20/1,000 gal. LCU customers pay $3.73 at the higher tier. DAMDWCA customers pay up to $5.22 — or $6.99 if you're a heavy user.
+- [$800–$2,000+ saved over 10 years](#lets-do-the-math) — On water alone, depending on yard size and utility provider.
+- [No turf rebate in Las Cruces yet](#what-about-rebates) — But free "Lush and Lean" workshops are available, and the water savings alone make the case.
+- [Less maintenance, no watering restrictions to track](#beyond-the-water-bill) — No mowing, no odd/even schedule headaches, no fertilizer.
+- [It's not just gravel](#what-goes-into-a-xeriscape-conversion) — A proper conversion involves soil evaluation, desert-adapted plants, drip irrigation, and smart grading for monsoon runoff.
 
----
+</div>
 
 If you've ever opened your water bill in August and winced, you're not alone. Here in Las Cruces, the sun doesn't mess around — and neither do your sprinklers. Between the heat, the wind, and the dry air, keeping a traditional grass lawn alive in the Mesilla Valley takes a *lot* of water.
 
