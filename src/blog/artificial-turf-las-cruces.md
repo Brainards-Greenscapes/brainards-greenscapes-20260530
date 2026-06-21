@@ -11,7 +11,7 @@ tags: blog
 
 ## Key Takeaways
 
-- [It pays for itself in 5–8 years](#the-real-cost-breakdown) — Higher upfront cost than sod, but zero water bills and near-zero maintenance close the gap fast.
+- [It pays for itself in 3–7 years](#the-real-cost-breakdown) — Higher upfront cost than sod, but zero water bills and near-zero maintenance close the gap fast.
 - [Yes, it gets hot](#the-heat-question) — Surface temps can hit 150°F+ in direct summer sun. There are ways to manage it, but you should know what you're signing up for.
 - [It lasts 15–20 years](#how-long-does-it-last) — With minimal care. Quality product and proper installation are what determine lifespan, not the Las Cruces climate.
 - [Pets and turf work fine together](#pets-and-artificial-turf) — With the right infill and drainage. The wrong setup can trap odors.
@@ -28,7 +28,7 @@ Here's an honest breakdown from someone who installs both [artificial turf](/ser
 
 ## The Real Cost Breakdown
 
-Let's start with the number everyone wants to know. In the Las Cruces area, professional artificial turf installation typically runs $8–14 per square foot, depending on the product quality, site prep needed, and the size of the area. For a typical 500-square-foot backyard conversion, you're looking at roughly $4,000–$7,000 installed.
+Let's start with the number everyone wants to know. In the Las Cruces area, professional artificial turf installation typically runs $10–25 per square foot installed, depending on the product quality, site prep needed, and the size of the area. For a typical 500-square-foot backyard conversion, you're looking at roughly $5,000–$12,500 installed.
 
 Compare that to sod: installation runs about $1.50–$3 per square foot. So for that same 500 square feet, you're paying $750–$1,500. Sod looks like the obvious winner — until you factor in what comes after.
 
@@ -38,7 +38,7 @@ Mowing alone runs $120–$240/month during growing season (March–October), whi
 
 **Annual maintenance for artificial turf:** $100–$300. That's an occasional rinse, a brushing, and maybe a professional tune-up every couple of years.
 
-Do the math over 10 years: sod costs $750–$1,500 to install plus $15,000–$35,000 in maintenance. Artificial turf costs $4,000–$7,000 to install plus $1,000–$3,000 in maintenance. Most homeowners break even somewhere between year 5 and year 8, and then it's pure savings for the remaining 10–15 years of the turf's life.
+Do the math over 10 years: sod costs $750–$1,500 to install plus $15,000–$35,000 in maintenance. Artificial turf costs $5,000–$12,500 to install plus $1,000–$3,000 in maintenance. Most homeowners break even somewhere between year 3 and year 7, and then it's pure savings for the remaining 10–15 years of the turf's life.
 
 If you're on a higher-cost water system like DAMDWCA (where rates hit $5.22–$6.99 per 1,000 gallons at higher tiers), the payback comes even faster.
 

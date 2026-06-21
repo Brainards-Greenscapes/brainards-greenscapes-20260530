@@ -1,8 +1,24 @@
-# Cache static assets (1 year, immutable)
-/assets/*
+# Images — immutable (filenames include dimensions/format)
+/assets/images/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/favicons/*
+  Cache-Control: public, max-age=31536000, immutable
+/img/*
   Cache-Control: public, max-age=31536000, immutable
 
-# Font CORS headers
+# Fonts — immutable + CORS
 /assets/fonts/*
   Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
+
+# CSS & JS — cache-busted via ?v= query param, so immutable is safe
+/assets/css/*
+  Cache-Control: public, max-age=31536000, immutable
+/assets/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# HTML pages — always revalidate
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+/
+  Cache-Control: public, max-age=0, must-revalidate

@@ -1,6 +1,13 @@
 import Image from "@11ty/eleventy-img";
 
+// Build timestamp for cache-busting static assets
+const buildTime = Date.now();
+
 export default function (eleventyConfig) {
+  // Cache-bust filter — appends ?v=<timestamp> to asset URLs
+  eleventyConfig.addFilter("cacheBust", function (url) {
+    return `${url}?v=${buildTime}`;
+  });
   // Date filter for copyright year and blog dates
   eleventyConfig.addFilter("date", function (value, format) {
     const d = value === "now" ? new Date() : new Date(value);

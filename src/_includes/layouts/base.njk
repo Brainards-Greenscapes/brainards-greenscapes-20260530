@@ -23,15 +23,18 @@
   <link rel="manifest" href="/assets/favicons/site.webmanifest">
 
   <!-- Stylesheet (includes self-hosted @font-face declarations) -->
-  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | cacheBust }}">
 
   <!-- Preload critical fonts to avoid FOUT -->
   <link rel="preload" href="/assets/fonts/bitter-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/lato-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 
+  <!-- Mobile nav toggle — needed on every page -->
+  <script defer src="{{ '/assets/js/nav.js' | cacheBust }}"></script>
+
   {% if pageJS %}
     {% for js in pageJS %}
-  <script defer src="/assets/js/{{ js }}"></script>
+  <script defer src="{{ ('/assets/js/' + js) | cacheBust }}"></script>
     {% endfor %}
   {% endif %}
 
