@@ -3,7 +3,7 @@ layout: layouts/blog.njk
 title: "Artificial Turf in Las Cruces: What Homeowners Need to Know"
 description: "Considering artificial turf in Las Cruces? Here's what it actually costs, how hot it gets, how long it lasts, and whether it makes sense for your yard."
 excerpt: "Artificial turf eliminates mowing, watering, and the odd/even schedule — but it's not magic. Here's an honest look at cost, heat, maintenance, and when it makes sense in Las Cruces."
-date: 2026-08-04
+date: 2026-06-19
 tags: blog
 ---
 
