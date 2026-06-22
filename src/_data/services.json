@@ -32,13 +32,22 @@
     "linkText": "Explore Hardscaping"
   },
   {
-    "title": "Irrigation & Sprinkler",
+    "title": "Irrigation",
     "slug": "irrigation",
     "url": "/services/irrigation/",
     "icon": "/assets/images/icon-irrigation-56.webp",
     "iconType": "raster",
-    "description": "Sprinkler systems, drip irrigation, smart controllers, and repair — plus french drains, erosion control, and stormwater solutions. We keep your landscape healthy and your water usage in check.",
+    "description": "Sprinkler systems, drip irrigation, smart controllers, and repair — designed for the Las Cruces climate and the city's watering restrictions.",
     "linkText": "Explore Irrigation Services"
+  },
+  {
+    "title": "Drainage",
+    "slug": "drainage",
+    "url": "/services/drainage/",
+    "icon": "/assets/images/icon-irrigation-56.webp",
+    "iconType": "raster",
+    "description": "French drains, erosion control, and stormwater solutions for monsoon season. NDS Pro Certified drainage design and installation.",
+    "linkText": "Explore Drainage Solutions"
   },
   {
     "title": "Landscape Maintenance",

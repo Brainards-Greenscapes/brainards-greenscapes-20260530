@@ -43,6 +43,7 @@ export default function (eleventyConfig) {
     // Slug → readable name mapping for known segments
     const nameMap = {
       "services": "Services",
+      "drainage": "Drainage",
       "service-areas": "Service Areas",
       "portfolio": "Portfolio",
       "about": "About",

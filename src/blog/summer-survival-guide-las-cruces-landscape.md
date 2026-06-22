@@ -95,9 +95,9 @@ That means your landscape needs to handle two opposite extremes within the same 
 **Before the first big storm:**
 
 - **Check your grading.** Soil should slope away from your foundation at least 6 inches over the first 10 feet. If you've had settling or erosion, now is the time to fix it.
-- **Clear drainage paths.** Gravel swales, [French drains](/services/irrigation/french-drains/), and any [drainage solutions](/services/irrigation/stormwater-mitigation/) on your property need to be clear of debris before July.
+- **Clear drainage paths.** Gravel swales, [French drains](/services/drainage/french-drains/), and any [drainage solutions](/services/drainage/stormwater-mitigation/) on your property need to be clear of debris before July.
 - **Inspect drip lines.** Monsoon runoff can bury, shift, or disconnect drip emitters. After the first heavy rain, walk your zones and check that water is still reaching your plants.
-- **Secure loose rock and mulch.** In storm-prone beds or slopes, heavy rain can wash gravel and expose irrigation lines. Consider [erosion control](/services/irrigation/erosion-control/) measures on any slope steeper than about 3:1.
+- **Secure loose rock and mulch.** In storm-prone beds or slopes, heavy rain can wash gravel and expose irrigation lines. Consider [erosion control](/services/drainage/erosion-control/) measures on any slope steeper than about 3:1.
 
 **After monsoon rains:** Turn off your irrigation for 2–3 days (or let your smart controller handle it). The ground is saturated. Watering on top of monsoon rain is the #1 cause of summer root rot in desert landscapes.
 

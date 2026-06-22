@@ -13,3 +13,8 @@
 /other/sod-installation-service/ /services/landscaping/sod-installation/ 301
 /landscaping/landscaping-services/ /services/landscaping/ 301
 /landscaping/landscape-architecture-services/ /services/landscape-design/ 301
+
+# Drainage pages moved from /services/irrigation/ to /services/drainage/ (2026-06-22)
+/services/irrigation/french-drains/ /services/drainage/french-drains/ 301
+/services/irrigation/erosion-control/ /services/drainage/erosion-control/ 301
+/services/irrigation/stormwater-mitigation/ /services/drainage/stormwater-mitigation/ 301
