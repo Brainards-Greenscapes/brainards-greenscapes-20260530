@@ -33,6 +33,107 @@ export default function (eleventyConfig) {
     return JSON.stringify(value);
   });
 
+  // BreadcrumbList JSON-LD generator
+  // Takes page.url and site.url, returns a full <script> block (or empty string for homepage)
+  eleventyConfig.addFilter("breadcrumbJsonLd", function (pageUrl, siteUrl) {
+    // Skip homepage — it IS the root, no breadcrumb needed
+    if (!pageUrl || pageUrl === "/") return "";
+
+    // Slug → readable name mapping for known segments
+    const nameMap = {
+      "services": "Services",
+      "service-areas": "Service Areas",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "blog": "Blog",
+      "landscape-design": "Landscape Design",
+      "landscaping": "Landscaping",
+      "hardscaping": "Hardscaping",
+      "irrigation": "Irrigation",
+      "landscape-maintenance": "Landscape Maintenance",
+      "xeriscaping": "Xeriscaping",
+      "artificial-turf": "Artificial Turf",
+      "sod-installation": "Sod Installation",
+      "planting-gardening": "Planting & Gardening",
+      "raised-garden-beds": "Raised Garden Beds",
+      "gravel-rock": "Gravel & Decorative Rock",
+      "turf-cleaning": "Turf Cleaning",
+      "patios": "Patios",
+      "walkways": "Walkways",
+      "driveways": "Driveways",
+      "pavers": "Pavers",
+      "stone-borders": "Stone Borders",
+      "retaining-walls": "Retaining Walls",
+      "sprinkler-systems": "Sprinkler Systems",
+      "sprinkler-repair": "Sprinkler Repair",
+      "drip-irrigation": "Drip Irrigation",
+      "smart-controllers": "Smart Controllers",
+      "french-drains": "French Drains",
+      "erosion-control": "Erosion Control",
+      "stormwater-mitigation": "Stormwater Mitigation",
+      "seasonal-tune-ups": "Seasonal Tune-Ups",
+      "thank-you": "Thank You",
+      // Service area slugs
+      "las-cruces-nm": "Las Cruces, NM",
+      "mesilla-nm": "Mesilla, NM",
+      "mesilla-park-nm": "Mesilla Park, NM",
+      "dona-ana-nm": "Doña Ana, NM",
+      "organ-nm": "Organ, NM",
+      "anthony-nm": "Anthony, NM",
+      "sunland-park-nm": "Sunland Park, NM",
+      "picacho-hills-nm": "Picacho Hills, NM",
+      "sonoma-ranch-nm": "Sonoma Ranch, NM",
+      "east-mesa-nm": "East Mesa, NM",
+      "las-alturas-nm": "Las Alturas, NM",
+      "talavera-nm": "Talavera, NM",
+      "university-hills-nm": "University Hills, NM",
+      "dripping-springs-nm": "Dripping Springs, NM",
+    };
+
+    // Fallback: capitalize each word, replace hyphens with spaces
+    function slugToName(slug) {
+      if (nameMap[slug]) return nameMap[slug];
+      return slug.replace(/-/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+    }
+
+    // Build path segments: "/services/landscaping/xeriscaping/" → ["services","landscaping","xeriscaping"]
+    const segments = pageUrl.split("/").filter(Boolean);
+
+    // Build items array — Home is always position 1
+    const items = [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": siteUrl + "/"
+    }];
+
+    let path = "";
+    for (let i = 0; i < segments.length; i++) {
+      path += "/" + segments[i];
+      const entry = {
+        "@type": "ListItem",
+        "position": i + 2,
+        "name": slugToName(segments[i])
+      };
+      // Last item = current page — no "item" URL per Google spec
+      if (i < segments.length - 1) {
+        entry.item = siteUrl + path + "/";
+      }
+      items.push(entry);
+    }
+
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": items
+    };
+
+    return `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n  </script>`;
+  });
+
   // Responsive image shortcode
   // Usage: {% image "src/assets/images/photo.webp", "Alt text", "class-names", "eager", "high" %}
   eleventyConfig.addShortcode("image", async function (src, alt, classes = "", loading = "lazy", fetchpriority = "") {

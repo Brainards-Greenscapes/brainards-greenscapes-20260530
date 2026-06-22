@@ -91,6 +91,9 @@
   }
   </script>
 
+  <!-- JSON-LD: BreadcrumbList (auto-generated from URL path) -->
+  {{ page.url | breadcrumbJsonLd(site.url) | safe }}
+
   {% if faqJsonLd %}
   <!-- JSON-LD: FAQPage -->
   <script type="application/ld+json">

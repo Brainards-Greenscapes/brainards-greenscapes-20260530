@@ -88,7 +88,7 @@ Las Cruces is a dog-friendly town, and pet owners are some of the most common ar
 
 A lot of national turf guides will tell you to buy antimicrobial infill for pet areas. Here's the reality in Las Cruces: we don't use manufactured infill at all. There's so much sand in the air here that it naturally settles into the turf fibers on its own — paying for infill is a wasted expense. And once any infill is down, it compacts hard and you can't swap it out. You're stuck with whatever decision you made on install day.
 
-What actually keeps a pet yard clean and odor-free is proper drainage (so urine passes through quickly instead of pooling in the base) and regular enzyme-based deodorizing treatments. The enzymes break down the organic compounds that cause odor — something that antimicrobial infill can't do once it's compacted and baked in the heat.
+What actually keeps a pet yard clean and odor-free is proper drainage (so urine passes through quickly instead of pooling in the base) and regular [enzyme-based deodorizing treatments](/services/landscaping/turf-cleaning/). The enzymes break down the organic compounds that cause odor — something that antimicrobial infill can't do once it's compacted and baked in the heat.
 
 For day-to-day maintenance with pets:
 - Pick up solid waste promptly (same as a natural lawn)
