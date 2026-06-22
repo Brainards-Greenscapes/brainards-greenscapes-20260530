@@ -14,7 +14,7 @@ tags: blog
 - [It pays for itself in 3–7 years](#the-real-cost-breakdown) — Higher upfront cost than sod, but zero water bills and near-zero maintenance close the gap fast.
 - [Yes, it gets hot](#the-heat-question) — Surface temps can hit 150°F+ in direct summer sun. There are ways to manage it, but you should know what you're signing up for.
 - [It lasts 15–20 years](#how-long-does-it-last) — With minimal care. Quality product and proper installation are what determine lifespan, not the Las Cruces climate.
-- [Pets and turf work fine together](#pets-and-artificial-turf) — With the right infill and drainage. The wrong setup can trap odors.
+- [Pets and turf work fine together](#pets-and-artificial-turf) — Proper drainage and regular deodorizing are what matter. Skip the fancy infill — in Las Cruces, the desert handles that for free.
 - [No more watering restrictions](#no-more-watering-schedule) — No odd/even days, no 10 a.m. cutoff, no Monday ban. Your neighbors are adjusting sprinkler timers while you're not thinking about it.
 - [It's not right for every yard](#is-artificial-turf-right-for-your-yard) — Honest take on where artificial turf shines and where xeriscaping might be a better call.
 
@@ -54,7 +54,7 @@ On a typical July afternoon when the air temperature is 100°F, artificial turf 
 
 **A quick spray with the hose drops temps 30–50°F instantly.** Unlike watering a lawn (which takes thousands of gallons and a specific schedule), cooling turf takes a few seconds and a fraction of the water.
 
-**New infill technology helps.** Cooler infill products — like coated sand or specialized materials — can reduce surface temperatures by 20–30°F compared to standard crumb rubber or raw sand.
+**Light-colored turf runs cooler.** Product choice matters — lighter greens and olive tones absorb less heat than dark emerald shades. Ask about this when choosing your turf product.
 
 **Evenings and mornings are fine.** Turf cools down fast once the sun drops. If your outdoor living happens before 10 a.m. or after 6 p.m. — which is most people in the summer — heat isn't much of an issue.
 
@@ -69,7 +69,7 @@ What determines lifespan isn't the Las Cruces sun — it's the installation qual
 - **Excavation and grading** — removing existing material and creating proper slope for drainage
 - **Compacted base material** — usually 3–4 inches of decomposed granite or crushed rock
 - **Proper drainage** — critical for monsoon season runoff
-- **Quality infill** — holds the fibers upright and affects heat, drainage, and feel
+- **No unnecessary infill** — in Las Cruces, windblown sand naturally settles between turf fibers. Paying for manufactured infill is often a wasted expense here
 - **Seamed and secured edges** — prevents lifting, especially in our wind
 
 Cut corners on the base prep and you'll have wrinkles, drainage problems, and a turf that doesn't last half as long. This is where hiring someone who does this regularly in Las Cruces — and understands our soil, our drainage patterns, and our wind — makes a real difference.
@@ -84,15 +84,17 @@ And if your utility rates go up — which, in southern New Mexico, is a matter o
 
 ## Pets and Artificial Turf
 
-Las Cruces is a dog-friendly town, and pet owners are some of the most common artificial turf customers. Turf handles dog traffic well — no mud, no dead spots, no digging holes in the yard. But there's a catch that not every installer will tell you about: **infill choice matters enormously for pet owners.**
+Las Cruces is a dog-friendly town, and pet owners are some of the most common artificial turf customers. Turf handles dog traffic well — no mud, no dead spots, no digging holes in the yard. But there's one thing that matters more than anything else for pet owners: **drainage and deodorizing.**
 
-Standard sand infill can trap urine and develop odors, especially in our heat. The solution is using antimicrobial infill products designed for pet applications, combined with proper drainage so liquids pass through quickly rather than sitting in the base.
+A lot of national turf guides will tell you to buy antimicrobial infill for pet areas. Here's the reality in Las Cruces: we don't use manufactured infill at all. There's so much sand in the air here that it naturally settles into the turf fibers on its own — paying for infill is a wasted expense. And once any infill is down, it compacts hard and you can't swap it out. You're stuck with whatever decision you made on install day.
+
+What actually keeps a pet yard clean and odor-free is proper drainage (so urine passes through quickly instead of pooling in the base) and regular enzyme-based deodorizing treatments. The enzymes break down the organic compounds that cause odor — something that antimicrobial infill can't do once it's compacted and baked in the heat.
 
 For day-to-day maintenance with pets:
 - Pick up solid waste promptly (same as a natural lawn)
 - Rinse pet areas with a hose once or twice a week
-- Use an enzyme-based cleaner monthly for odor control
-- Avoid raw sand infill — ask your installer about pet-specific options
+- Use an enzyme-based deodorizer monthly — or more often in peak summer heat
+- Make sure your installer prioritizes drainage in the base prep, not expensive infill products
 
 When the turf is set up correctly for pets, it's actually easier to keep clean and odor-free than a natural lawn. No mud tracked into the house is a bonus most pet owners don't expect to appreciate as much as they do.
 
@@ -123,7 +125,7 @@ Not all artificial turf installations are equal, and in Las Cruces, the details 
 
 **Base preparation.** A proper base is 3–4 inches of compacted aggregate with correct drainage slope. If someone quotes you a number that sounds too good to be true, ask how they're handling the base. Skipping base prep is the #1 cause of turf failures.
 
-**Infill type.** Ask specifically what infill they're using and why. If you have pets, make sure they're recommending a pet-rated antimicrobial option, not just raw sand.
+**Pet odor plan.** If you have dogs, ask how they handle odor long-term. If the answer is "antimicrobial infill," push back — infill compacts and stops working. You want an installer who prioritizes drainage and recommends ongoing enzyme-based deodorizing.
 
 **Drainage for monsoon season.** Las Cruces gets 8–10 inches of rain a year, and most of it dumps during July–September monsoons. Your turf installation needs to handle sudden heavy rainfall without pooling. This goes back to base prep and grading.
 
