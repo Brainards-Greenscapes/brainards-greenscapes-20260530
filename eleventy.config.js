@@ -1,4 +1,5 @@
 import Image from "@11ty/eleventy-img";
+import markdownItAnchor from "markdown-it-anchor";
 
 // Build timestamp for cache-busting static assets
 const buildTime = Date.now();
@@ -132,6 +133,19 @@ export default function (eleventyConfig) {
     };
 
     return `<script type="application/ld+json">\n${JSON.stringify(jsonLd, null, 2)}\n  </script>`;
+  });
+
+  // Add anchor IDs to markdown headings (enables #hash links in blog posts)
+  eleventyConfig.amendLibrary("md", (mdLib) => {
+    mdLib.use(markdownItAnchor, {
+      permalink: false,
+      slugify: (s) =>
+        s
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, "")
+          .trim()
+          .replace(/\s+/g, "-"),
+    });
   });
 
   // Responsive image shortcode
