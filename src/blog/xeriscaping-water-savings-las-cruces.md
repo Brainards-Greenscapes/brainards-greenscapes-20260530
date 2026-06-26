@@ -78,7 +78,7 @@ Over 10 years, a xeriscaped yard can save a Las Cruces homeowner $800–$2,000+ 
 
 The financial case is solid, but there are other reasons xeriscaping makes sense in Las Cruces:
 
-**Less maintenance.** No mowing, less trimming, no fertilizer schedule to keep up with. And fewer irrigation repairs — a [drip system](/services/irrigation/drip-irrigation/) serving desert-adapted plants takes far less abuse than sprinkler heads running full blast six months a year. A well-designed xeric landscape needs occasional pruning and seasonal cleanup — not weekly attention.
+**Less maintenance.** No mowing, less trimming, no fertilizer schedule to keep up with. And fewer irrigation repairs — a [drip system](/services/irrigation/drip-irrigation/) serving desert-adapted plants takes far less abuse than [sprinkler heads running full blast](/blog/irrigation-problems-las-cruces/) six months a year. A well-designed xeric landscape needs occasional pruning and seasonal cleanup — not weekly attention.
 
 **No watering restrictions to worry about.** Las Cruces already limits outdoor watering to specific days based on your address (odd/even), and bans watering on Mondays entirely. Between April and September, you can only water before 10 a.m. or after 6 p.m. Xeriscaping lets you stop watching the clock and the calendar.
 

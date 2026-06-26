@@ -78,7 +78,7 @@ Cut corners on the base prep and you'll have wrinkles, drainage problems, and a 
 
 Here's something that doesn't get talked about enough. Las Cruces has mandatory water restrictions from April through September: even-numbered addresses water Tuesday/Thursday/Saturday, odd-numbered addresses water Wednesday/Friday/Sunday, no watering on Mondays, and all outdoor watering must happen before 10 a.m. or after 6 p.m. Violations can be reported to the city's 24-hour hotline.
 
-With artificial turf, that entire system is irrelevant to you. No timers to adjust, no worrying about which day it is, no citations for an overspray that hit the sidewalk. It's one of those quality-of-life things that homeowners don't fully appreciate until they experience it.
+With artificial turf, that entire system is irrelevant to you. No timers to adjust, no worrying about which day it is, no [clogged emitters or broken spray heads](/blog/irrigation-problems-las-cruces/) to troubleshoot, no citations for an overspray that hit the sidewalk. It's one of those quality-of-life things that homeowners don't fully appreciate until they experience it.
 
 And if your utility rates go up — which, in southern New Mexico, is a matter of when, not if — you're insulated from that too.
 

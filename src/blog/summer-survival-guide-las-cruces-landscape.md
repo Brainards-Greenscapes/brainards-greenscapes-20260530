@@ -96,7 +96,7 @@ That means your landscape needs to handle two opposite extremes within the same 
 
 - **Check your grading.** Soil should slope away from your foundation at least 6 inches over the first 10 feet. If you've had settling or erosion, now is the time to fix it.
 - **Clear drainage paths.** Gravel swales, [French drains](/services/drainage/french-drains/), and any [drainage solutions](/services/drainage/stormwater-mitigation/) on your property need to be clear of debris before July.
-- **Inspect drip lines.** Monsoon runoff can bury, shift, or disconnect drip emitters. After the first heavy rain, walk your zones and check that water is still reaching your plants.
+- **Inspect drip lines.** Monsoon runoff can bury, shift, or disconnect drip emitters. After the first heavy rain, walk your zones and check that water is still reaching your plants. (For a full troubleshooting walkthrough, see our [guide to common irrigation problems](/blog/irrigation-problems-las-cruces/).)
 - **Secure loose rock and mulch.** In storm-prone beds or slopes, heavy rain can wash gravel and expose irrigation lines. Consider [erosion control](/services/drainage/erosion-control/) measures on any slope steeper than about 3:1.
 
 **After monsoon rains:** Turn off your irrigation for 2–3 days (or let your smart controller handle it). The ground is saturated. Watering on top of monsoon rain is the #1 cause of summer root rot in desert landscapes.
@@ -133,6 +133,6 @@ Las Cruces summers are hard on landscapes and harder on water bills. The homeown
 4. Prep for monsoons before the first storm hits
 5. Accept that some plants aren't meant for this climate — and stop forcing the issue
 
-If your irrigation system needs a tune-up before the worst heat hits, or if you want to talk about transitioning some or all of your landscape to something more desert-smart, [reach out](/contact/). No pressure — just a conversation about what makes sense for your yard.
+If your irrigation system needs a tune-up before the worst heat hits — or you're dealing with [clogged emitters, broken heads, or mystery leaks](/blog/irrigation-problems-las-cruces/) — now is the time to fix it. And if you want to talk about transitioning some or all of your landscape to something more desert-smart, [reach out](/contact/). No pressure — just a conversation about what makes sense for your yard.
 
 [Get a free estimate &rarr;](/contact/)
