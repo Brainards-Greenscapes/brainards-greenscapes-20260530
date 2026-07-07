@@ -36,7 +36,7 @@ The better approach: water deeply and less frequently. Push moisture down 18–2
 
 **For drip irrigation systems:** Run longer cycles, fewer times per week. If your [drip system](/services/irrigation/drip-irrigation/) was running 30 minutes three times a week in May, try 45–60 minutes twice a week in July. You'll use less water overall and your plants will be healthier for it.
 
-**For sprinkler systems:** This is harder to do efficiently with sprinklers because of evaporation loss. If you're still running [spray heads](/services/irrigation/sprinkler-systems/) on landscape beds, summer is a good time to consider converting those zones to drip. Sprinklers lose 30–50% of their output to evaporation and wind on a hot, breezy Las Cruces afternoon.
+**For sprinkler systems:** This is harder to do efficiently with sprinklers because of evaporation loss. If you're still running [spray heads](/services/irrigation/sprinkler-systems/) on landscape beds, summer is a good time to [consider converting those zones to drip](/blog/drip-vs-sprinklers-las-cruces/). Sprinklers lose 30–50% of their output to evaporation and wind on a hot, breezy Las Cruces afternoon.
 
 **For desert-adapted plants:** Once established (usually after their second summer), most xeric plants — agaves, desert willows, red yuccas, penstemon — need watering only every 10–14 days in the hottest months. Over-watering established desert plants is actually the fastest way to kill them. Root rot doesn't care how hot it is outside.
 
@@ -67,7 +67,7 @@ Bare soil in Las Cruces summer is a problem. It bakes, it crusts over, and water
 
 ## Get Ready for Monsoons
 
-Here's the thing about Las Cruces summers that newcomers don't expect: we're not just hot and dry. We're hot and dry *until suddenly we're not.*
+Here's the thing about Las Cruces summers that newcomers don't expect: we're not just hot and dry. We're hot and dry *until suddenly we're not.* (For a deeper dive on protecting your property, see our full [monsoon season prep guide](/blog/monsoon-prep-las-cruces/).)
 
 The Southwest monsoon runs June 15 through September 30, with the heaviest activity in July and August. Las Cruces gets only 9.1 inches of rain per year — but over half of it falls in just three months:
 

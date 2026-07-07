@@ -98,7 +98,7 @@ It's also worth keeping an eye on this — as water conservation becomes a bigge
 
 - **Evaluating your soil and drainage** — what you have determines what you can plant and how water moves through your property
 - **Choosing the right plants** — desert-adapted species that thrive in Zone 8a with minimal supplemental water
-- **[Smart irrigation](/services/irrigation/smart-controllers/)** — drip systems and smart controllers that put water exactly where it needs to go, when it needs to go there
+- **[Smart irrigation](/services/irrigation/smart-controllers/)** — [drip systems](/blog/drip-vs-sprinklers-las-cruces/) and smart controllers that put water exactly where it needs to go, when it needs to go there
 - **[Hardscape elements](/services/hardscaping/)** — boulders, rock borders, and gravel beds that look natural and reduce the area that needs any water at all
 - **Proper grading** — so rainwater works for you during monsoon season instead of running off into the street
 

@@ -118,11 +118,11 @@ Adjust your spray arc and radius. Most pop-up heads have a small screw on top th
 
 If wind is a consistent problem on certain zones, consider converting those zones from spray heads to rotary nozzles (like MP Rotators). Rotary nozzles throw heavier streams at a lower angle, which resists wind drift much better than fine mist from standard spray heads. They also apply water more slowly, which means less runoff on compacted or sloped ground.
 
-For plant beds and trees, the answer is usually switching to [drip irrigation](/services/irrigation/drip-irrigation/) entirely. Drip delivers water directly to the root zone at ground level — wind can't touch it.
+For plant beds and trees, the answer is usually [switching to drip irrigation](/blog/drip-vs-sprinklers-las-cruces/) entirely. Drip delivers water directly to the root zone at ground level — wind can't touch it.
 
 ## Monsoon Damage
 
-The Southwest monsoon runs mid-June through September, and Las Cruces gets over half its annual rainfall — about 4.9 inches — in just those few months. The problem isn't the total amount; it's the delivery. It arrives as intense, short bursts that can dump an inch in 30 minutes.
+The Southwest monsoon runs mid-June through September, and Las Cruces gets over half its annual rainfall — about 4.9 inches — in just those few months. (For a full prep checklist beyond just irrigation, see our [monsoon season prep guide](/blog/monsoon-prep-las-cruces/).) The problem isn't the total amount; it's the delivery. It arrives as intense, short bursts that can dump an inch in 30 minutes.
 
 That kind of runoff moves things. Drip lines get buried under silt, emitters get disconnected or packed with mud, and valve boxes fill with water. If you're on a slope, [erosion](/services/irrigation/erosion-control/) can expose buried pipes.
 
