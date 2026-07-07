@@ -3,7 +3,7 @@ layout: layouts/blog.njk
 title: "Monsoon Season Prep for Your Las Cruces Yard"
 description: "Las Cruces gets half its annual rainfall in 3 months. Here's how to protect your landscape, irrigation, and foundation before the first big storm hits."
 excerpt: "The monsoon dumps 5 inches of rain on Las Cruces in just three months — most of it in 30-minute bursts. Here's what to check, fix, and install before the first storm rolls in."
-date: 2026-07-14
+date: 2026-07-07
 tags: blog
 ---
 
