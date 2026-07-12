@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Landscaping",
+    "url": "/services/landscaping/",
+    "subpages": [
+      { "title": "Xeriscaping", "url": "/services/landscaping/xeriscaping/" },
+      { "title": "Artificial Turf Installation", "url": "/services/landscaping/artificial-turf/" },
+      { "title": "Sod Installation", "url": "/services/landscaping/sod-installation/" },
+      { "title": "Planting & Gardening", "url": "/services/landscaping/planting-gardening/" },
+      { "title": "Raised Garden Beds", "url": "/services/landscaping/raised-garden-beds/" },
+      { "title": "Landscape Rock & Gravel", "url": "/services/landscaping/gravel-rock/" },
+      { "title": "Turf Cleaning & Deodorizing", "url": "/services/landscaping/turf-cleaning/" }
+    ]
+  },
+  {
+    "title": "Hardscaping",
+    "url": "/services/hardscaping/",
+    "subpages": [
+      { "title": "Pavers", "url": "/services/hardscaping/pavers/" },
+      { "title": "Patios", "url": "/services/hardscaping/patios/" },
+      { "title": "Walkways", "url": "/services/hardscaping/walkways/" },
+      { "title": "Driveways", "url": "/services/hardscaping/driveways/" },
+      { "title": "Retaining Walls", "url": "/services/hardscaping/retaining-walls/" },
+      { "title": "Stone Borders", "url": "/services/hardscaping/stone-borders/" }
+    ]
+  },
+  {
+    "title": "Irrigation",
+    "url": "/services/irrigation/",
+    "subpages": [
+      { "title": "Sprinkler Systems", "url": "/services/irrigation/sprinkler-systems/" },
+      { "title": "Drip Irrigation", "url": "/services/irrigation/drip-irrigation/" },
+      { "title": "Smart Controllers", "url": "/services/irrigation/smart-controllers/" },
+      { "title": "Sprinkler Repair", "url": "/services/irrigation/sprinkler-repair/" },
+      { "title": "Seasonal Tune-Ups", "url": "/services/irrigation/seasonal-tune-ups/" }
+    ]
+  },
+  {
+    "title": "Drainage",
+    "url": "/services/drainage/",
+    "subpages": [
+      { "title": "French Drains", "url": "/services/drainage/french-drains/" },
+      { "title": "Erosion Control", "url": "/services/drainage/erosion-control/" },
+      { "title": "Stormwater Mitigation", "url": "/services/drainage/stormwater-mitigation/" }
+    ]
+  },
+  {
+    "title": "Landscape Design",
+    "url": "/services/landscape-design/",
+    "subpages": []
+  },
+  {
+    "title": "Landscape Maintenance",
+    "url": "/services/landscape-maintenance/",
+    "subpages": []
+  }
+]
