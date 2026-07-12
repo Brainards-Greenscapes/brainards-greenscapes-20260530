@@ -12,52 +12,65 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Desktop Services mega menu
-  const megaToggle = document.querySelector("[data-mega-menu-toggle]");
-  const megaPanel = document.querySelector("[data-mega-menu-panel]");
-  const megaIcon = document.querySelector("[data-mega-menu-icon]");
+  // Desktop mega menus (Services, Service Areas, etc.)
+  // Each toggle button references its panel via aria-controls, and
+  // carries its own chevron icon as a child, so any number of
+  // independent dropdowns can share this same behavior.
+  const megaToggles = Array.from(document.querySelectorAll("[data-mega-menu-toggle]"));
 
-  if (megaToggle && megaPanel) {
-    const closeMega = () => {
-      megaPanel.classList.add("hidden");
-      megaToggle.setAttribute("aria-expanded", "false");
-      if (megaIcon) megaIcon.classList.remove("rotate-180");
-    };
-
-    const openMega = () => {
-      megaPanel.classList.remove("hidden");
-      megaToggle.setAttribute("aria-expanded", "true");
-      if (megaIcon) megaIcon.classList.add("rotate-180");
-    };
-
-    megaToggle.addEventListener("click", (e) => {
-      e.stopPropagation();
-      const isOpen = megaToggle.getAttribute("aria-expanded") === "true";
-      isOpen ? closeMega() : openMega();
+  const closeAllMega = (except) => {
+    megaToggles.forEach((t) => {
+      if (t === except) return;
+      const panel = document.getElementById(t.getAttribute("aria-controls"));
+      const icon = t.querySelector("[data-mega-menu-icon]");
+      if (panel) panel.classList.add("hidden");
+      t.setAttribute("aria-expanded", "false");
+      if (icon) icon.classList.remove("rotate-180");
     });
+  };
 
-    document.addEventListener("click", (e) => {
-      if (!megaPanel.contains(e.target) && !megaToggle.contains(e.target)) {
-        closeMega();
+  megaToggles.forEach((t) => {
+    const panel = document.getElementById(t.getAttribute("aria-controls"));
+    const icon = t.querySelector("[data-mega-menu-icon]");
+    if (!panel) return;
+
+    t.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = t.getAttribute("aria-expanded") === "true";
+      closeAllMega();
+      if (!isOpen) {
+        panel.classList.remove("hidden");
+        t.setAttribute("aria-expanded", "true");
+        if (icon) icon.classList.add("rotate-180");
       }
+    });
+  });
+
+  if (megaToggles.length) {
+    document.addEventListener("click", (e) => {
+      const panels = Array.from(document.querySelectorAll("[data-mega-menu-panel]"));
+      const clickedInsidePanel = panels.some((p) => p.contains(e.target));
+      const clickedToggle = megaToggles.some((t) => t.contains(e.target));
+      if (!clickedInsidePanel && !clickedToggle) closeAllMega();
     });
 
     document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape") closeMega();
+      if (e.key === "Escape") closeAllMega();
     });
   }
 
-  // Mobile Services accordion
-  const accToggle = document.querySelector("[data-mobile-accordion-toggle]");
-  const accPanel = document.querySelector("[data-mobile-accordion-panel]");
-  const accIcon = document.querySelector("[data-mobile-accordion-icon]");
+  // Mobile accordions (Services, Service Areas, etc.)
+  const accToggles = document.querySelectorAll("[data-mobile-accordion-toggle]");
+  accToggles.forEach((t) => {
+    const panel = document.getElementById(t.getAttribute("aria-controls"));
+    const icon = t.querySelector("[data-mobile-accordion-icon]");
+    if (!panel) return;
 
-  if (accToggle && accPanel) {
-    accToggle.addEventListener("click", () => {
-      const isOpen = accToggle.getAttribute("aria-expanded") === "true";
-      accPanel.classList.toggle("hidden");
-      accToggle.setAttribute("aria-expanded", String(!isOpen));
-      if (accIcon) accIcon.classList.toggle("rotate-180");
+    t.addEventListener("click", () => {
+      const isOpen = t.getAttribute("aria-expanded") === "true";
+      panel.classList.toggle("hidden");
+      t.setAttribute("aria-expanded", String(!isOpen));
+      if (icon) icon.classList.toggle("rotate-180");
     });
-  }
+  });
 });

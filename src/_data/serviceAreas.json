@@ -16,7 +16,7 @@
       { "name": "Telshor / East Mesa", "zip": "88011", "description": "Flat, exposed lots that take the full force of spring wind. Windbreak rows, secured decomposed granite, and tough native shrubs are the standard approach." },
       { "name": "Organ Mountain Foothills", "zip": "88012", "description": "Acreage properties with rocky soil and BLM-adjacent land. Defensible-space plantings, monsoon grading, and retaining walls for steep terrain." }
     ],
-    "nearbyAreas": ["mesilla-nm", "mesilla-park-nm", "dona-ana-nm", "sonoma-ranch-nm"]
+    "nearbyAreas": ["mesilla-nm", "mesilla-park-nm", "dona-ana-nm", "sonoma-ranch-nm", "fairacres-nm"]
   },
   {
     "name": "Mesilla",
@@ -28,7 +28,7 @@
     "localContext": "David has done everything from full courtyard redesigns around the Plaza to simple irrigation repairs on side streets off Calle de Santiago. He's familiar with the district review process and picks materials that fit the character of the area.",
     "zipCodes": ["88046"],
     "neighborhoods": [],
-    "nearbyAreas": ["las-cruces-nm", "mesilla-park-nm", "dona-ana-nm"]
+    "nearbyAreas": ["las-cruces-nm", "mesilla-park-nm", "dona-ana-nm", "fairacres-nm"]
   },
   {
     "name": "Mesilla Park",
@@ -52,7 +52,7 @@
     "localContext": "David builds irrigation systems matched to private well output and mineral levels, picks species that browsing animals leave alone, and keeps scope realistic so a half-acre-plus property looks intentional without an oversized price tag.",
     "zipCodes": ["88032"],
     "neighborhoods": [],
-    "nearbyAreas": ["las-cruces-nm", "organ-nm", "talavera-nm"]
+    "nearbyAreas": ["las-cruces-nm", "organ-nm", "talavera-nm", "fairacres-nm"]
   },
   {
     "name": "Organ",
@@ -179,5 +179,18 @@
     "zipCodes": ["88011"],
     "neighborhoods": [],
     "nearbyAreas": ["las-cruces-nm", "organ-nm", "east-mesa-nm"]
+  },
+  {
+    "name": "Fairacres",
+    "state": "NM",
+    "slug": "fairacres-nm",
+    "mapQuery": "Fairacres, NM",
+    "tagline": "Landscaping for Fairacres' Larger Lots",
+    "headline": "Landscaping Services in Fairacres, NM",
+    "intro": "Fairacres sits on the west side of Las Cruces, where pecan orchards and quarter-acre-to-three-acre lots give homeowners more room to work with than most in-town properties. The valley floor soil here is a different animal from the caliche mesa — heavier alluvial ground tied to the old irrigation-district canal network — and older systems built for farmland don't always translate cleanly to a modern residential yard.",
+    "localContext": "David plans Fairacres properties around the acreage, not a standard suburban template — irrigation zoning has to account for real distance and pressure loss across a bigger lot, and valley soil holds water longer than caliche, which changes plant selection and drainage decisions. Whether it's a full redesign around existing pecan trees or a system sized to actually cover a few acres, he plans for the lot you have.",
+    "zipCodes": ["88033", "88005"],
+    "neighborhoods": [],
+    "nearbyAreas": ["las-cruces-nm", "mesilla-nm", "dona-ana-nm"]
   }
 ]
