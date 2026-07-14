@@ -9,6 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
       menu.classList.toggle("hidden");
       toggle.setAttribute("aria-expanded", !isOpen);
       toggle.setAttribute("aria-label", isOpen ? "Open menu" : "Close menu");
+      // Lock background scroll while the mobile menu is open so the
+      // page underneath can't scroll independently of the menu panel.
+      document.documentElement.classList.toggle("overflow-hidden", !isOpen);
+    });
+
+    // Safety net: if the viewport grows past the mobile breakpoint while
+    // the menu is open (e.g. rotating a tablet), reset everything so the
+    // scroll lock and fixed panel don't get stuck.
+    window.addEventListener("resize", () => {
+      if (window.innerWidth >= 768 && !menu.classList.contains("hidden")) {
+        menu.classList.add("hidden");
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-label", "Open menu");
+        document.documentElement.classList.remove("overflow-hidden");
+      }
     });
   }
 

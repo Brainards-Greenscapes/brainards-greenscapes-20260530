@@ -63,20 +63,9 @@
       "addressCountry": "US"
     },
     "areaServed": [
-      { "@type": "City", "name": "Las Cruces", "addressRegion": "NM" },
-      { "@type": "City", "name": "Mesilla", "addressRegion": "NM" },
-      { "@type": "City", "name": "Doña Ana", "addressRegion": "NM" },
-      { "@type": "City", "name": "Organ", "addressRegion": "NM" },
-      { "@type": "City", "name": "Anthony", "addressRegion": "NM" },
-      { "@type": "City", "name": "Sunland Park", "addressRegion": "NM" },
-      { "@type": "City", "name": "Picacho Hills", "addressRegion": "NM" },
-      { "@type": "City", "name": "Sonoma Ranch", "addressRegion": "NM" },
-      { "@type": "City", "name": "East Mesa", "addressRegion": "NM" },
-      { "@type": "City", "name": "Las Alturas", "addressRegion": "NM" },
-      { "@type": "City", "name": "Talavera", "addressRegion": "NM" },
-      { "@type": "City", "name": "University Hills", "addressRegion": "NM" },
-      { "@type": "City", "name": "Dripping Springs", "addressRegion": "NM" },
-      { "@type": "City", "name": "Mesilla Park", "addressRegion": "NM" }
+      {% for area in serviceAreasSorted %}
+      { "@type": "City", "name": "{{ area.name }}", "addressRegion": "{{ area.state }}" }{% if not loop.last %},{% endif %}
+      {% endfor %}
     ],
     "openingHours": "Mo-Fr 09:00-16:00",
     "foundingDate": "2007",
