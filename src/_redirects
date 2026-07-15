@@ -71,3 +71,23 @@
 /about-us/blog/irrigation/ /blog/ 301
 /about-us/blog/landscaping/ /blog/ 301
 /faq/ /#faq 301
+
+# GSC "Page with redirect" cleanup (2026-07-15): remaining old URLs not yet mapped
+/other/sprinkler-blowouts/ /services/irrigation/seasonal-tune-ups/ 301
+/areas-of-service/dona-ana-sprinkler-blowouts/ /services/irrigation/seasonal-tune-ups/ 301
+/sprinkler-installation/ /services/irrigation/sprinkler-systems/ 301
+/areas-of-service/dona-ana-patio-construction/ /services/hardscaping/patios/ 301
+/areas-of-service/las-cruces-paver-installation/ /services/hardscaping/pavers/ 301
+/hardscaping/retaining-wall-construction/ /services/hardscaping/retaining-walls/ 301
+/areas-of-service/las-cruces-leaf-removal/ /services/landscape-maintenance/ 301
+/other/leaf-removal/ /services/landscape-maintenance/ 301
+/landscaping/xeriscape-landscaping/ /services/landscaping/xeriscaping/ 301
+/landscaping/synthetic-truff/ /services/landscaping/artificial-turf/ 301
+/about-us/blog/ /blog/ 301
+/about-us/blog/landscapingmyths/ /blog/ 301
+/landscaping/ /services/landscaping/ 301
+/home/ / 301
+/home / 301
+/policy/privacy-policy/ /privacy/ 301
+/policy/terms-of-service/ /terms/ 301
+/page-sitemap.xml /sitemap.xml 301

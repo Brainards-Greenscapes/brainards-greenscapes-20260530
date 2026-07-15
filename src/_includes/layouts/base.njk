@@ -7,6 +7,7 @@
   <title>{{ title or site.meta.title }}</title>
   <meta name="description" content="{{ description or site.meta.description }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {% if noindex %}<meta name="robots" content="noindex,follow">{% endif %}
 
   <!-- Open Graph -->
   <meta property="og:title" content="{{ title or site.meta.title }}">
