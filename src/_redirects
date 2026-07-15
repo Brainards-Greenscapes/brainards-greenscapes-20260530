@@ -18,3 +18,56 @@
 /services/irrigation/french-drains/ /services/drainage/french-drains/ 301
 /services/irrigation/erosion-control/ /services/drainage/erosion-control/ 301
 /services/irrigation/stormwater-mitigation/ /services/drainage/stormwater-mitigation/ 301
+
+# GSC 404 cleanup (2026-07-15): old WordPress URLs indexed pre-relaunch
+
+# -> irrigation
+/other/sprinkler-system-repair/ /services/irrigation/sprinkler-repair/ 301
+/sprinkler-system-repair/ /services/irrigation/sprinkler-repair/ 301
+/services/sprinkler-repair/ /services/irrigation/sprinkler-repair/ 301
+/areas-of-service/mesilla-sprinkler-system-repair/ /services/irrigation/sprinkler-repair/ 301
+/landscaping/drip-irrigation-systems/ /services/irrigation/drip-irrigation/ 301
+/drip-irrigation-systems/ /services/irrigation/drip-irrigation/ 301
+/services/drip-irrigation/ /services/irrigation/drip-irrigation/ 301
+/areas-of-service/mesilla-sprinkler-blowouts/ /services/irrigation/seasonal-tune-ups/ 301
+/sprinkler-blowouts/ /services/irrigation/seasonal-tune-ups/ 301
+/areas-of-service/dona-ana-sprinkler-installation/ /services/irrigation/sprinkler-systems/ 301
+/sprinkler-repair-and-installation-las-cruces-nm /services/irrigation/sprinkler-systems/ 301
+
+# -> hardscaping
+/areas-of-service/mesilla-hardscaping-services/ /services/hardscaping/ 301
+/areas-of-service/dona-ana-hardscaping-services/ /services/hardscaping/ 301
+/Hardscaping/Hardscaping-services/ /services/hardscaping/ 301
+/hardscaping-services/ /services/hardscaping/ 301
+/las-cruces-nm/hardscaping/ /services/hardscaping/ 301
+/areas-of-service/dona-ana-paver-installation/ /services/hardscaping/pavers/ 301
+/hardscaping/paver-installation/ /services/hardscaping/pavers/ 301
+/areas-of-service/dona-ana-retaining-wall-construction/ /services/hardscaping/retaining-walls/ 301
+/services/walkways/ /services/hardscaping/walkways/ 301
+/patio-construction/ /services/hardscaping/patios/ 301
+/hardscaping/patio-construction/feed/ /services/hardscaping/patios/ 301
+
+# -> landscaping
+/areas-of-service/dona-ana-landscaping-company/ /services/landscaping/ 301
+/landscaping-company/ /services/landscaping/ 301
+/landscaping-services/ /services/landscaping/ 301
+/landscaping/artificial-grass-installation/ /services/landscaping/artificial-turf/ 301
+/artificial-grass-installation/ /services/landscaping/artificial-turf/ 301
+/las-cruces-nm/artificial-grass/ /services/landscaping/artificial-turf/ 301
+/xeriscape-landscaping/ /services/landscaping/xeriscaping/ 301
+/services/planting-gardening/ /services/landscaping/planting-gardening/ 301
+/sod-installation-service/ /services/landscaping/sod-installation/ 301
+
+# -> landscape maintenance
+/landscaping/landscaping-maintenance/ /services/landscape-maintenance/ 301
+/landscaping-maintenance/ /services/landscape-maintenance/ 301
+/areas-of-service/dona-ana-fall-yard-clean-up/ /services/landscape-maintenance/ 301
+/areas-of-service/dona-ana-leaf-removal/ /services/landscape-maintenance/ 301
+/leaf-removal/ /services/landscape-maintenance/ 301
+
+# -> misc
+/gallery/ /portfolio/ 301
+/about-us/reviews/ /about/ 301
+/about-us/blog/irrigation/ /blog/ 301
+/about-us/blog/landscaping/ /blog/ 301
+/faq/ /#faq 301
