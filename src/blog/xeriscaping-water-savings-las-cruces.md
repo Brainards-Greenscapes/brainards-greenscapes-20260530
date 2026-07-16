@@ -17,6 +17,7 @@ tags: blog
 - [No turf rebate in Las Cruces yet](#what-about-rebates) — But free "Lush and Lean" workshops are available, and the water savings alone make the case.
 - [Less maintenance, no watering restrictions to track](#beyond-the-water-bill) — No mowing, no odd/even schedule headaches, no fertilizer.
 - [It's not just gravel](#what-goes-into-a-xeriscape-conversion) — A proper conversion involves soil evaluation, desert-adapted plants, drip irrigation, and smart grading for monsoon runoff.
+- [Backed by the City of Las Cruces](#more-than-just-desert-landscaping) — The city's own Water Conservation Plan identifies xeriscaping as a key strategy for reducing residential water use.
 
 </div>
 
@@ -24,7 +25,23 @@ If you've ever opened your water bill in August and winced, you're not alone. He
 
 But here's the thing: it doesn't have to be that way. Xeriscaping — landscaping designed around desert-adapted plants, rock, and smart irrigation — can dramatically cut your water use without turning your yard into a barren gravel lot.
 
-Let's look at the actual numbers.
+## More Than Just "Desert Landscaping"
+
+The term "Xeriscape" was [coined in 1981 by Denver Water](https://www.denverwater.org/residential/rebates-and-conservation-tips/remodel-your-yard/xeriscape-plans) — the oldest and largest water utility in Colorado — combining the Greek word *xeros* (meaning "dry") with "landscape." It was never meant to describe a bare gravel yard. Denver Water developed [seven core principles](https://www.denverwater.org/residential/rebates-and-conservation-tips/remodel-your-yard/xeriscape-plans/xeriscape-principles) that define what xeriscaping actually is:
+
+1. **Planning and design** — start with a site-specific plan, not a generic template
+2. **Soil analysis and improvement** — work with what you have (here in Las Cruces, that means alkaline soil and caliche)
+3. **Efficient irrigation** — [drip systems](/services/irrigation/drip-irrigation/) and [smart controllers](/services/irrigation/smart-controllers/) that put water where it's needed
+4. **Appropriate plant selection** — species proven to thrive in your specific climate zone
+5. **Practical turf areas** — reduce or eliminate traditional grass where it doesn't serve a functional purpose
+6. **Mulching** — rock, gravel, or organic mulch to retain moisture and suppress weeds
+7. **Appropriate maintenance** — less work than a traditional lawn, but not zero
+
+These aren't just good ideas from Colorado. The [City of Las Cruces's own Water Conservation Plan](https://lascruces.gov/wp-content/uploads/2024/04/2012-Water-Conservation-Plan-PDF.pdf) identifies xeriscaping — along with drip irrigation and graywater reuse — as key areas where public engagement can make the biggest impact on residential water use. The plan defines it as "landscaping that involves the selection, placement, and care of low-water-use and native ground cover, turf, plants, shrubs, and trees" based on those same seven principles.
+
+When your city's own water conservation plan recommends the same approach your landscaper uses, you know you're on the right track.
+
+Now let's look at the actual numbers.
 
 ## Where Your Water Goes
 
@@ -90,7 +107,7 @@ The financial case is solid, but there are other reasons xeriscaping makes sense
 
 Right now, Las Cruces Utilities doesn't offer a formal turf-replacement rebate the way some other cities do (Albuquerque's water authority, for example, offers $3 per square foot through their xeriscape rebate program). However, Las Cruces does run a free "Lush and Lean" workshop series each spring through the Water Conservation Program, covering xeriscape design, irrigation efficiency, and desert gardening. These are worth attending if you're thinking about making the switch.
 
-It's also worth keeping an eye on this — as water conservation becomes a bigger priority in southern New Mexico, incentive programs may be on the horizon. In the meantime, the water savings alone make a strong financial case.
+It's also worth keeping an eye on this — the city's own [Water Conservation Plan](https://lascruces.gov/wp-content/uploads/2024/04/2012-Water-Conservation-Plan-PDF.pdf) specifically notes that residential incentive programs "will require new sources of funding, staff time, and political support." The city already recognizes the need — it just hasn't been funded yet. In the meantime, the water savings alone make a strong financial case.
 
 ## What Goes Into a Xeriscape Conversion?
 
