@@ -181,7 +181,7 @@ Not everything sold at nurseries is a great idea for a Las Cruces yard.
 
 **Chinaberry** — Invasive and toxic. The berries are poisonous to pets and children, and the tree self-seeds aggressively.
 
-**Weeping Mulberry** — Multiple cities across the Southwest — including El Paso and Albuquerque — have banned or restricted the planting of fruiting mulberry trees because of the severe allergic reactions their pollen causes. Even where it's not formally banned, planting one is asking for trouble with your neighbors and your sinuses.
+**Weeping Mulberry** — The City of Las Cruces Land Development Code specifically lists mulberry (*Morus alba*) as a ["not recommended" plant material](https://library.municode.com/nm/las_cruces/codes/land_development_code?nodeId=PTIIIDECO_CH32DEST_ARTIVDESTLA_S32-277PLMA) (Sec. 32-277). Neighboring El Paso and Albuquerque have gone further, banning or restricting fruiting mulberry trees entirely because of the severe allergic reactions their pollen causes.
 
 **Texas Mountain Laurel** — This one's complicated. The purple wisteria-like flowers are gorgeous and fragrant, and the plant handles our climate well. But every part of it — especially the bright red seeds — is highly toxic. If you have kids or pets, it's a risk worth thinking carefully about.
 
@@ -197,6 +197,7 @@ The plant selections in this guide are informed by:
 - [UTEP Chihuahuan Desert Gardens](https://www.utep.edu/coyote-garden/) — plant trials in conditions nearly identical to Las Cruces
 - [Denver Water — Xeriscape Principles](https://www.denverwater.org/residential/rebates-and-conservation-tips/remodel-your-yard/xeriscape-plans/xeriscape-principles) — the original seven principles of water-smart landscaping
 - [City of Las Cruces Water Conservation Plan](https://lascruces.gov/wp-content/uploads/2024/04/2012-Water-Conservation-Plan-PDF.pdf) — local policy supporting xeriscape and drip irrigation adoption
+- [City of Las Cruces Land Development Code, Sec. 32-277](https://library.municode.com/nm/las_cruces/codes/land_development_code?nodeId=PTIIIDECO_CH32DEST_ARTIVDESTLA_S32-277PLMA) — official recommended and not-recommended plant materials list
 - [Guzman's Garden Centers](https://guzmansgreenhouse.com/) — current nursery availability for the Las Cruces area
 
 ## Ready to Plan Your Landscape?
