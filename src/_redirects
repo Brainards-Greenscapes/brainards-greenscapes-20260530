@@ -4,7 +4,7 @@
 /hardscaping/ /services/hardscaping/ 301
 /hardscaping/hardscaping-services/ /services/hardscaping/ 301
 /about-us/ /about/ 301
-/about-us/faq/ /#faq 301
+/about-us/faq/ /faq/ 301
 /las-cruces-nm/ /service-areas/las-cruces-nm/ 301
 /areas-of-service/las-cruces-landscaping-company/ /service-areas/las-cruces-nm/ 301
 /contact-us/ /contact/ 301
@@ -70,7 +70,6 @@
 /about-us/reviews/ /about/ 301
 /about-us/blog/irrigation/ /blog/ 301
 /about-us/blog/landscaping/ /blog/ 301
-/faq/ /#faq 301
 
 # GSC "Page with redirect" cleanup (2026-07-15): remaining old URLs not yet mapped
 /other/sprinkler-blowouts/ /services/irrigation/seasonal-tune-ups/ 301
