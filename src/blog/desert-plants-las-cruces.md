@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog.njk
-title: "What Desert-Adapted Plants Actually Thrive in Las Cruces?"
-description: "A field-tested guide to low-water trees, shrubs, and ground covers for Las Cruces — backed by NMSU research, local nurseries, and real installation experience."
-excerpt: "Not every 'desert plant' list applies here. This guide covers what actually thrives in Las Cruces — backed by NMSU research, available at local nurseries, and proven on real job sites."
+title: "What Desert-Friendly Plants Actually Thrive in Las Cruces?"
+description: "A field-tested guide to desert-friendly trees, shrubs, and ground covers for Las Cruces — backed by NMSU research, local nurseries, and real installation experience."
+excerpt: "Not every 'desert plant' list applies here. This guide covers desert-friendly plants that actually thrive in Las Cruces — backed by NMSU research, available at local nurseries, and proven on real job sites."
 date: 2026-07-16
 tags: blog
 ---
@@ -75,9 +75,9 @@ There are several varieties worth knowing about:
 
 All three are extremely low-water once established and handle our alkaline soil without complaint.
 
-### Red Yucca
+### Red Yucca (Red Tipped Yucca)
 
-Despite the name, Red Yucca isn't actually a yucca — it's a *Hesperaloe*. The arching leaves stay green year-round, and the tall coral-pink flower stalks bloom from late spring through fall, attracting hummingbirds the entire time. One of the most low-maintenance plants you can put in a Las Cruces yard. Plant it and essentially forget about it.
+Despite the name, Red Yucca — often called Red Tipped Yucca locally — isn't actually a yucca at all. It's a *Hesperaloe*. The arching leaves stay green year-round, and the tall coral-pink flower stalks bloom from late spring through fall, attracting hummingbirds the entire time. One of the most low-maintenance plants you can put in a Las Cruces yard. Plant it and essentially forget about it.
 
 ### Bird of Paradise
 
@@ -135,7 +135,7 @@ The approach is simpler than most people expect. You don't necessarily need a se
 
 This ties directly to Denver Water's [Plant Zones principle](https://www.denverwater.org/residential/rebates-and-conservation-tips/remodel-your-yard/xeriscape-plans/xeriscape-principles) — one of the [seven core xeriscaping principles](/blog/xeriscaping-water-savings-las-cruces/#more-than-just-desert-landscaping) we covered in our xeriscaping post. The idea is that every plant in your landscape should get the right amount of water for its needs, no more and no less.
 
-A [smart controller](/services/irrigation/smart-controllers/) makes this even more efficient by adjusting run times based on the season and weather, so those emitter ratios stay dialed in year-round. The result: healthier plants, less waste, and a lower water bill. It's one of those details that separates a professional installation from a DIY job that looks good for one season and struggles after that.
+A [smart controller with a rain sensor](/services/irrigation/smart-controllers/) makes this even more efficient — the controller adjusts run times based on the season, and the rain sensor shuts the system off when monsoon storms roll through so you're not watering in the rain. Without a rain sensor, there's no point in going "smart." The result: healthier plants, less waste, and a lower water bill. It's one of those details that separates a professional installation from a DIY job that looks good for one season and struggles after that.
 
 ## Plants That Do Well Here Too — With a Little More Water
 
