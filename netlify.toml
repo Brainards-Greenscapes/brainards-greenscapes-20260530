@@ -2,6 +2,16 @@
   command = "npm run build"
   publish = "_site"
 
+# --- Canonical host: force apex -> www (GSC showed both hostnames indexed
+# separately with different average positions - 4.77 vs 8.9 - splitting
+# ranking signals across the same content. Found 2026-07-19.) ---
+
+[[redirects]]
+  from = "https://brainardsgreenscapes.com/*"
+  to = "https://www.brainardsgreenscapes.com/:splat"
+  status = 301
+  force = true
+
 # --- 301 Redirects: fix broken URLs indexed by Google ---
 
 [[redirects]]

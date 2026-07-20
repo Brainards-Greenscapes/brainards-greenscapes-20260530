@@ -1,3 +1,7 @@
+# Canonical host: force apex -> www (GSC showed both hostnames indexed
+# separately with different average positions - found 2026-07-19)
+https://brainardsgreenscapes.com/* https://www.brainardsgreenscapes.com/:splat 301!
+
 # 301 Redirects: fix broken/indexed URLs from old site
 /landscape-design-services/ /services/landscape-design/ 301
 /landscaping/landscaping-company/ /services/landscaping/ 301
