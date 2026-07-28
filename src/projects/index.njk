@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+title: "Project Stories | Brainard's Greenscapes Las Cruces"
+description: "Real Brainard's Greenscapes jobs from start to finish — hazard tree removal, drainage and erosion control, xeriscaping, and more, in our own crew's photos."
+---
+
+<!-- Hero -->
+<section class="bg-green-950 text-white py-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <p class="text-green-300 font-semibold text-sm uppercase tracking-wider mb-4">Project Stories</p>
+    <h1 class="font-heading text-5xl md:text-6xl font-bold mb-4">Real Jobs, Start to Finish</h1>
+    <p class="text-green-100 text-lg max-w-2xl mx-auto">Every project here is a real Brainard's Greenscapes job in Las Cruces, told in our crew's own photos — from the first cut to the final walkthrough.</p>
+  </div>
+</section>
+
+<!-- Project cards -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      {% for story in projectStories %}
+      <a href="/projects/{{ story.slug }}/" class="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow border border-gray-100">
+        {% set heroStep = story.steps[0] %}
+        {% if heroStep.type == "video" %}
+        {% image "src/assets/images/" + heroStep.poster, story.title, "w-full h-56 object-cover" %}
+        {% else %}
+        {% image "src/assets/images/" + heroStep.src, story.title, "w-full h-56 object-cover" %}
+        {% endif %}
+        <div class="p-6">
+          <span class="inline-block px-3 py-1 bg-green-700/90 text-white text-xs font-medium rounded-full capitalize mb-3">{{ story.category }}</span>
+          <h2 class="font-heading text-xl font-bold text-gray-900 mb-1 group-hover:text-green-700 transition-colors">{{ story.title }}</h2>
+          <p class="text-sm text-gray-500 mb-3">{{ story.location }}</p>
+          <p class="text-gray-600 text-sm mb-4 line-clamp-3">{{ story.summary }}</p>
+          <span class="text-green-700 text-sm font-semibold">Read the full story &rarr;</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "partials/banner.njk" %}

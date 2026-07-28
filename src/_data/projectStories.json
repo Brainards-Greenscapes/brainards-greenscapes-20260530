@@ -1,5 +1,6 @@
 [
   {
+    "slug": "tree-removal-flagstone-patio",
     "title": "Hazard Tree Removal & Flagstone Patio Rebuild",
     "location": "Las Cruces courtyard residence",
     "summary": "A declining mesquite in a tiled courtyard was cracking the flagstone patio around it. Rather than patch around the problem, we took the tree down in sections, pulled the stump, tore out the entire damaged patio, and relaid it from scratch.",
@@ -88,6 +89,7 @@
     "status": "complete"
   },
   {
+    "slug": "drainage-channel",
     "title": "Erosion-Control Drainage Channel",
     "location": "Las Cruces desert-lot residence",
     "summary": "Monsoon runoff was cutting a rough wash across a large desert lot toward the house. We marked a proper channel, graded it, and lined the whole run with river rock over fabric so heavy rain has somewhere controlled to go.",
@@ -139,6 +141,7 @@
     "status": "complete"
   },
   {
+    "slug": "backyard-xeriscape",
     "title": "Mature Backyard Xeriscape",
     "location": "Las Cruces residence",
     "summary": "A fully established xeriscape backyard — dry creek bed, boulder accents, tan gravel, and ornamental grasses — built for zero-lawn water savings without giving up a lived-in backyard feel.",
