@@ -7,8 +7,9 @@ pagination:
 permalink: "/projects/{{ story.slug }}/"
 layout: layouts/base.njk
 eleventyComputed:
-  title: "{{ story.title }} | Brainard's Greenscapes Las Cruces"
-  description: "{{ story.summary }}"
+  title: "{% if story.metaTitle %}{{ story.metaTitle | safe }}{% else %}{{ story.title | safe }} | Brainard's Greenscapes{% endif %}"
+  description: "{{ (story.metaDescription or story.summary) | safe }}"
+  ogImage: "/assets/images/{{ story.heroImage or story.steps[0].poster or story.steps[0].src }}"
 ---
 
 <!-- Breadcrumb -->
@@ -69,11 +70,12 @@ eleventyComputed:
       {% for other in projectStories %}
         {% if other.slug != story.slug %}
         <a href="/projects/{{ other.slug }}/" class="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
-          {% set heroStep = other.steps[0] %}
-          {% if heroStep.type == "video" %}
-          {% image "src/assets/images/" + heroStep.poster, other.title, "w-full h-48 object-cover" %}
+          {% if other.heroImage %}
+          {% image "src/assets/images/" + other.heroImage, other.title, "w-full h-48 object-cover" %}
+          {% elif other.steps[0].type == "video" %}
+          {% image "src/assets/images/" + other.steps[0].poster, other.title, "w-full h-48 object-cover" %}
           {% else %}
-          {% image "src/assets/images/" + heroStep.src, other.title, "w-full h-48 object-cover" %}
+          {% image "src/assets/images/" + other.steps[0].src, other.title, "w-full h-48 object-cover" %}
           {% endif %}
           <div class="p-5">
             <span class="inline-block px-3 py-1 bg-green-700/90 text-white text-xs font-medium rounded-full capitalize mb-2">{{ other.category }}</span>
