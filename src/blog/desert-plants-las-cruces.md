@@ -55,6 +55,8 @@ A native that's been growing in the Mesilla Valley since long before anyone was 
 
 The green trunk is the giveaway — Palo Verde photosynthesizes through its bark, which is why it can drop its tiny leaves during drought and keep right on growing. Brilliant yellow blooms in spring. Grows 15–25 feet and handles the hottest, driest spots in your yard.
 
+{% image "src/assets/images/brainards-desert-plant-palo-verde.jpeg", "Palo Verde tree with its distinctive green trunk installed on a Las Cruces property by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
+
 ### Peru Mesquite
 
 Similar to Honey Mesquite but with a more refined, thornless form that works well in residential settings. The canopy spreads wider relative to height, making it a solid shade tree for patios and seating areas. Low water once the root system is established.
@@ -75,21 +77,33 @@ There are several varieties worth knowing about:
 
 All three are extremely low-water once established and handle our alkaline soil without complaint.
 
+{% image "src/assets/images/brainards-desert-plant-purple-sage-compacta.jpeg", "Purple Sage Compacta, a compact rounded xeriscape shrub, installed in a Las Cruces rock bed by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
+
+{% image "src/assets/images/brainards-desert-plant-purple-sage.jpeg", "Standard Purple Sage shrub with silvery-green foliage growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+
 ### Red Yucca (Red Tipped Yucca)
 
 Despite the name, Red Yucca — often called Red Tipped Yucca locally — isn't actually a yucca at all. It's a *Hesperaloe*. The arching leaves stay green year-round, and the tall coral-pink flower stalks bloom from late spring through fall, attracting hummingbirds the entire time. One of the most low-maintenance plants you can put in a Las Cruces yard. Plant it and essentially forget about it.
 
+{% image "src/assets/images/brainards-desert-plant-red-yucca.jpeg", "Red Yucca (Red Tipped Yucca) with coral-pink flower stalks blooming on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+
 ### Bird of Paradise
 
-The yellow Bird of Paradise (*Caesalpinia gilliesii*) is perfectly adapted to our climate. Showy yellow flowers with long red stamens bloom through the hottest months when most other plants are just trying to survive. Grows 4–6 feet as a shrub or small multi-trunk tree. Extremely drought-tolerant once established.
+The yellow Bird of Paradise (*Caesalpinia gilliesii*) is perfectly adapted to our climate. Showy yellow flowers with long red stamens bloom through the hottest months when most other plants are just trying to survive. Grows 4–6 feet as a shrub or small multi-trunk tree. Extremely drought-tolerant once established. The Red Bird of Paradise (*Caesalpinia pulcherrima*), pictured below, is a related variety with showier orange-and-yellow blooms — both hold up equally well in our heat.
+
+{% image "src/assets/images/brainards-desert-plant-bird-of-paradise.jpeg", "Red Bird of Paradise shrub with orange and yellow blooms growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
 
 ### Lantana
 
 A color machine — clusters of orange, yellow, pink, and red flowers from spring through the first hard freeze. It handles heat and poor soil without complaint, and pollinators love it. In Las Cruces, Lantana typically dies back to the ground in winter and comes roaring back in spring. Low water once established, though it appreciates an occasional deep soak during the hottest weeks.
 
+{% image "src/assets/images/brainards-desert-plant-lantana.jpeg", "Yellow-flowering Lantana groundcover installed on a Las Cruces property by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
+
 ### Golden Barrel Cactus
 
 A statement piece. The bright green barrel with golden spines looks like it belongs on a magazine cover, and it thrives here with essentially zero supplemental water once planted. Group three or five together in a rock bed with decomposed granite for maximum visual impact. One of those plants that earns compliments from every visitor.
+
+{% image "src/assets/images/brainards-desert-plant-golden-barrel-cactus.jpeg", "Golden Barrel Cactus planted in a decomposed granite rock bed in Las Cruces", "rounded-xl shadow-md w-full" %}
 
 ### More Low-Water Shrubs Worth Knowing
 
@@ -100,6 +114,10 @@ A statement piece. The bright green barrel with golden spines looks like it belo
 - **Autumn Sage** — Red, pink, or coral flowers from spring through fall. Compact enough for borders and walkways.
 - **Creosotebush** — The signature scent of the desert after rain. Extremely tough.
 - **Turpentine Bush** — Yellow fall flowers, evergreen, and nearly indestructible. Good filler shrub for background planting.
+
+{% image "src/assets/images/brainards-desert-plant-ocotillo.jpeg", "Ocotillo with tall spiny stems planted near a Las Cruces driveway", "rounded-xl shadow-md w-full" %}
+
+{% image "src/assets/images/brainards-desert-plant-creosotebush.jpeg", "Creosotebush shrub growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
 
 ## Ground Covers, Perennials, and Grasses
 
@@ -145,17 +163,25 @@ Not every yard has to be strictly xeric. If you want more variety — and some o
 
 Long panicles of purple, pink, or white flowers that butterflies and hummingbirds swarm from summer through fall. Needs more regular water than the xeric list, but rewards you with some of the best pollinator activity in any yard. Prune it hard in late winter and it comes back strong. One of David's absolute favorites.
 
+{% image "src/assets/images/brainards-desert-plant-butterfly-bush.jpeg", "Butterfly Bush shrub in bloom on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+
 ### Chinese Pistache
 
 One of the best shade trees for Las Cruces if you're willing to give it water. Brilliant red-orange fall color that rivals anything you'd see back East. Grows 30–40 feet with a broad, rounded canopy. Needs consistent irrigation but tolerates our soil and heat.
+
+{% image "src/assets/images/brainards-desert-plant-chinese-pistache.jpeg", "Young Chinese Pistache shade tree planted in front of a Las Cruces home", "rounded-xl shadow-md w-full" %}
 
 ### Vitex / Chaste Tree
 
 Spikes of purple flowers through summer on a multi-trunk small tree. Looks similar to Butterfly Bush but grows larger — 15–20 feet. Handles our heat well with moderate watering.
 
+{% image "src/assets/images/brainards-desert-plant-vitex-chaste-tree.jpeg", "Vitex (Chaste Tree) in full purple bloom on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+
 ### Mimosa / Silk Tree
 
 The feathery pink puffball flowers are unmistakable. Fast-growing, provides dappled shade, and does well here with moderate irrigation. The fine-textured foliage gives a tropical look without the tropical water bill.
+
+{% image "src/assets/images/brainards-desert-plant-mimosa-silk-tree.jpeg", "Mimosa (Silk Tree) with pink puffball flowers planted on a Las Cruces property", "rounded-xl shadow-md w-full" %}
 
 ### Chilean Mesquite
 

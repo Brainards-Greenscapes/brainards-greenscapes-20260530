@@ -1,0 +1,20 @@
+[
+  {
+    "label": "Residential Front Yard",
+    "afterSrc": "brainards-front-yard-after.webp",
+    "afterAlt": "After: finished front-yard xeriscape",
+    "beforeSrc": "brainards-front-yard-before.webp",
+    "beforeAlt": "Before: bare front yard with weeds and patchy dirt",
+    "width": 1194,
+    "height": 645
+  },
+  {
+    "label": "Commercial Curb Island",
+    "afterSrc": "brainards-retail-curb-island-after.jpg",
+    "afterAlt": "After: commercial curb island with fresh rock and clean edging",
+    "beforeSrc": "brainards-retail-curb-island-before.jpg",
+    "beforeAlt": "Before: commercial curb island with overgrown shrubs and worn rock",
+    "width": 1749,
+    "height": 1174
+  }
+]

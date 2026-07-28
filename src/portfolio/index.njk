@@ -56,23 +56,23 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
       <h2 class="font-heading text-3xl font-bold text-gray-900 mb-3">Before & After</h2>
       <p class="text-gray-600">Drag the slider to see the transformation.</p>
     </div>
-    <!-- Residential Before/After -->
-    <p class="text-center text-sm text-gray-500 mb-3 font-medium">Residential Front Yard</p>
-    <div class="relative rounded-xl overflow-hidden shadow-lg select-none cursor-ew-resize mb-12" data-before-after>
+    {% for pair in beforeAfter %}
+    <p class="text-center text-sm text-gray-500 mb-3 font-medium">{{ pair.label }}</p>
+    <div class="relative rounded-xl overflow-hidden shadow-lg select-none cursor-ew-resize {% if not loop.last %}mb-12{% endif %}" data-before-after>
       <!-- After image (bottom layer) -->
       <img
-        src="/assets/images/brainards-front-yard-after.webp"
-        alt="After: finished front-yard xeriscape"
-        width="1194" height="645"
+        src="/assets/images/{{ pair.afterSrc }}"
+        alt="{{ pair.afterAlt }}"
+        width="{{ pair.width }}" height="{{ pair.height }}"
         loading="eager"
         draggable="false"
         class="block w-full"
       >
       <!-- Before image (top layer, absolutely positioned, same size) -->
       <img
-        src="/assets/images/brainards-front-yard-before.webp"
-        alt="Before: bare front yard with weeds and patchy dirt"
-        width="1194" height="645"
+        src="/assets/images/{{ pair.beforeSrc }}"
+        alt="{{ pair.beforeAlt }}"
+        width="{{ pair.width }}" height="{{ pair.height }}"
         loading="eager"
         draggable="false"
         class="absolute top-0 left-0 block w-full h-full object-cover"
@@ -90,37 +90,42 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
       <span class="absolute top-4 left-4 px-3 py-1 bg-black/50 text-white text-xs font-medium rounded-full pointer-events-none">Before</span>
       <span class="absolute top-4 right-4 px-3 py-1 bg-black/50 text-white text-xs font-medium rounded-full pointer-events-none">After</span>
     </div>
-
-    <!-- Commercial Before/After -->
-    <p class="text-center text-sm text-gray-500 mb-3 font-medium">Commercial Curb Island</p>
-    <div class="relative rounded-xl overflow-hidden shadow-lg select-none cursor-ew-resize" data-before-after>
-      <img
-        src="/assets/images/brainards-retail-curb-island-after.jpg"
-        alt="After: commercial curb island with fresh rock and clean edging"
-        width="1749" height="1174"
-        loading="eager"
-        draggable="false"
-        class="block w-full"
-      >
-      <img
-        src="/assets/images/brainards-retail-curb-island-before.jpg"
-        alt="Before: commercial curb island with overgrown shrubs and worn rock"
-        width="1749" height="1174"
-        loading="eager"
-        draggable="false"
-        class="absolute top-0 left-0 block w-full h-full object-cover"
-        data-before-img
-      >
-      <div class="absolute top-0 bottom-0 w-0.5 bg-white pointer-events-none" data-before-line style="left: 50%;"></div>
-      <div class="absolute top-1/2 w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center pointer-events-none" data-before-knob style="left: 50%; transform: translate(-50%, -50%);">
-        <svg class="w-5 h-5 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7M9 5l7 7-7 7"/>
-        </svg>
-      </div>
-      <span class="absolute top-4 left-4 px-3 py-1 bg-black/50 text-white text-xs font-medium rounded-full pointer-events-none">Before</span>
-      <span class="absolute top-4 right-4 px-3 py-1 bg-black/50 text-white text-xs font-medium rounded-full pointer-events-none">After</span>
-    </div>
+    {% endfor %}
   </div>
 </section>
+
+<!-- Project Stories -->
+{% if projectStories.length > 0 %}
+<section class="py-16 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="font-heading text-3xl font-bold text-gray-900 mb-3">Project Stories</h2>
+      <p class="text-gray-600">Real jobs from start to finish, in the crew's own photos.</p>
+    </div>
+    {% for story in projectStories %}
+    <div class="mb-16 last:mb-0">
+      <div class="text-center mb-8">
+        <span class="inline-block px-3 py-1 bg-green-700/90 text-white text-xs font-medium rounded-full capitalize mb-3">{{ story.category }}</span>
+        <h3 class="font-heading text-2xl font-bold text-gray-900 mb-2">{{ story.title }}</h3>
+        <p class="text-sm text-gray-500 mb-3">{{ story.location }}</p>
+        <p class="text-gray-600 max-w-2xl mx-auto">{{ story.summary }}</p>
+      </div>
+      <ol class="relative border-l-2 border-green-200 ml-4 sm:ml-6">
+        {% for step in story.steps %}
+        <li class="mb-10 ml-6 sm:ml-8 last:mb-0">
+          <span class="absolute flex items-center justify-center w-8 h-8 bg-green-700 text-white text-sm font-semibold rounded-full -left-4 ring-4 ring-white">{{ loop.index }}</span>
+          {% image "src/assets/images/" + step.src, step.alt, "rounded-xl shadow-md w-full mb-3" %}
+          <p class="text-gray-700">{{ step.caption }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+      {% if story.note %}
+      <p class="text-sm text-gray-500 italic text-center mt-6">{{ story.note }}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
 
 {% include "partials/banner.njk" %}
