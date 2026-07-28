@@ -2,48 +2,87 @@
   {
     "title": "Hazard Tree Removal & Flagstone Patio Rebuild",
     "location": "Las Cruces courtyard residence",
-    "summary": "A declining mesquite in a tiled courtyard was cracking the flagstone patio around it. Rather than patch around the problem, we took the tree down in sections, pulled the stump, tore out the damaged flagstone, and relaid the patio on a fresh base.",
+    "summary": "A declining mesquite in a tiled courtyard was cracking the flagstone patio around it. Rather than patch around the problem, we took the tree down in sections, pulled the stump, tore out the entire damaged patio, and relaid it from scratch.",
     "category": "hardscaping",
     "steps": [
       {
-        "caption": "Rigging the first sections of the declining mesquite before cutting, to control where each piece drops in a tight courtyard.",
+        "type": "image",
+        "caption": "Rigging the mesquite with tag lines before cutting, to control where each section drops in a tight courtyard.",
         "src": "brainards-project-tree-flagstone-01-rigging.jpeg",
-        "alt": "Crew member climbing a mesquite tree with tag lines rigged before a hazard tree removal in a Las Cruces courtyard"
+        "alt": "Crew member rigging a mesquite tree with tag lines before a hazard tree removal in a Las Cruces courtyard"
       },
       {
-        "caption": "Working the canopy down branch by branch with a pole saw and tag lines, keeping cuts away from the windows and stucco.",
-        "src": "brainards-project-tree-flagstone-02-section-removal.jpeg",
-        "alt": "Two-person crew removing tree branches with a pole saw and tag line in a Las Cruces courtyard"
+        "type": "image",
+        "caption": "Working from the canopy down, cutting large limbs section by section away from the windows and stucco.",
+        "src": "brainards-project-tree-flagstone-02-canopy-work.jpeg",
+        "alt": "Crew member cutting large tree limbs from the canopy during a hazard tree removal in a Las Cruces courtyard"
       },
       {
-        "caption": "Down to the stump. The roots had been running under the patio for years — the real reason it needed to come out.",
-        "src": "brainards-project-tree-flagstone-03-stump-cut.jpeg",
-        "alt": "Tree stump cut close to the ground after hazard tree removal on a Las Cruces flagstone patio"
+        "type": "image",
+        "caption": "Reduced to bare branches before the final cuts.",
+        "src": "brainards-project-tree-flagstone-03-reduced.jpeg",
+        "alt": "Mesquite tree reduced to bare branches during hazard tree removal in a Las Cruces courtyard"
       },
       {
-        "caption": "With the tree gone, the cracked flagstone it had been heaving for years came out too.",
-        "src": "brainards-project-tree-flagstone-04-patio-demo.jpeg",
+        "type": "image",
+        "caption": "Down to the stump, cut flush with the ground.",
+        "src": "brainards-project-tree-flagstone-04-stump-cut.jpeg",
+        "alt": "Tree stump cut flush to the ground after hazard tree removal on a Las Cruces courtyard patio"
+      },
+      {
+        "type": "image",
+        "caption": "With the tree gone, the entire old flagstone patio came out too — broken up and hauled off.",
+        "src": "brainards-project-tree-flagstone-05-patio-demo.jpeg",
         "alt": "Old flagstone patio demolished into rubble around a fresh-cut tree stump in a Las Cruces courtyard"
       },
       {
-        "caption": "Fresh flagstone delivered by the pallet for the new patio.",
-        "src": "brainards-project-tree-flagstone-05-stone-delivery.jpeg",
-        "alt": "Pallet of new flagstone delivered by flatbed truck for a Las Cruces patio rebuild"
+        "type": "image",
+        "caption": "The root system running under the patio, right at the door — the real reason it needed to come out.",
+        "src": "brainards-project-tree-flagstone-06-roots-exposed.jpeg",
+        "alt": "Exposed tree root system running under a demolished flagstone patio near a doorway in Las Cruces"
       },
       {
+        "type": "image",
         "caption": "Laser level and string lines mark the new patio before the first stone goes down.",
-        "src": "brainards-project-tree-flagstone-06-patio-layout.jpeg",
+        "src": "brainards-project-tree-flagstone-07-layout.jpeg",
         "alt": "Laser level and string lines laying out a new flagstone patio base in a Las Cruces courtyard"
       },
       {
-        "caption": "Setting the new flagstone piece by piece, mortar joint by mortar joint.",
-        "src": "brainards-project-tree-flagstone-07-setting-stone.jpeg",
-        "alt": "Crew member setting flagstone pieces in mortar during a Las Cruces patio rebuild"
+        "type": "image",
+        "caption": "Fresh flagstone delivered by the pallet for the new patio.",
+        "src": "brainards-project-tree-flagstone-08-stone-delivery.jpeg",
+        "alt": "Pallet of new flagstone delivered by flatbed truck for a Las Cruces patio rebuild"
       },
       {
-        "caption": "The finished courtyard — new flagstone throughout, kiva fireplace and all, with the tree that used to crack it gone for good.",
-        "src": "brainards-project-tree-flagstone-08-finished-courtyard.jpeg",
-        "alt": "Finished flagstone courtyard patio with kiva fireplace and vine-covered archway at a Las Cruces home"
+        "type": "image",
+        "caption": "Setting the first stones by the French doors.",
+        "src": "brainards-project-tree-flagstone-09-setting-stone-doors.jpeg",
+        "alt": "New flagstone being set in mortar near French doors during a Las Cruces patio rebuild"
+      },
+      {
+        "type": "image",
+        "caption": "Our stone crew working the joints at the kiva fireplace corner.",
+        "src": "brainards-project-tree-flagstone-10-setting-stone-kiva.jpeg",
+        "alt": "Stone mason setting flagstone in mortar near a kiva fireplace during a Las Cruces patio rebuild"
+      },
+      {
+        "type": "video",
+        "caption": "A quick look at the flagstone going down.",
+        "src": "brainards-project-tree-flagstone-video.mp4",
+        "poster": "brainards-project-tree-flagstone-video-poster.jpeg",
+        "alt": "Video of crew setting new flagstone during a Las Cruces patio rebuild"
+      },
+      {
+        "type": "image",
+        "caption": "The finished courtyard — new flagstone throughout, grouted and clean.",
+        "src": "brainards-project-tree-flagstone-11-finished-wide.jpeg",
+        "alt": "Finished flagstone courtyard patio with vine-covered archway at a Las Cruces home"
+      },
+      {
+        "type": "image",
+        "caption": "And the kiva fireplace corner, with the tree that used to crack it gone for good.",
+        "src": "brainards-project-tree-flagstone-12-finished-kiva.jpeg",
+        "alt": "Finished flagstone patio with kiva fireplace at a Las Cruces home"
       }
     ],
     "status": "complete"

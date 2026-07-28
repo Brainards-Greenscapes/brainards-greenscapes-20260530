@@ -43,7 +43,13 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
         {% for step in story.steps %}
         <li class="mb-10 ml-6 sm:ml-8 last:mb-0">
           <span class="absolute flex items-center justify-center w-8 h-8 bg-green-700 text-white text-sm font-semibold rounded-full -left-4 ring-4 ring-white">{{ loop.index }}</span>
+          {% if step.type == "video" %}
+          <video class="rounded-xl shadow-md w-full mb-3" controls playsinline preload="metadata" poster="/assets/images/{{ step.poster }}" aria-label="{{ step.alt }}">
+            <source src="/assets/images/{{ step.src }}" type="video/mp4">
+          </video>
+          {% else %}
           {% image "src/assets/images/" + step.src, step.alt, "rounded-xl shadow-md w-full mb-3" %}
+          {% endif %}
           <p class="text-gray-700">{{ step.caption }}</p>
         </li>
         {% endfor %}

@@ -16,5 +16,14 @@
     "beforeAlt": "Before: commercial curb island with overgrown shrubs and worn rock",
     "width": 1749,
     "height": 1174
+  },
+  {
+    "label": "Courtyard Tree Removal & Flagstone Rebuild",
+    "afterSrc": "brainards-tree-flagstone-after-overall.jpeg",
+    "afterAlt": "After: Las Cruces courtyard with hazard tree removed and new flagstone patio",
+    "beforeSrc": "brainards-tree-flagstone-before-overall.jpeg",
+    "beforeAlt": "Before: Las Cruces courtyard with declining mesquite tree and old flagstone patio",
+    "width": 1200,
+    "height": 1600
   }
 ]
