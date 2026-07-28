@@ -14,8 +14,51 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
   </div>
 </section>
 
+<!-- Quicklinks -->
+<nav class="bg-white border-b border-gray-200 py-4" aria-label="Portfolio sections">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm font-medium">
+    {% if projectStories.length > 0 %}<a href="#project-stories" class="text-gray-600 hover:text-green-700">Project Stories</a>{% endif %}
+    <a href="#gallery" class="text-gray-600 hover:text-green-700">Gallery</a>
+    <a href="#before-after" class="text-gray-600 hover:text-green-700">Before &amp; After</a>
+  </div>
+</nav>
+
+<!-- Project Stories -->
+{% if projectStories.length > 0 %}
+<section id="project-stories" class="py-16 bg-white scroll-mt-32">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="font-heading text-3xl font-bold text-gray-900 mb-3">Project Stories</h2>
+      <p class="text-gray-600">Real jobs from start to finish, in the crew's own photos.</p>
+    </div>
+    {% for story in projectStories %}
+    <div class="mb-16 last:mb-0">
+      <div class="text-center mb-8">
+        <span class="inline-block px-3 py-1 bg-green-700/90 text-white text-xs font-medium rounded-full capitalize mb-3">{{ story.category }}</span>
+        <h3 class="font-heading text-2xl font-bold text-gray-900 mb-2">{{ story.title }}</h3>
+        <p class="text-sm text-gray-500 mb-3">{{ story.location }}</p>
+        <p class="text-gray-600 max-w-2xl mx-auto">{{ story.summary }}</p>
+      </div>
+      <ol class="relative border-l-2 border-green-200 ml-4 sm:ml-6">
+        {% for step in story.steps %}
+        <li class="mb-10 ml-6 sm:ml-8 last:mb-0">
+          <span class="absolute flex items-center justify-center w-8 h-8 bg-green-700 text-white text-sm font-semibold rounded-full -left-4 ring-4 ring-white">{{ loop.index }}</span>
+          {% image "src/assets/images/" + step.src, step.alt, "rounded-xl shadow-md w-full mb-3" %}
+          <p class="text-gray-700">{{ step.caption }}</p>
+        </li>
+        {% endfor %}
+      </ol>
+      {% if story.note %}
+      <p class="text-sm text-gray-500 italic text-center mt-6">{{ story.note }}</p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 <!-- Gallery -->
-<section class="py-16 bg-white">
+<section id="gallery" class="py-16 bg-white scroll-mt-32">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <!-- Filter tabs -->
@@ -50,7 +93,7 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
 </section>
 
 <!-- Before/After -->
-<section class="py-16 bg-green-50">
+<section id="before-after" class="py-16 bg-green-50 scroll-mt-32">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-10">
       <h2 class="font-heading text-3xl font-bold text-gray-900 mb-3">Before & After</h2>
@@ -93,39 +136,5 @@ pageJS: ['portfolio-filter.js', 'before-after.js']
     {% endfor %}
   </div>
 </section>
-
-<!-- Project Stories -->
-{% if projectStories.length > 0 %}
-<section class="py-16 bg-white">
-  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="font-heading text-3xl font-bold text-gray-900 mb-3">Project Stories</h2>
-      <p class="text-gray-600">Real jobs from start to finish, in the crew's own photos.</p>
-    </div>
-    {% for story in projectStories %}
-    <div class="mb-16 last:mb-0">
-      <div class="text-center mb-8">
-        <span class="inline-block px-3 py-1 bg-green-700/90 text-white text-xs font-medium rounded-full capitalize mb-3">{{ story.category }}</span>
-        <h3 class="font-heading text-2xl font-bold text-gray-900 mb-2">{{ story.title }}</h3>
-        <p class="text-sm text-gray-500 mb-3">{{ story.location }}</p>
-        <p class="text-gray-600 max-w-2xl mx-auto">{{ story.summary }}</p>
-      </div>
-      <ol class="relative border-l-2 border-green-200 ml-4 sm:ml-6">
-        {% for step in story.steps %}
-        <li class="mb-10 ml-6 sm:ml-8 last:mb-0">
-          <span class="absolute flex items-center justify-center w-8 h-8 bg-green-700 text-white text-sm font-semibold rounded-full -left-4 ring-4 ring-white">{{ loop.index }}</span>
-          {% image "src/assets/images/" + step.src, step.alt, "rounded-xl shadow-md w-full mb-3" %}
-          <p class="text-gray-700">{{ step.caption }}</p>
-        </li>
-        {% endfor %}
-      </ol>
-      {% if story.note %}
-      <p class="text-sm text-gray-500 italic text-center mt-6">{{ story.note }}</p>
-      {% endif %}
-    </div>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
 
 {% include "partials/banner.njk" %}
