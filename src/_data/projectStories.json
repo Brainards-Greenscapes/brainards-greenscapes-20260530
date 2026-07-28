@@ -86,5 +86,78 @@
       }
     ],
     "status": "complete"
+  },
+  {
+    "title": "Erosion-Control Drainage Channel",
+    "location": "Las Cruces desert-lot residence",
+    "summary": "Monsoon runoff was cutting a rough wash across a large desert lot toward the house. We marked a proper channel, graded it, and lined the whole run with river rock over fabric so heavy rain has somewhere controlled to go.",
+    "category": "landscaping",
+    "steps": [
+      {
+        "type": "image",
+        "caption": "The lot before work started — established desert plantings with an unmanaged wash running through it.",
+        "src": "brainards-project-drainage-01-existing-landscape.jpeg",
+        "alt": "Desert lot with established native plantings before a drainage channel installation in Las Cruces"
+      },
+      {
+        "type": "image",
+        "caption": "Marking the new channel path with paint before any digging starts.",
+        "src": "brainards-project-drainage-02-marking-layout.jpeg",
+        "alt": "Spray-painted layout line marking a new drainage channel path through desert landscaping"
+      },
+      {
+        "type": "image",
+        "caption": "Grading the channel bed so water has a clear, controlled path to follow.",
+        "src": "brainards-project-drainage-03-excavation.jpeg",
+        "alt": "Freshly graded sandy channel bed during excavation for a drainage project in Las Cruces"
+      },
+      {
+        "type": "image",
+        "caption": "Fabric down first to keep the base stable, then river rock loaded in section by section.",
+        "src": "brainards-project-drainage-04-fabric-rock-start.jpeg",
+        "alt": "Landscape fabric and river rock being placed at the start of a drainage channel installation"
+      },
+      {
+        "type": "image",
+        "caption": "Rock placement continuing along the run, past the utility box toward the house.",
+        "src": "brainards-project-drainage-05-rock-placement.jpeg",
+        "alt": "River rock drainage channel under construction running past a utility box in a desert yard"
+      },
+      {
+        "type": "image",
+        "caption": "The channel taking shape — a clean, continuous rock-lined path through the property.",
+        "src": "brainards-project-drainage-06-near-finished.jpeg",
+        "alt": "Nearly finished river rock drainage channel winding through desert landscaping in Las Cruces"
+      },
+      {
+        "type": "image",
+        "caption": "The finished channel, ready for the next monsoon — water now has somewhere to go instead of cutting new washes.",
+        "src": "brainards-project-drainage-07-finished-wide.jpeg",
+        "alt": "Finished river rock drainage channel through a desert landscape with mountain views in Las Cruces"
+      }
+    ],
+    "status": "complete"
+  },
+  {
+    "title": "Mature Backyard Xeriscape",
+    "location": "Las Cruces residence",
+    "summary": "A fully established xeriscape backyard — dry creek bed, boulder accents, tan gravel, and ornamental grasses — built for zero-lawn water savings without giving up a lived-in backyard feel.",
+    "category": "xeriscaping",
+    "steps": [
+      {
+        "type": "image",
+        "caption": "The dry creek bed and stone perimeter wall, the anchor feature of the yard.",
+        "src": "brainards-xeriscape-dry-creek-bed-stone-wall.jpeg",
+        "alt": "Dry creek bed with river rock and boulders along a natural stone perimeter wall in a Las Cruces backyard xeriscape"
+      },
+      {
+        "type": "image",
+        "caption": "The full yard from the covered patio — tan gravel, ornamental grasses, and accent boulders, no turf to water.",
+        "src": "brainards-xeriscape-covered-patio-gravel-yard.jpeg",
+        "alt": "Covered patio overlooking a tan gravel xeriscape yard with ornamental grasses and accent boulders"
+      }
+    ],
+    "note": "A finished-yard feature — we'll add the before/during photos here if David can dig any up from before the install.",
+    "status": "complete"
   }
 ]
