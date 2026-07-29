@@ -55,7 +55,7 @@ A native that's been growing in the Mesilla Valley since long before anyone was 
 
 The green trunk is the giveaway — Palo Verde photosynthesizes through its bark, which is why it can drop its tiny leaves during drought and keep right on growing. Brilliant yellow blooms in spring. Grows 15–25 feet and handles the hottest, driest spots in your yard.
 
-{% image "src/assets/images/brainards-desert-plant-palo-verde.jpeg", "Palo Verde tree with its distinctive green trunk installed on a Las Cruces property by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
+{% image "src/assets/images/brainards-desert-plant-palo-verde-2.jpeg", "Palo Verde tree with its distinctive green trunk installed on a Las Cruces property by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
 
 ### Peru Mesquite
 
@@ -79,7 +79,7 @@ All three are extremely low-water once established and handle our alkaline soil 
 
 {% image "src/assets/images/brainards-desert-plant-purple-sage-compacta.jpeg", "Purple Sage Compacta, a compact rounded xeriscape shrub, installed in a Las Cruces rock bed by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
 
-{% image "src/assets/images/brainards-desert-plant-purple-sage.jpeg", "Texas Sage shrub covered in purple blooms growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+{% image "src/assets/images/brainards-desert-plant-texas-sage-bloom.jpeg", "Texas Sage shrub covered in purple blooms growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
 
 ### Red Yucca (Red Tipped Yucca)
 
