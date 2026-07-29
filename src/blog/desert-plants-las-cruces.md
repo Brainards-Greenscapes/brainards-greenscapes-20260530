@@ -79,7 +79,7 @@ All three are extremely low-water once established and handle our alkaline soil 
 
 {% image "src/assets/images/brainards-desert-plant-purple-sage-compacta.jpeg", "Purple Sage Compacta, a compact rounded xeriscape shrub, installed in a Las Cruces rock bed by Brainard's Greenscapes", "rounded-xl shadow-md w-full" %}
 
-{% image "src/assets/images/brainards-desert-plant-purple-sage.jpeg", "Standard Purple Sage shrub with silvery-green foliage growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
+{% image "src/assets/images/brainards-desert-plant-purple-sage.jpeg", "Texas Sage shrub covered in purple blooms growing on a Las Cruces property", "rounded-xl shadow-md w-full" %}
 
 ### Red Yucca (Red Tipped Yucca)
 
