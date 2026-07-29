@@ -62,11 +62,11 @@ eleventyComputed:
 </section>
 
 <!-- More projects -->
-{% if projectStories.length > 1 %}
 <section class="py-16 bg-green-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {% if projectStories.length > 1 %}
     <h2 class="font-heading text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">More Projects</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
       {% for other in projectStories %}
         {% if other.slug != story.slug %}
         <a href="/projects/{{ other.slug }}/" class="group block bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow">
@@ -86,8 +86,13 @@ eleventyComputed:
         {% endif %}
       {% endfor %}
     </div>
+    {% endif %}
+    <div class="text-center">
+      <a href="/portfolio/" class="inline-flex items-center px-6 py-2.5 border-2 border-green-700 text-green-700 font-semibold rounded-lg hover:bg-green-50 transition-colors">
+        View Full Photo Gallery
+      </a>
+    </div>
   </div>
 </section>
-{% endif %}
 
 {% include "partials/banner.njk" %}
