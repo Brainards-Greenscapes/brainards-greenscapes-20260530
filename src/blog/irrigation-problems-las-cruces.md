@@ -1,6 +1,6 @@
 ---
 layout: layouts/blog.njk
-title: "Las Cruces Irrigation Repair: Common Problems & DIY Fixes"
+title: "Common Irrigation Problems in Las Cruces (And How to Fix Them)"
 description: "Sprinkler heads broken? Drip emitters clogged? Here are the most common irrigation problems in Las Cruces and which ones you can fix yourself."
 excerpt: "Las Cruces is tough on irrigation systems — hard water, UV, wind, and monsoons all take their toll. Here's how to diagnose the most common problems and which ones you can fix yourself."
 date: 2026-06-26
