@@ -7,7 +7,7 @@ pagination:
 permalink: "/service-areas/{{ area.slug }}/"
 layout: layouts/base.njk
 eleventyComputed:
-  title: "Landscaping in {{ area.name }}, {{ area.state }} | Brainard's Greenscapes"
+  title: "{% if area.titleOverride %}{{ area.titleOverride | safe }}{% else %}Landscaping in {{ area.name }}, {{ area.state }} | Brainard's Greenscapes{% endif %}"
   description: "Professional landscaping, xeriscaping, hardscaping, and irrigation in {{ area.name }}, {{ area.state }}. Free estimates from Brainard's Greenscapes."
 ---
 
