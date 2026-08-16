@@ -24,6 +24,16 @@ export default function (eleventyConfig) {
     return d.toLocaleDateString();
   });
 
+  // Years-in-business filter — computed from site.founded at build time so the
+  // number never needs hand-editing. Usage: {{ site.founded | yearsSince }}+
+  eleventyConfig.addFilter("yearsSince", function (startYear) {
+    const start = parseInt(startYear, 10);
+    if (!start || Number.isNaN(start)) {
+      throw new Error(`yearsSince: invalid start year "${startYear}"`);
+    }
+    return new Date().getFullYear() - start;
+  });
+
   // Blog collection — all files tagged "blog", sorted by date
   eleventyConfig.addCollection("blog", function (collectionApi) {
     return collectionApi.getFilteredByTag("blog").sort((a, b) => a.date - b.date);

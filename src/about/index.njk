@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 title: "About Brainard's Greenscapes | Las Cruces Landscaping"
-description: "Meet David Brainard — owner, designer, and installer behind Las Cruces' top-rated landscaping company. 19+ years of hands-on work in the Mesilla Valley."
+description: "Meet David Brainard — owner, designer, and installer behind Las Cruces' top-rated landscaping company. Hands-on work in the Mesilla Valley since 2007."
 ---
 
 <!-- Hero -->
@@ -18,7 +18,7 @@ description: "Meet David Brainard — owner, designer, and installer behind Las 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
     <div>
       <h2 class="font-heading text-3xl font-bold text-gray-900 mb-6">Meet David Brainard</h2>
-      <p class="text-gray-600 text-lg leading-relaxed mb-4">David started {{ site.name }} in 2007 with a simple idea: show up when you say you will, do the work right, and treat every yard like it's your own. Nearly two decades later, that hasn't changed.</p>
+      <p class="text-gray-600 text-lg leading-relaxed mb-4">David started {{ site.name }} in 2007 with a simple idea: show up when you say you will, do the work right, and treat every yard like it's your own. {{ site.founded | yearsSince }} years later, that hasn't changed.</p>
       <p class="text-gray-600 leading-relaxed mb-4">He's the one who answers your call. He's the one who walks your property with you, listens to what you want, and tells you what'll actually work in the Las Cruces heat. And he's the one on-site making sure the job gets done the way he promised.</p>
       <p class="text-gray-600 leading-relaxed">That's the difference between hiring a company and hiring David. You're not getting passed off to a salesperson or a crew you've never met. You're working directly with the owner — from the first conversation to the final walkthrough.</p>
     </div>
@@ -74,7 +74,7 @@ description: "Meet David Brainard — owner, designer, and installer behind Las 
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-12">
       <p class="text-green-700 font-semibold text-sm uppercase tracking-wider mb-2">Our Story</p>
-      <h2 class="font-heading text-3xl font-bold text-gray-900">Nearly Two Decades in the Mesilla Valley</h2>
+      <h2 class="font-heading text-3xl font-bold text-gray-900">In the Mesilla Valley Since 2007</h2>
     </div>
     <div class="space-y-8">
       <div class="flex gap-6">
@@ -139,12 +139,12 @@ description: "Meet David Brainard — owner, designer, and installer behind Las 
         <span class="block text-green-100 text-sm mt-1">Projects Completed</span>
       </div>
       <div>
-        <span class="font-heading text-4xl font-bold">19+</span>
+        <span class="font-heading text-4xl font-bold">{{ site.founded | yearsSince }}+</span>
         <span class="block text-green-100 text-sm mt-1">Years in Las Cruces</span>
       </div>
       <div>
-        <span class="font-heading text-4xl font-bold">5/5</span>
-        <span class="block text-green-100 text-sm mt-1">Google Rating</span>
+        <span class="font-heading text-4xl font-bold">{{ site.googleReviewsFloor }}+</span>
+        <span class="block text-green-100 text-sm mt-1">Google Reviews</span>
       </div>
       <div>
         <span class="font-heading text-4xl font-bold">3x</span>
