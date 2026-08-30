@@ -13,7 +13,7 @@ tags: blog
 
 - [Fall is the best planting window here](#why-fall-planting-works-in-las-cruces) — Warm soil plus cooler air means less transplant shock, lower water demand, and months of root growth before summer heat returns. October through mid-November is the sweet spot.
 - [Start soil prep now, not in October](#test-and-amend-your-soil-now) — Soil testing takes time to get results back, and amendments need weeks to integrate. August is when this work should happen.
-- [Assess your caliche situation](#check-your-caliche-depth) — If you're planning new plantings, you need to know what's underground before you buy anything. Dig test holes now while the ground is workable from monsoon moisture.
+- [Know what's under your soil](#dig-test-holes-now) — If you're planning new plantings, you need to know what's underground before you buy anything. Dig test holes now while the ground is workable from monsoon moisture.
 - [Audit your irrigation after monsoons](#audit-your-irrigation-system) — Monsoon season is hard on drip lines and sprinkler heads. Fix what's broken now so your system is ready to support new plantings in October.
 - [Fix drainage problems monsoons revealed](#fix-the-drainage-problems-monsoons-showed-you) — If water pooled where it shouldn't have this monsoon season, that's data. Fix it before planting anything in those areas.
 - [Plan your plant list before the nurseries sell out](#plan-your-plant-list-now) — Local nurseries stock fall inventory in September. If you know what you want, you get first pick of healthy stock.
@@ -24,7 +24,7 @@ If you're thinking about landscaping changes, new trees, or a yard overhaul in L
 
 Most people think of spring as planting season. In Las Cruces, that's backwards. Our spring brings 40 mph winds, late frosts into April, and rapidly climbing temperatures that stress new transplants before their roots establish. Fall is different. Soil temperatures are still warm from summer, air temperatures drop into the comfortable 70s and 80s, and new plants have the entire winter to develop root systems before the following summer's heat.
 
-But here's what catches people off guard: if you wait until October to start preparing, you're already behind. Soil testing, amendments, caliche work, irrigation repairs, and drainage fixes all take time. August and September are when that prep work needs to happen so your yard is actually ready when the planting window opens.
+But here's what catches people off guard: if you wait until October to start preparing, you're already behind. Soil testing, amendments, irrigation repairs, and drainage fixes all take time. August and September are when that prep work needs to happen so your yard is actually ready when the planting window opens.
 
 ## Why Fall Planting Works in Las Cruces
 
@@ -60,19 +60,19 @@ Based on your test results, the typical Las Cruces yard needs some combination o
 
 The point isn't to turn Las Cruces soil into Iowa topsoil. It's to create a hospitable pocket of amended soil in each planting area so new roots have a good start before they grow into the native ground.
 
-## Check Your Caliche Depth
+## Dig Test Holes Now
 
-If you read our [caliche guide](/blog/caliche-las-cruces/), you know this is the hidden factor in most Las Cruces landscaping projects. If you haven't checked your yard for caliche yet, now is the time — before you buy plants or commit to a planting plan.
+Before you buy a single plant, you need to know what's underground. Las Cruces soil conditions vary widely — some yards have deep, workable sandy loam. Others have compacted hardpan, clay layers, or [caliche](/blog/caliche-las-cruces/) (a cement-like calcium carbonate layer) that blocks roots and traps water. Two lots in the same neighborhood can be completely different. The only way to know is to dig.
 
-**Why August is good for this:** monsoon rains have softened the upper soil layers, making it easier to dig test holes. In June, the ground is baked concrete-hard. After a few monsoon soaks, that same soil gives way to a shovel.
+**Why August is good for this:** monsoon rains have softened the upper soil layers, making test holes easier to dig. In June, the ground is baked concrete-hard. After a few monsoon soaks, that same soil gives way to a shovel.
 
 Dig test holes in each area you plan to plant. You're looking for:
 
-- **How deep the caliche is.** Six inches? Eighteen inches? Three feet? This determines how much excavation each planting hole needs.
-- **How thick the layer is.** A thin caliche layer (2–4 inches) can be broken through with a pry bar. A thick one (12+ inches) needs power tools or a professional.
-- **Whether drainage exists below it.** Fill the test hole with water and see how fast it drains. If it sits for hours, you'll need [drainage chimneys](/blog/caliche-las-cruces/#drilling-drainage-chimneys) before planting.
+- **What's under the topsoil.** Is it sandy loam all the way down, or do you hit a hard layer? If you hit something solid — whether it's caliche, compacted fill, or clay — note the depth. That determines how much excavation each planting hole will need.
+- **How deep the workable soil goes.** Most trees need at least 3–5 feet of root space. If your workable soil is only 12 inches deep over hardpan, you'll need to plan around that.
+- **Whether drainage exists.** Fill the test hole with water and see how fast it drains. If at least 4 inches drain within 4 hours, you're in good shape for most plants. If water sits for hours, you have a drainage problem that needs to be addressed before planting — regardless of what's causing it.
 
-Knowing your caliche situation now means you can budget the right amount of time and equipment for the actual planting. The worst surprise on a planting day is discovering you need a jackhammer you don't have.
+Knowing your underground conditions now means you can budget the right amount of time and equipment for the actual planting. The worst surprise on a planting day is discovering you need a jackhammer you don't have.
 
 ## Audit Your Irrigation System
 
@@ -102,7 +102,7 @@ Monsoon season is a free stress test for your yard's drainage. Every place water
 If you noticed any of these during monsoon storms:
 
 - **Water pooling against your foundation** — your grading has shifted. Soil needs to slope away from the house at a minimum of 6 inches over 10 feet. Regrading is a fall project, not a planting-day afterthought.
-- **Standing water in plant beds** — likely a [caliche drainage issue](/blog/caliche-las-cruces/#water-pools-instead-of-draining). Address it before putting new plants in that spot.
+- **Standing water in plant beds** — could be a compacted soil layer, [caliche](/blog/caliche-las-cruces/), or just poor grading. Address it before putting new plants in that spot.
 - **Erosion channels across your yard** — these will only get worse. Consider [erosion control measures](/services/drainage/erosion-control/) like rip-rap, terracing, or strategically placed [retaining walls](/services/hardscaping/retaining-walls/).
 - **French drain overflow or backup** — the drain may need cleaning, extension, or a larger catch basin. A [french drain](/services/drainage/french-drains/) that can't handle a moderate monsoon storm won't protect your landscape.
 
@@ -126,7 +126,7 @@ Don't wait until you're standing in the nursery in October trying to decide. Pla
 
 **Mature size.** That 5-gallon Desert Willow is going to be 25 feet tall and 20 feet wide. Plant it 15 feet from your house, not 5. Check mature dimensions for everything before you commit to a spot.
 
-**Caliche compatibility.** If your test holes showed shallow caliche, favor plants with shallower root systems or ones known to handle alkaline, restricted-drainage conditions. Our [desert plants guide](/blog/desert-plants-las-cruces/) covers species that do well in Las Cruces specifically.
+**Soil compatibility.** If your test holes showed shallow hardpan or poor drainage, favor plants with shallower root systems or ones known to handle alkaline, restricted-drainage conditions. Our [desert plants guide](/blog/desert-plants-las-cruces/) covers species that do well in Las Cruces specifically.
 
 **Shade and sun patterns.** Your yard's sun exposure in October is very different from June — the sun angle is lower and days are shorter. A spot that gets full sun all summer might be part-shade by October. Plan based on winter sun angles, since that's when your new plants will be establishing.
 
@@ -139,7 +139,7 @@ Las Cruces nurseries — Garden Center of Las Cruces, Sutherlands, and others �
 Here's what the next three months look like if you're planning a fall planting project:
 
 **August (now):**
-- Dig test holes to check caliche depth
+- Dig test holes to check soil and drainage
 - Collect and submit soil samples for testing
 - Audit irrigation system post-monsoon
 - Fix drainage problems monsoons revealed
@@ -160,12 +160,12 @@ Here's what the next three months look like if you're planning a fall planting p
 
 ## Don't Skip the Prep
 
-The difference between a fall planting that thrives and one that struggles through its first year almost always comes down to what happened before the plant went in the ground. Soil conditions, drainage, irrigation infrastructure, and caliche management aren't glamorous — but they're the foundation that determines whether your investment grows or dies.
+The difference between a fall planting that thrives and one that struggles through its first year almost always comes down to what happened before the plant went in the ground. Soil conditions, drainage, and irrigation infrastructure aren't glamorous — but they're the foundation that determines whether your investment grows or dies.
 
 Las Cruces gives you a fantastic fall planting window. Make sure your yard is ready for it.
 
 ## Ready to Plan Your Fall Project?
 
-If you're looking at a bigger project — multiple trees, a full bed redesign, a [xeriscape conversion](/services/landscaping/xeriscaping/), or work that involves [breaking through caliche](/blog/caliche-las-cruces/#breaking-through) — a site visit now lets us assess your soil, drainage, and irrigation situation and have a plan ready before the planting window opens.
+If you're looking at a bigger project — multiple trees, a full bed redesign, or a [xeriscape conversion](/services/landscaping/xeriscaping/) — a site visit now lets us assess your soil, drainage, and irrigation situation and have a plan ready before the planting window opens.
 
 [Get a free estimate →](/contact/)

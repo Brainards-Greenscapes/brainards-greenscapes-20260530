@@ -1,8 +1,8 @@
 ---
 layout: layouts/blog.njk
 title: "Gravel vs. Pavers vs. Concrete: Choosing Hardscape in Las Cruces"
-description: "Comparing gravel, pavers, flagstone, and concrete for Las Cruces patios, walkways, and driveways — heat, durability, drainage, maintenance, and what works on caliche soil."
-excerpt: "Every hardscape material has trade-offs. In Las Cruces, the deciding factors aren't the same as they'd be in Dallas or Denver — our soil moves, our sun is relentless, and drainage has to account for both caliche underneath and monsoon bursts on top."
+description: "Comparing gravel, pavers, flagstone, and concrete for Las Cruces patios, walkways, and driveways — heat, durability, drainage, maintenance, and what works on desert soil."
+excerpt: "Every hardscape material has trade-offs. In Las Cruces, the deciding factors aren't the same as they'd be in Dallas or Denver — our soil moves, our sun is relentless, and drainage has to account for poor subsurface permeability and monsoon bursts on top."
 date: 2026-08-28
 tags: blog
 ---
@@ -12,10 +12,10 @@ tags: blog
 ## Key Takeaways
 
 - [Heat is a real factor here](#heat-how-hot-does-it-get-underfoot) — Concrete and dark pavers can hit 150°F+ on a Las Cruces summer afternoon. Light-colored flagstone and gravel stay noticeably cooler. If you walk your patio barefoot, material choice matters.
-- [Caliche changes the durability equation](#durability-on-las-cruces-soil) — Poured concrete cracks when the soil underneath shifts. Pavers and flagstone flex with it. On caliche soils that expand and contract with monsoon moisture, that flexibility is a significant advantage.
+- [Desert soil changes the durability equation](#durability-on-las-cruces-soil) — Poured concrete cracks when the soil underneath shifts. Pavers and flagstone flex with it. On desert soils that expand and contract with monsoon moisture, that flexibility is a significant advantage.
 - [Drainage behavior differs by material](#drainage-and-monsoon-performance) — Gravel and gapped pavers drain in place. Poured concrete sheds everything to the edges. In a climate where half the annual rainfall arrives in 30-minute bursts, where the water goes matters as much as the surface you walk on.
 - [Maintenance isn't the same as durability](#maintenance-what-each-surface-actually-needs) — Gravel is low-maintenance but needs periodic replenishment. Pavers need almost nothing but can shift if the base fails. Concrete is zero-maintenance until it cracks — then it's a big fix.
-- [The base matters more than the surface](#the-base-matters-more-than-the-material) — In Las Cruces, any hardscape surface is only as good as the compacted base underneath it. On caliche soils, skimping on base prep is the single most common cause of hardscape failure.
+- [The base matters more than the surface](#the-base-matters-more-than-the-material) — In Las Cruces, any hardscape surface is only as good as the compacted base underneath it. Skimping on base prep is the single most common cause of hardscape failure.
 
 </div>
 
@@ -39,7 +39,7 @@ In a climate where summer surface temperatures routinely exceed 140°F, the mate
 
 ## Durability on Las Cruces Soil
 
-This is where Las Cruces conditions diverge from what you'll read in most hardscaping guides. Our soil moves. [Caliche](/blog/caliche-las-cruces/) creates an impermeable layer that traps moisture above it during monsoons, and that moisture causes the upper soil to expand. When it dries out — which happens fast in our climate — it contracts. This seasonal expansion-contraction cycle puts stress on any rigid surface sitting on top of it.
+This is where Las Cruces conditions diverge from what you'll read in most hardscaping guides. Our soil moves. Much of the area has compacted desert soils — sometimes sandy, sometimes clay-heavy, and in some neighborhoods an impermeable [caliche](/blog/caliche-las-cruces/) layer — that trap moisture near the surface during monsoons. That moisture causes the upper soil to expand. When it dries out — which happens fast in our climate — it contracts. This seasonal expansion-contraction cycle puts stress on any rigid surface sitting on top of it.
 
 **Poured concrete** is rigid. It can't flex with soil movement, so it cracks. On stable, well-drained soil with no caliche, a properly poured slab with control joints can last decades. On Las Cruces caliche soils, cracking is common within a few years — especially on larger slabs. Once a poured slab cracks, the repair is visible. You can fill the crack, but you can't make it disappear. Stamped concrete is worse in this regard because the decorative pattern makes any crack more obvious and harder to patch convincingly.
 
@@ -49,7 +49,7 @@ This is where Las Cruces conditions diverge from what you'll read in most hardsc
 
 **Gravel and decomposed granite** are inherently flexible — there's nothing rigid to crack. Soil movement under a gravel surface is invisible. The trade-off is that gravel migrates over time (especially on slopes) and needs periodic raking and replenishment. But it will never crack, heave, or require structural repair.
 
-**The practical takeaway:** on Las Cruces caliche soils, flexible systems (pavers, flagstone, gravel) generally outperform rigid systems (poured concrete) for long-term durability. If you want poured concrete, invest in a thicker base, more control joints, and fiber reinforcement — and accept that some cracking is likely over time.
+**The practical takeaway:** on Las Cruces desert soils, flexible systems (pavers, flagstone, gravel) generally outperform rigid systems (poured concrete) for long-term durability. If you want poured concrete, invest in a thicker base, more control joints, and fiber reinforcement — and accept that some cracking is likely over time.
 
 ## Drainage and Monsoon Performance
 
@@ -119,7 +119,7 @@ Rather than ranking materials overall, here's where each one tends to make the m
 
 This is the point we come back to on every hardscape project, and it's the most important takeaway from this comparison: in Las Cruces, the base preparation underneath your hardscape determines its longevity more than the surface material you choose.
 
-On [caliche soils](/blog/caliche-las-cruces/), a properly compacted aggregate base serves two functions: it distributes weight evenly so the surface doesn't develop low spots, and it creates a stable layer between the surface and the expansive soil underneath. Without that base, any material — flagstone, pavers, concrete, gravel — will shift, settle, or crack as the soil beneath it moves with seasonal moisture changes.
+On Las Cruces desert soils — whether you're dealing with [caliche](/blog/caliche-las-cruces/), compacted fill, or expansive clay — a properly compacted aggregate base serves two functions: it distributes weight evenly so the surface doesn't develop low spots, and it creates a stable layer between the surface and the reactive soil underneath. Without that base, any material — flagstone, pavers, concrete, gravel — will shift, settle, or crack as the soil beneath it moves with seasonal moisture changes.
 
 We covered this in detail during the [courtyard rebuild](/blog/courtyard-rebuild-las-cruces/#rebuilding-from-the-ground-up), where base preparation took more time than the stone-setting itself. That's normal. On every hardscape project David quotes, the base work is the largest portion of the labor — and it's the part that determines whether you're happy with the surface five years from now.
 

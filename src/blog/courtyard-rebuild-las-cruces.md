@@ -28,7 +28,7 @@ The homeowner called about the patio, not the tree. Flagstones were cracking, ed
 
 But when David walked the courtyard, the pattern told a different story. The cracks and displacement radiated outward from the base of a large mesquite growing in the center of the space. The tree wasn't visibly sick — it still had canopy, still leafed out in spring. But underneath the patio, its root system was doing exactly what mesquite roots do: spreading aggressively in every direction, displacing soil and lifting anything sitting on top of it.
 
-This is a common situation in Las Cruces. Mesquite trees are native, drought-tolerant, and deeply rooted in the right conditions. But in a courtyard setting with [caliche](/blog/caliche-las-cruces/) restricting downward root growth, the roots spread laterally instead — right under hardscape surfaces. The shallow root system that makes mesquites so drought-resilient is the same system that cracks patios, lifts walkways, and eventually threatens foundations.
+This is a common situation in Las Cruces. Mesquite trees are native, drought-tolerant, and deeply rooted in the right conditions. But in a courtyard setting with compacted soil or [caliche](/blog/caliche-las-cruces/) restricting downward root growth, the roots spread laterally instead — right under hardscape surfaces. The shallow root system that makes mesquites so drought-resilient is the same system that cracks patios, lifts walkways, and eventually threatens foundations.
 
 The homeowner had two choices: keep patching individual stones every year as the roots continued to spread, or address the source of the problem. They chose to address it.
 
@@ -71,9 +71,9 @@ In Las Cruces, patio drainage matters more than people think. During [monsoon se
 
 ### Base Preparation
 
-The base is the part you never see, and it's the part that determines whether the patio stays flat. Over [caliche](/blog/caliche-las-cruces/) soils — which this courtyard had — you need a compacted base layer that distributes weight evenly and doesn't shift when the soil underneath expands or contracts with moisture changes.
+The base is the part you never see, and it's the part that determines whether the patio stays flat. This courtyard had a hard [caliche](/blog/caliche-las-cruces/) layer underneath, but the principle applies to any Las Cruces yard — you need a compacted base layer that distributes weight evenly and doesn't shift when the soil underneath expands or contracts with moisture changes.
 
-Without a proper base, flagstone set directly on Las Cruces soil will move. The clay fraction swells when wet (monsoons) and shrinks when dry (the other nine months). The caliche layer underneath prevents drainage, so moisture sits in the upper soil and exaggerates the movement. A compacted gravel base breaks this cycle — it provides a stable platform that doesn't respond to moisture the way native soil does.
+Without a proper base, flagstone set directly on Las Cruces soil will move. Desert soils swell when wet (monsoons) and shrink when dry (the other nine months). Where drainage is poor — whether from caliche, compacted fill, or heavy clay — moisture sits in the upper soil and exaggerates the movement. A compacted gravel base breaks this cycle — it provides a stable platform that doesn't respond to moisture the way native soil does.
 
 ### Setting the Stone
 
