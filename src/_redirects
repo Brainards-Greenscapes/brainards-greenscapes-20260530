@@ -94,3 +94,24 @@ https://brainardsgreenscapes.com/* https://www.brainardsgreenscapes.com/:splat 3
 /policy/privacy-policy/ /privacy/ 301
 /policy/terms-of-service/ /terms/ 301
 /page-sitemap.xml /sitemap.xml 301
+
+# GSC 404 cleanup (2026-09-01): new gaps found via GA4 + Coverage Drilldown
+
+# -> irrigation
+/areas-of-service/las-cruces-sprinkler-system-repair/ /services/irrigation/sprinkler-repair/ 301
+
+# -> hardscaping
+/areas-of-service/las-cruces-hardscaping-services/ /services/hardscaping/ 301
+/hardscaping/patio-construction/ /services/hardscaping/patios/ 301
+
+# -> landscaping
+/areas-of-service/mesilla-sod-installation-service/ /services/landscaping/sod-installation/ 301
+/areas-of-service/mesilla-landscaping-services/ /services/landscaping/ 301
+/services/raised-garden-beds/ /services/landscaping/raised-garden-beds/ 301
+
+# -> misc
+/policy/cookie-policy/ /privacy/ 301
+
+# Catch-all: any remaining old /areas-of-service/ URL not explicitly mapped above
+# MUST stay at the bottom — Cloudflare Pages matches top-down, specific rules first
+/areas-of-service/* /service-areas/las-cruces-nm/ 301
