@@ -11,7 +11,7 @@ tags: blog
 
 ## Key Takeaways
 
-- [Check their license first](#check-their-license) — New Mexico requires a GS-3 contractor license for landscape work. You can verify any contractor's license for free on the state's website in about 30 seconds.
+- [Check their license first](#check-their-license) — New Mexico requires contractor licensing for landscape work. You can verify any contractor's license for free on the state's website in about 30 seconds.
 - [Insurance isn't optional](#verify-their-insurance) — If an uninsured worker gets hurt on your property, you may be liable. Ask for a certificate of insurance before work starts, not after.
 - [Get it in writing](#get-a-written-estimate) — A real estimate lists scope, materials, timeline, payment terms, and warranty. A number scribbled on a business card isn't an estimate — it's a guess.
 - [The cheapest bid usually costs the most](#why-the-cheapest-bid-usually-costs-the-most) — A low number often means corners are being cut on base prep, materials, or labor. You'll pay to fix it later.
@@ -25,11 +25,9 @@ This is an insider's perspective on what to look for, what to ask, and what shou
 
 ## Check Their License
 
-New Mexico requires a GS-3 Landscape Contractor license from the Construction Industries Division (CID) for landscape installation work. This isn't a suggestion — it's state law. The license means the contractor has at least two years of qualifying experience, passed both a trade exam and a business law exam, carries a $10,000 surety bond, and maintains insurance.
+New Mexico requires contractor licensing for landscape installation work through the Construction Industries Division (CID). Before hiring anyone, verify that they hold a current, active license for the type of work you need done.
 
 **How to verify:** Go to the [New Mexico Regulation and Licensing Department's website](https://rld.nm.gov/construction-industries/) and search by company name or license number. It takes 30 seconds. You'll see whether the license is active, what classifications it covers, and whether there are any complaints or disciplinary actions on file.
-
-**What if they say they don't need one?** There's a narrow handyman exemption for casual, minor work — but it has strict limits. Any serious landscaping project (hardscaping, irrigation, grading, retaining walls, tree removal near structures) should be done by a licensed contractor. If someone tells you they don't need a license for the scope of work you're discussing, that's a red flag.
 
 **Why this matters beyond legality:** if an unlicensed contractor does substandard work, you have limited recourse. The CID handles complaints against licensed contractors and can compel corrective action. With an unlicensed operator, your options are small claims court — and you have to find them first.
 
