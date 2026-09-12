@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: "Landscaping Tips & Guides for Las Cruces | Brainard's Greenscapes Blog"
+title: "Landscaping Tips & Guides for Las Cruces | Brainard's Greenscapes"
 description: "Practical landscaping advice for Las Cruces homeowners — xeriscaping, water savings, irrigation tips, and desert-smart yard care from Brainard's Greenscapes."
 ---
 
@@ -8,21 +8,33 @@ description: "Practical landscaping advice for Las Cruces homeowners — xerisca
 <section class="bg-green-950 text-white py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
     <p class="text-green-300 font-semibold text-sm uppercase tracking-wider mb-4">Tips & Guides</p>
-    <h1 class="font-heading text-5xl md:text-6xl font-bold mb-4">The Brainard's Blog</h1>
+    <h1 class="font-heading text-5xl md:text-6xl font-bold mb-4">Tips & Guides</h1>
     <p class="text-green-100 text-lg max-w-2xl mx-auto">Practical advice for keeping your Las Cruces property looking great — without fighting the desert.</p>
   </div>
 </section>
 
-<!-- Posts grid -->
+<!-- Category filters + Posts grid -->
 <section class="py-16">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+    <!-- Filter tabs -->
+    <div class="flex flex-wrap gap-2 mb-10 justify-center" role="tablist" aria-label="Filter posts by category">
+      <button role="tab" aria-selected="true" data-filter="all" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-green-700 text-white">All</button>
+      <button role="tab" aria-selected="false" data-filter="Irrigation" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Irrigation</button>
+      <button role="tab" aria-selected="false" data-filter="Hardscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Hardscaping</button>
+      <button role="tab" aria-selected="false" data-filter="Seasonal" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Seasonal</button>
+      <button role="tab" aria-selected="false" data-filter="Landscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Landscaping</button>
+      <button role="tab" aria-selected="false" data-filter="Getting Started" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Getting Started</button>
+    </div>
+
     {% set posts = collections.blog | reverse %}
     {% if posts.length > 0 %}
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" id="blog-grid">
       {% for post in posts %}
-      <a href="{{ post.url }}" class="group relative block bg-white border border-gray-200 rounded-xl p-8 hover:border-green-300 hover:shadow-lg transition-all overflow-hidden">
+      <a href="{{ post.url }}" data-category="{{ post.data.category }}" class="blog-card group relative block bg-white border border-gray-200 rounded-xl p-8 hover:border-green-300 hover:shadow-lg transition-all overflow-hidden">
         <img src="/assets/images/BG_logo_tree_only.png" alt="" aria-hidden="true" class="absolute -bottom-6 -right-6 w-32 h-32 transition-opacity watermark" loading="lazy">
-        <time datetime="{{ post.date | date('iso') }}" class="text-sm text-gray-400">{{ post.date | date('readable') }}</time>
+        <span class="inline-block text-xs font-medium text-green-700 bg-green-50 px-2 py-0.5 rounded-full mb-2">{{ post.data.category }}</span>
+        <time datetime="{{ post.date | date('iso') }}" class="block text-sm text-gray-400">{{ post.date | date('readable') }}</time>
         <h2 class="font-heading text-xl font-semibold text-green-900 mt-2 mb-3 group-hover:text-green-700">{{ post.data.title }}</h2>
         <p class="text-gray-600 text-sm leading-relaxed mb-4">{{ post.data.excerpt }}</p>
         <span class="text-green-700 text-sm font-medium">Read more &rarr;</span>
@@ -38,3 +50,35 @@ description: "Practical landscaping advice for Las Cruces homeowners — xerisca
 </section>
 
 {% include "partials/banner.njk" %}
+
+<script>
+(function() {
+  var tabs = document.querySelectorAll('.blog-filter-tab');
+  var cards = document.querySelectorAll('.blog-card');
+
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      var filter = this.getAttribute('data-filter');
+
+      // Update tab styles
+      tabs.forEach(function(t) {
+        t.classList.remove('bg-green-700', 'text-white');
+        t.classList.add('bg-gray-100', 'text-gray-600');
+        t.setAttribute('aria-selected', 'false');
+      });
+      this.classList.remove('bg-gray-100', 'text-gray-600');
+      this.classList.add('bg-green-700', 'text-white');
+      this.setAttribute('aria-selected', 'true');
+
+      // Filter cards
+      cards.forEach(function(card) {
+        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+})();
+</script>

@@ -5,6 +5,7 @@ description: "How to keep your Las Cruces yard alive through 100°+ summer heat 
 excerpt: "Triple-digit heat is here. Here's how to keep your landscape alive — whether you're running sprinklers on bermuda grass or maintaining a xeriscape — without blowing your water budget or fighting the city's watering schedule."
 date: 2026-06-22
 tags: blog
+category: Seasonal
 ---
 
 <div class="key-takeaways">

@@ -5,6 +5,7 @@ description: "Comparing gravel, pavers, flagstone, and concrete for Las Cruces p
 excerpt: "Every hardscape material has trade-offs. In Las Cruces, the deciding factors aren't the same as they'd be in Dallas or Denver — our soil moves, our sun is relentless, and drainage has to account for poor subsurface permeability and monsoon bursts on top."
 date: 2026-08-28
 tags: blog
+category: Hardscaping
 ---
 
 <div class="key-takeaways">

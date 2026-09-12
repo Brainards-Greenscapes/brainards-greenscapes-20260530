@@ -5,6 +5,7 @@ description: "Smart irrigation controllers adjust watering based on weather and 
 excerpt: "Your irrigation controller doesn't know it rained last night. It doesn't know it's 58°F in November or 107°F in June. A smart controller does — and in Las Cruces, where water needs swing dramatically by season, that difference adds up fast."
 date: 2026-08-14
 tags: blog
+category: Irrigation
 ---
 
 <div class="key-takeaways">

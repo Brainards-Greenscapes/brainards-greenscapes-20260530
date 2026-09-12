@@ -5,6 +5,7 @@ description: "What to check, what to ask, and what to watch out for when hiring 
 excerpt: "You'll get three quotes, one will be dramatically cheaper, and you'll be tempted. Here's how to tell which landscaper is going to do the job right — and which one is going to disappear after cashing your deposit."
 date: 2026-09-04
 tags: blog
+category: Getting Started
 ---
 
 <div class="key-takeaways">

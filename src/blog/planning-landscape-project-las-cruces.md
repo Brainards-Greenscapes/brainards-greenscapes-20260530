@@ -5,6 +5,7 @@ description: "Planning a landscaping project in Las Cruces? Here's what makes th
 excerpt: "Las Cruces isn't Tucson, Albuquerque, or Phoenix. Our elevation, soil, water rules, and weather create conditions that filter out most generic Southwest landscaping advice. Here's what you need to know before breaking ground."
 date: 2026-07-30
 tags: blog
+category: Getting Started
 ---
 
 <div class="key-takeaways">

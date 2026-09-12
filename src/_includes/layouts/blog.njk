@@ -38,7 +38,7 @@ layout: layouts/base.njk
     <ol class="flex items-center gap-2 text-sm text-gray-500">
       <li><a href="/" class="hover:text-green-700">Home</a></li>
       <li><span aria-hidden="true">&rsaquo;</span></li>
-      <li><a href="/blog/" class="hover:text-green-700">Blog</a></li>
+      <li><a href="/blog/" class="hover:text-green-700">Tips & Guides</a></li>
       <li><span aria-hidden="true">&rsaquo;</span></li>
       <li><span class="text-gray-900">{{ title }}</span></li>
     </ol>
@@ -80,7 +80,7 @@ layout: layouts/base.njk
 {% if related.length > 0 %}
 <section class="py-12 bg-green-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="font-heading text-2xl font-bold text-gray-900 mb-8 text-center">More from the Blog</h2>
+    <h2 class="font-heading text-2xl font-bold text-gray-900 mb-8 text-center">More Tips & Guides</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {% for post in related | reverse %}
         {% if loop.index0 < 3 %}

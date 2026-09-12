@@ -5,6 +5,7 @@ description: "A declining mesquite was cracking a Las Cruces courtyard patio. He
 excerpt: "The mesquite looked fine from the street. But underneath the flagstone, its root system was doing real damage — cracking stone, lifting edges, and working its way toward the foundation. Here's how the job went, step by step."
 date: 2026-08-21
 tags: blog
+category: Hardscaping
 ---
 
 <div class="key-takeaways">

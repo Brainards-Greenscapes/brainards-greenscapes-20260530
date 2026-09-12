@@ -5,6 +5,7 @@ description: "Fall is the best time to plant trees and shrubs in Las Cruces — 
 excerpt: "October and November are prime planting months in Las Cruces. But if you wait until October to start getting ready, you're already behind. The real work — soil testing, amending, irrigation repairs, drainage fixes — happens now."
 date: 2026-08-06
 tags: blog
+category: Seasonal
 ---
 
 <div class="key-takeaways">

@@ -5,6 +5,7 @@ description: "Considering artificial turf in Las Cruces? Here's what it actually
 excerpt: "Artificial turf eliminates mowing, watering, and the odd/even schedule — but it's not magic. Here's an honest look at cost, heat, maintenance, and when it makes sense in Las Cruces."
 date: 2026-06-19
 tags: blog
+category: Landscaping
 ---
 
 <div class="key-takeaways">

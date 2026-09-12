@@ -5,6 +5,7 @@ description: "A field-tested guide to desert-friendly trees, shrubs, and ground 
 excerpt: "Not every 'desert plant' list applies here. This guide covers desert-friendly plants that actually thrive in Las Cruces — backed by NMSU research, available at local nurseries, and proven on real job sites."
 date: 2026-07-16
 tags: blog
+category: Landscaping
 ---
 
 <div class="key-takeaways">

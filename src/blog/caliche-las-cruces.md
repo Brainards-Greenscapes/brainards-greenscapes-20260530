@@ -5,6 +5,7 @@ description: "Caliche — the hidden cement layer under most Las Cruces yards �
 excerpt: "That concrete-like layer six inches under your yard isn't a mystery — it's caliche, and it's the single biggest factor most Las Cruces homeowners don't know about when planning a landscaping project."
 date: 2026-07-23
 tags: blog
+category: Landscaping
 ---
 
 <div class="key-takeaways">

@@ -5,6 +5,7 @@ description: "Sprinkler heads broken? Drip emitters clogged? Here are the most c
 excerpt: "Las Cruces is tough on irrigation systems — hard water, UV, wind, and monsoons all take their toll. Here's how to diagnose the most common problems and which ones you can fix yourself."
 date: 2026-06-26
 tags: blog
+category: Irrigation
 ---
 
 <div class="key-takeaways">
