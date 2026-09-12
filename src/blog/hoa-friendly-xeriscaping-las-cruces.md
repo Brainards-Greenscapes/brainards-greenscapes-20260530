@@ -20,7 +20,7 @@ category: Landscaping
 
 </div>
 
-If you live in one of Las Cruces's HOA neighborhoods — Sonoma Ranch, Picacho Hills, the Metro Verde subdivisions, or any of the newer developments on the east mesa — you've probably thought about xeriscaping. The water savings alone make it worth considering. But then there's the HOA.
+If you live in one of Las Cruces's HOA neighborhoods — Sonoma Ranch, Picacho Hills, the Metro Verde subdivisions, or any of the newer developments on the east mesa — you've probably thought about [xeriscaping](/services/landscaping/xeriscaping/). The water savings alone make it worth considering. But then there's the HOA.
 
 The question most homeowners ask is: "Can my HOA stop me from xeriscaping?" The answer is more nuanced than you'd expect, and getting it wrong can mean an expensive redo or a violation you have to fight.
 
@@ -116,7 +116,7 @@ This is a fraction of the work a grass lawn requires. No mowing, no fertilizing,
 
 ## When to Bring in a Pro
 
-You can design and install a xeriscape yourself. But if you're in an HOA neighborhood, there are good reasons to work with a landscaper:
+You can design and install a xeriscape yourself. But if you're in an HOA neighborhood, there are good reasons to work with a [landscaper who does xeriscape installs](/services/landscaping/xeriscaping/):
 
 **The ARC submission.** A professional site plan with a plant list and material spec carries more weight than a hand-drawn sketch. If David does the design, the submittal package comes from someone who's done this before — and the ARC knows the plans are buildable, not aspirational.
 
@@ -128,6 +128,6 @@ If you're [planning a landscape project](/blog/planning-landscape-project-las-cr
 
 ## Ready to Plan Your Xeriscape?
 
-If you're thinking about converting your yard and want to make sure it passes your HOA's review on the first submission, a site visit is the best starting point. David can look at your yard, review your HOA's guidelines with you, and put together a plan that satisfies the committee and saves you water.
+If you're thinking about [converting your yard to xeriscape](/services/landscaping/xeriscaping/) and want to make sure it passes your HOA's review on the first submission, a site visit is the best starting point. David can look at your yard, review your HOA's guidelines with you, and put together a plan that satisfies the committee and saves you water.
 
 [Get a free estimate →](/contact/)

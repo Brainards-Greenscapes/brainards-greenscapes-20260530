@@ -18,14 +18,16 @@ description: "Practical landscaping advice for Las Cruces homeowners — xerisca
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <!-- Filter tabs -->
-    <div class="flex flex-wrap gap-2 mb-10 justify-center" role="tablist" aria-label="Filter posts by category">
-      <button role="tab" aria-selected="true" data-filter="all" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-green-700 text-white">All</button>
-      <button role="tab" aria-selected="false" data-filter="Irrigation" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Irrigation</button>
-      <button role="tab" aria-selected="false" data-filter="Hardscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Hardscaping</button>
-      <button role="tab" aria-selected="false" data-filter="Seasonal" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Seasonal</button>
-      <button role="tab" aria-selected="false" data-filter="Landscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Landscaping</button>
-      <button role="tab" aria-selected="false" data-filter="Getting Started" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Getting Started</button>
+    <div class="flex flex-wrap gap-2 mb-10 justify-center" role="group" aria-label="Filter posts by category">
+      <button type="button" aria-pressed="true" data-filter="all" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-green-700 text-white">All</button>
+      <button type="button" aria-pressed="false" data-filter="Irrigation" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Irrigation</button>
+      <button type="button" aria-pressed="false" data-filter="Hardscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Hardscaping</button>
+      <button type="button" aria-pressed="false" data-filter="Seasonal" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Seasonal</button>
+      <button type="button" aria-pressed="false" data-filter="Landscaping" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Landscaping</button>
+      <button type="button" aria-pressed="false" data-filter="Getting Started" class="blog-filter-tab px-4 py-2 rounded-full text-sm font-medium transition-colors bg-gray-100 text-gray-600 hover:bg-green-50 hover:text-green-700">Getting Started</button>
     </div>
+
+    <p id="blog-filter-status" class="sr-only" role="status" aria-live="polite"></p>
 
     {% set posts = collections.blog | reverse %}
     {% if posts.length > 0 %}
@@ -55,30 +57,35 @@ description: "Practical landscaping advice for Las Cruces homeowners — xerisca
 (function() {
   var tabs = document.querySelectorAll('.blog-filter-tab');
   var cards = document.querySelectorAll('.blog-card');
+  var status = document.getElementById('blog-filter-status');
+
+  function applyFilter(btn) {
+    var filter = btn.getAttribute('data-filter');
+    var shown = 0;
+
+    tabs.forEach(function(t) {
+      var on = (t === btn);
+      t.classList.toggle('bg-green-700', on);
+      t.classList.toggle('text-white', on);
+      t.classList.toggle('bg-gray-100', !on);
+      t.classList.toggle('text-gray-600', !on);
+      t.setAttribute('aria-pressed', on ? 'true' : 'false');
+    });
+
+    cards.forEach(function(card) {
+      var match = (filter === 'all' || card.getAttribute('data-category') === filter);
+      card.style.display = match ? '' : 'none';
+      if (match) { shown++; }
+    });
+
+    if (status) {
+      status.textContent = shown + (shown === 1 ? ' post' : ' posts') +
+        (filter === 'all' ? ' shown' : ' in ' + filter) + '.';
+    }
+  }
 
   tabs.forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      var filter = this.getAttribute('data-filter');
-
-      // Update tab styles
-      tabs.forEach(function(t) {
-        t.classList.remove('bg-green-700', 'text-white');
-        t.classList.add('bg-gray-100', 'text-gray-600');
-        t.setAttribute('aria-selected', 'false');
-      });
-      this.classList.remove('bg-gray-100', 'text-gray-600');
-      this.classList.add('bg-green-700', 'text-white');
-      this.setAttribute('aria-selected', 'true');
-
-      // Filter cards
-      cards.forEach(function(card) {
-        if (filter === 'all' || card.getAttribute('data-category') === filter) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
-    });
+    tab.addEventListener('click', function() { applyFilter(this); });
   });
 })();
 </script>
