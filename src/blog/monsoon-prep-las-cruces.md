@@ -66,7 +66,7 @@ If you have [French drains](/services/drainage/french-drains/), gravel swales, c
 - Point them toward a drainage path, not into a landscape bed where they'll erode soil away from plant roots
 - Splash blocks help, but they're not enough in a heavy monsoon rain — the volume overwhelms them
 
-Las Cruces soil is deceptive. The top few inches of sandy loam absorb rain quickly, but hit the caliche layer 12–18 inches down and water has nowhere to go. It pools, saturates the topsoil, and runs off. That's why proper drainage infrastructure matters more here than in places with deep, absorptive soil.
+Las Cruces soil is deceptive. The top few inches of sandy loam absorb rain quickly, but hit the [caliche layer](/blog/caliche-las-cruces/) — which can sit anywhere from six inches to several feet below the surface — and water has nowhere to go. It pools, saturates the topsoil, and runs off. That's why proper drainage infrastructure matters more here than in places with deep, absorptive soil.
 
 ## Protect Your Irrigation System
 
@@ -113,7 +113,7 @@ Monsoon season is simultaneously the best and worst time for Las Cruces landscap
 
 **Protecting plants during storms:**
 
-- **Stake young trees.** Any tree planted in the last year should be staked through its first monsoon season. Las Cruces monsoon winds can gust above 60 mph, and a tree that hasn't anchored its root system will lean or blow over.
+- **Stake young trees.** Any tree planted in the last two years should still be staked through monsoon season. Las Cruces monsoon winds can gust above 60 mph, and a tree that hasn't fully anchored its root system will lean or blow over.
 - **Clear debris from bed edges.** Rock and gravel that wash out of beds during storms clog drainage paths and can bury low-growing plants.
 - **Watch for root rot after rain.** Desert plants are adapted to drought, not standing water. If a bed stays soggy for more than 48 hours after a storm, you have a drainage problem. [Desert-adapted plants](/services/landscaping/xeriscaping/) like agaves, yuccas, and cacti will rot if their roots sit in saturated soil.
 

@@ -128,7 +128,7 @@ Not all artificial turf installations are equal, and in Las Cruces, the details 
 
 **Pet odor plan.** If you have dogs, ask how they handle odor long-term. If the answer is "antimicrobial infill," push back — infill compacts and stops working. You want an installer who prioritizes drainage and recommends ongoing enzyme-based deodorizing.
 
-**Drainage for monsoon season.** Las Cruces gets 8–10 inches of rain a year, and most of it dumps during July–September monsoons. Your turf installation needs to handle sudden heavy rainfall without pooling. This goes back to base prep and grading.
+**Drainage for monsoon season.** Las Cruces averages 9.1 inches of rain a year, and most of it dumps during July–September monsoons. Your turf installation needs to handle sudden heavy rainfall without pooling. This goes back to base prep and grading.
 
 **Warranty and product quality.** Ask about the turf manufacturer's UV warranty. Cheap turf fades and breaks down fast in our sun. A quality product with a 10–15 year UV warranty is standard for the Las Cruces market.
 

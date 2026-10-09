@@ -34,7 +34,7 @@ Every landscaping decision here starts with five factors that most online guides
 
 **Alkaline soil.** Our soil pH runs 7.5 to 8.5, driven by high calcium carbonate content. That locks out iron, zinc, and manganese — which is why so many Las Cruces plants develop yellow leaves with green veins (iron chlorosis). You can't fix this with fertilizer alone. You have to choose plants adapted to high-pH soils or amend the soil correctly.
 
-**Low rainfall, high evaporation.** Las Cruces averages about 8–11 inches of rain per year, most of it arriving in July and August monsoon bursts. Between storms, summer humidity drops below 10% and temperatures hit the upper 90s. Water evaporates before it soaks in, which means surface irrigation is inherently wasteful here.
+**Low rainfall, high evaporation.** Las Cruces averages just 9.1 inches of rain per year (NOAA 1991–2020), most of it arriving in July and August monsoon bursts. Between storms, summer humidity drops below 10% and temperatures hit the upper 90s. Water evaporates before it soaks in, which means surface irrigation is inherently wasteful here.
 
 **Wind.** Spring wind in the Mesilla Valley isn't a nuisance — it's a design factor. Sustained winds of 25–40 mph in March and April dry out soil, damage young plants, and strip mulch from beds. Landscape designs need windbreaks, heavier mulch materials (rock and decomposed granite, not bark), and plants tough enough to handle it.
 
@@ -147,7 +147,7 @@ After years of working across Las Cruces, these are the problems we see most oft
 
 **Planting without checking for caliche.** Trees go in, look fine for a year, then decline because their roots are trapped above an impermeable layer. A test hole before planting would have caught it.
 
-**Using sprinklers for everything.** Sprinklers lose 30–50% of their water to evaporation and wind in our climate. [Drip irrigation](/blog/drip-vs-sprinklers-las-cruces/) delivers water where it actually needs to go.
+**Using sprinklers for everything.** Sprinklers lose 25–50% of their water to evaporation and wind in our climate. [Drip irrigation](/blog/drip-vs-sprinklers-las-cruces/) delivers water where it actually needs to go.
 
 **Importing plants from out of zone.** That beautiful shrub from the nursery in Albuquerque (Zone 7a/7b) may handle colder winters but not our summer intensity. Plants need to be proven for our specific conditions.
 

@@ -30,7 +30,7 @@ The label "desert-friendly" on a nursery tag doesn't mean Las Cruces-friendly. O
 
 **Hard freezes.** We're USDA Zone 8a — average minimum temps of 10–15°F. Phoenix is Zone 9b (25–30°F minimum). That 15-degree gap kills Bougainvillea, most Citrus, and forces plants like Lantana to die back to the ground each winter (they usually come back in spring, but they're not the reliable evergreen perennials the nursery tag suggests).
 
-**Alkaline soil.** pH 7.5–8.3 across most of the valley. Trees that need acidic soil — most Oaks except a few adapted species, Japanese Maples, many Dogwoods — develop iron chlorosis here. Yellow leaves with green veins, poor growth, eventual decline.
+**Alkaline soil.** pH 7.5–8.5 across most of the valley. Trees that need acidic soil — most Oaks except a few adapted species, Japanese Maples, many Dogwoods — develop iron chlorosis here. Yellow leaves with green veins, poor growth, eventual decline.
 
 **Wind.** Sustained 25–40 mph from February through June. Brittle-wooded trees — Arizona Ash, Siberian Elm, Bradford Pear — drop limbs or split at the trunk during wind events. Any tree you plant needs to either flex with the wind or have the structural strength to resist it.
 

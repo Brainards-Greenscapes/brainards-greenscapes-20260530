@@ -28,9 +28,9 @@ Most plant failures we see on job sites aren't caused by the wrong plant or the 
 
 Caliche is a whitish-gray or cream-colored soil layer cemented together by calcium and magnesium carbonates. NMSU Extension describes it as ranging from "a soft, thin soil horizon" to "a hard, thick bed" depending on conditions ([Guide A-151](https://pubs.nmsu.edu/_a/A151/index.html)). The hard stuff — what soil scientists call "strongly indurated" — is the real problem. You can't break it with a shovel. Sometimes you need a jackhammer.
 
-Here's how it forms: rainwater dissolves carbonates in the upper soil and carries them downward. In wet climates, those carbonates keep moving deep into the ground. But in Las Cruces, where we average about eight inches of rain per year, the water evaporates before it gets very far. The carbonates get deposited and, over time, cement together with sand, clay, and silt into a rock-hard layer.
+Here's how it forms: rainwater dissolves carbonates in the upper soil and carries them downward. In wet climates, those carbonates keep moving deep into the ground. But in Las Cruces, where we average just 9.1 inches of rain per year (NOAA 1991–2020), the water evaporates before it gets very far. The carbonates get deposited and, over time, cement together with sand, clay, and silt into a rock-hard layer.
 
-The drier the climate, the shallower the caliche. Research shows that at 14 inches of annual rainfall, the caliche layer typically sits about 10 inches down. With our eight inches, it can be even shallower — sometimes right at the surface where erosion has exposed it.
+The drier the climate, the shallower the caliche. Research shows that at 14 inches of annual rainfall, the caliche layer typically sits about 10 inches down. With our nine inches, it can be even shallower — sometimes right at the surface where erosion has exposed it.
 
 The Doña Ana soil series, which covers much of the Las Cruces area, has petrocalcic horizons (the technical name for hardened caliche) documented at depths ranging from 15 to 60 inches. That's a wide range, which is why two lots in the same neighborhood can have completely different soil conditions. Your neighbor might dig 18 inches before hitting caliche. You might hit it at six.
 

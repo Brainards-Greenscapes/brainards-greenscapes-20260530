@@ -15,7 +15,7 @@ category: Landscaping
 - [Elevation changes everything](#elevation-the-factor-nobody-thinks-about) — At 3,900 feet, Las Cruces gets hard freezes that kill plants rated for Phoenix (1,000 ft) and Tucson (2,400 ft). Zone 8a, not Zone 9.
 - [Spring wind is the biggest plant killer](#wind-the-invisible-stress) — Sustained 25–40 mph winds from February through June dry out plants faster than summer heat does. Design for wind first, heat second.
 - [UV intensity is extreme here](#sun-and-uv-more-than-just-hot) — Average UV index 8.3, peaking at 12–13 in summer. That's not just sunburn weather — it breaks down drip tubing, cracks mulch, and bleaches hardscape.
-- [The soil is alkaline and the water is hard](#soil-its-not-just-dirt) — pH 7.5–8.3, calcium carbonate in the soil and the water supply. Iron chlorosis in plants and clogged drip emitters are built into the environment here.
+- [The soil is alkaline and the water is hard](#soil-its-not-just-dirt) — pH 7.5–8.5, calcium carbonate in the soil and the water supply. Iron chlorosis in plants and clogged drip emitters are built into the environment here.
 - [Pinterest yards from other cities won't work here](#why-your-yard-doesnt-look-like-pinterest) — The combination of wind, UV, alkaline soil, hard water, and winter freezes is specific to this valley. Designs that ignore any one of those factors fail.
 
 </div>
@@ -54,7 +54,7 @@ Monsoon season (July through September) adds a different wind problem: downburst
 
 ## Sun and UV: More Than Just Hot
 
-Las Cruces averages around 350 sunny days per year. That's a selling point for real estate, and it's brutal on a landscape.
+Las Cruces averages over 300 sunny days per year. That's a selling point for real estate, and it's brutal on a landscape.
 
 The issue isn't just heat — it's ultraviolet radiation. At 3,900 feet, the atmosphere is thinner, and more UV-B reaches the ground. Las Cruces has an average UV index of 8.3, among the highest of tracked cities in New Mexico. During summer months, the UV index regularly hits 12 or 13, which is classified as "extreme" on the EPA scale.
 
@@ -70,7 +70,7 @@ This is where strategic shade planning pays off. A well-placed Mesquite or Deser
 
 ## Soil: It's Not Just Dirt
 
-Dig a hole anywhere in the Las Cruces metro area and you'll find alkaline soil. Typical pH runs between 7.5 and 8.3 — well above the neutral 7.0 that most plants prefer. This isn't a flaw in your specific lot; it's the baseline for the entire Mesilla Valley.
+Dig a hole anywhere in the Las Cruces metro area and you'll find alkaline soil. Typical pH runs between 7.5 and 8.5 — well above the neutral 7.0 that most plants prefer. This isn't a flaw in your specific lot; it's the baseline for the entire Mesilla Valley.
 
 The alkalinity comes from calcium carbonate in the soil, the same mineral that forms [caliche](/blog/what-is-caliche-las-cruces/) — the hardpan layer that sits under much of the valley. Some properties have caliche two feet down. Some have it six inches down. Some have multiple layers. It varies by neighborhood, by lot, and even within the same yard.
 

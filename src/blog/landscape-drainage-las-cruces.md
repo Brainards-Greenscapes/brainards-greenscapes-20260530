@@ -50,7 +50,7 @@ Any drainage solution for a Las Cruces property needs to account for caliche. A 
 
 ### Alkaline Soil Structure
 
-Our soil pH of [7.5–8.3](/blog/wind-sun-soil-mesilla-valley-landscaping/) contributes to poor soil structure. High-pH soils with elevated sodium levels (common near the Rio Grande) tend to have dispersed clay particles that seal the soil surface, reducing infiltration. After a monsoon storm, you can see this as a hard crust on bare soil — water beads on it instead of soaking in.
+Our soil pH of [7.5–8.5](/blog/wind-sun-soil-mesilla-valley-landscaping/) contributes to poor soil structure. High-pH soils with elevated sodium levels (common near the Rio Grande) tend to have dispersed clay particles that seal the soil surface, reducing infiltration. After a monsoon storm, you can see this as a hard crust on bare soil — water beads on it instead of soaking in.
 
 ### Monsoon Intensity
 
