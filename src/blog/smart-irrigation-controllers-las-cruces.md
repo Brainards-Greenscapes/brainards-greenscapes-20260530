@@ -4,6 +4,7 @@ title: "Are Smart Irrigation Controllers Worth It in Las Cruces?"
 description: "Smart irrigation controllers adjust watering based on weather and ET data. Here's whether the upgrade makes sense for Las Cruces yards — and what to look for if it does."
 excerpt: "Your irrigation controller doesn't know it rained last night. It doesn't know it's 58°F in November or 107°F in June. A smart controller does — and in Las Cruces, where water needs swing dramatically by season, that difference adds up fast."
 date: 2026-08-14
+updated: 2026-08-16
 tags: blog
 category: Irrigation
 ---

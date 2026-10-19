@@ -4,6 +4,7 @@ title: "Wind, Sun, and Soil: What Makes Mesilla Valley Landscaping Different"
 description: "Why Las Cruces yards don't look like Phoenix or Albuquerque — the wind, UV, alkaline soil, hard water, and elevation factors that shape every landscaping decision in the Mesilla Valley."
 excerpt: "Las Cruces sits at 3,900 feet in the Mesilla Valley with alkaline soil, spring winds that hit 40 mph, UV levels among the highest in New Mexico, and hard water that clogs drip emitters. Here's what that actually means for your yard."
 date: 2026-09-25
+updated: 2026-10-09
 tags: blog
 category: Landscaping
 ---

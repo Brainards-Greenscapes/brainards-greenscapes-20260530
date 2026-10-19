@@ -4,6 +4,7 @@ title: "What to Know Before Starting a Landscaping Project in Las Cruces"
 description: "Planning a landscaping project in Las Cruces? Here's what makes the Mesilla Valley different — soil, caliche, water restrictions, plant zones, irrigation, and seasonal timing."
 excerpt: "Las Cruces isn't Tucson, Albuquerque, or Phoenix. Our elevation, soil, water rules, and weather create conditions that filter out most generic Southwest landscaping advice. Here's what you need to know before breaking ground."
 date: 2026-07-30
+updated: 2026-10-09
 tags: blog
 category: Getting Started
 ---

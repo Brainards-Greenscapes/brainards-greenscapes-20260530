@@ -4,6 +4,7 @@ title: "How to Prep Your Las Cruces Yard for Fall Planting"
 description: "Fall is the best time to plant trees and shrubs in Las Cruces — but the prep work starts now. Here's what to do in August and September so your yard is ready when the window opens."
 excerpt: "October and November are prime planting months in Las Cruces. But if you wait until October to start getting ready, you're already behind. The real work — soil testing, amending, irrigation repairs, drainage fixes — happens now."
 date: 2026-08-06
+updated: 2026-08-29
 tags: blog
 category: Seasonal
 ---

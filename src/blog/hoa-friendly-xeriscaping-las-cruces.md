@@ -4,6 +4,7 @@ title: "HOA-Friendly Xeriscaping in Las Cruces: How to Go Low-Water Without the 
 description: "How to xeriscape your Las Cruces yard while staying within HOA rules. What to check in your CC&Rs, how to get ARC approval, and design tips that keep the board happy."
 excerpt: "Your HOA can't stop you from wanting a lower water bill — but they can stop you from ripping out the grass without approval. Here's how to xeriscape the right way in an HOA neighborhood."
 date: 2026-09-11
+updated: 2026-09-12
 tags: blog
 category: Landscaping
 ---

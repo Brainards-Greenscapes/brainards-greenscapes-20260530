@@ -4,6 +4,7 @@ title: "From Hazard Tree to Flagstone Patio: A Las Cruces Courtyard Rebuild"
 description: "A declining mesquite was cracking a Las Cruces courtyard patio. Here's how we took down the tree in a tight space, demoed the old stone, and rebuilt the patio from scratch."
 excerpt: "The mesquite looked fine from the street. But underneath the flagstone, its root system was doing real damage — cracking stone, lifting edges, and working its way toward the foundation. Here's how the job went, step by step."
 date: 2026-08-21
+updated: 2026-08-29
 tags: blog
 category: Hardscaping
 ---

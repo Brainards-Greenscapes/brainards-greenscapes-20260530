@@ -4,6 +4,7 @@ title: "What Desert-Friendly Plants Actually Thrive in Las Cruces?"
 description: "A field-tested guide to desert-friendly trees, shrubs, and ground covers for Las Cruces — backed by NMSU research, local nurseries, and real installation experience."
 excerpt: "Not every 'desert plant' list applies here. This guide covers desert-friendly plants that actually thrive in Las Cruces — backed by NMSU research, available at local nurseries, and proven on real job sites."
 date: 2026-07-16
+updated: 2026-07-29
 tags: blog
 category: Landscaping
 ---

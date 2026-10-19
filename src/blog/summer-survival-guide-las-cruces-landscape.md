@@ -4,6 +4,7 @@ title: "Summer Survival Guide for Your Las Cruces Landscape"
 description: "How to keep your Las Cruces yard alive through 100°+ summer heat without tripling your water bill. Watering strategy, mulch, monsoon prep, and when to let the desert win."
 excerpt: "Triple-digit heat is here. Here's how to keep your landscape alive — whether you're running sprinklers on bermuda grass or maintaining a xeriscape — without blowing your water budget or fighting the city's watering schedule."
 date: 2026-06-22
+updated: 2026-07-07
 tags: blog
 category: Seasonal
 ---

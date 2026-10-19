@@ -4,6 +4,7 @@ title: "Drip Irrigation vs. Sprinklers in Las Cruces"
 description: "Drip or spray? In the desert, this choice affects your water bill, plant health, and repair time. Here's the honest comparison for Las Cruces."
 excerpt: "Sprinklers lose 30–50% of their water to evaporation and wind in Las Cruces. Drip delivers 90%+ to the root zone. But drip isn't always the right call — here's when each system makes sense."
 date: 2026-06-30
+updated: 2026-07-07
 tags: blog
 category: Irrigation
 ---

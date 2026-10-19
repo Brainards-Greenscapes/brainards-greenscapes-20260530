@@ -24,6 +24,27 @@ export default function (eleventyConfig) {
     return d.toLocaleDateString();
   });
 
+  // Sitemap <lastmod>: only emit a date we can stand behind.
+  //   1. explicit `updated:` front matter (any page) - same field the blog
+  //      layout already uses for BlogPosting dateModified, so the two agree
+  //   2. blog posts: their `date:` (publish date)
+  //   3. /blog/ index: newest updated/date across all posts
+  //   4. anything else: "" -> <lastmod> omitted. Google treats a missing
+  //      lastmod as fine and a wrong one as noise.
+  // Never fall back to page.date on non-blog pages: on a fresh Cloudflare
+  // clone that's the file timestamp = build time, so every deploy would claim
+  // every page changed today.
+  eleventyConfig.addFilter("lastmod", function (item, blogItems) {
+    const iso = (v) => new Date(v).toISOString().split("T")[0];
+    const d = item.data || {};
+    if (d.updated) return iso(d.updated);
+    if ([].concat(d.tags || []).includes("blog")) return iso(item.date);
+    if (item.url === "/blog/" && blogItems && blogItems.length) {
+      return iso(Math.max(...blogItems.map((p) => new Date(p.data.updated || p.date).getTime())));
+    }
+    return "";
+  });
+
   // Years-in-business filter — computed from site.founded at build time so the
   // number never needs hand-editing. Usage: {{ site.founded | yearsSince }}+
   eleventyConfig.addFilter("yearsSince", function (startYear) {

@@ -4,6 +4,7 @@ title: "Landscape Maintenance for Las Cruces Rental Properties: What Landlords A
 description: "What Las Cruces landlords and property managers should prioritize for rental property landscaping — code compliance, low-maintenance design, irrigation, and when to bring in a pro."
 excerpt: "A dead yard won't get you fined. But a weed-covered one will. Here's what Las Cruces code enforcement actually looks for, and how to set up your rental property's landscaping so it takes care of itself."
 date: 2026-09-18
+updated: 2026-09-21
 tags: blog
 category: Landscaping
 ---

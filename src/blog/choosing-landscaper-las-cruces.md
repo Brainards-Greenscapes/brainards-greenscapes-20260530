@@ -4,6 +4,7 @@ title: "How to Choose a Landscaper in Las Cruces (From Someone in the Business)"
 description: "What to check, what to ask, and what to watch out for when hiring a landscaper in Las Cruces. Licensing, insurance, estimates, and the red flags most homeowners miss."
 excerpt: "You'll get three quotes, one will be dramatically cheaper, and you'll be tempted. Here's how to tell which landscaper is going to do the job right — and which one is going to disappear after cashing your deposit."
 date: 2026-09-04
+updated: 2026-09-11
 tags: blog
 category: Getting Started
 ---

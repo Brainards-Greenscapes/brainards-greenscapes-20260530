@@ -4,6 +4,7 @@ title: "How Much Water Can Xeriscaping Save in Las Cruces?"
 description: "Las Cruces homeowners can cut outdoor water use by 50–75% with xeriscaping. See real rate comparisons for LCU, Moongate, and DAMDWCA customers."
 excerpt: "Your water provider changes the math. See how much xeriscaping can actually save LCU, Moongate, and mutual water customers in Las Cruces — with real rate comparisons."
 date: 2026-06-16
+updated: 2026-07-17
 tags: blog
 category: Landscaping
 ---

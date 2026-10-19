@@ -4,6 +4,7 @@ title: "The Best Trees for Las Cruces Yards — And How to Plant Them Right"
 description: "Which shade, ornamental, and windbreak trees actually work in Las Cruces — and the planting techniques that keep them alive through their first summer."
 excerpt: "Not every tree sold at a Las Cruces nursery belongs in a Las Cruces yard. Here are the ones that handle our wind, alkaline soil, hard freezes, and water restrictions — plus how to plant them so they actually survive."
 date: 2026-10-02
+updated: 2026-10-09
 tags: blog
 category: Landscaping
 ---

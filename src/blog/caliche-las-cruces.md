@@ -4,6 +4,7 @@ title: "Why Caliche Matters for Your Las Cruces Landscaping Project"
 description: "Caliche — the hidden cement layer under most Las Cruces yards — affects drainage, root growth, and irrigation. Here's what it is, how to spot it, and how we work around it."
 excerpt: "That concrete-like layer six inches under your yard isn't a mystery — it's caliche, and it's the single biggest factor most Las Cruces homeowners don't know about when planning a landscaping project."
 date: 2026-07-23
+updated: 2026-10-09
 tags: blog
 category: Landscaping
 ---
