@@ -1,8 +1,41 @@
 import Image from "@11ty/eleventy-img";
 import markdownItAnchor from "markdown-it-anchor";
+import { execFileSync } from "node:child_process";
 
 // Build timestamp for cache-busting static assets
 const buildTime = Date.now();
+
+// Last git commit date (YYYY-MM-DD) for a source path, cached per build.
+// Returns null when git is unavailable OR the clone is shallow: a shallow
+// clone reports the same latest commit for every file, which would recreate
+// the "every page changed the same day" problem.
+const gitDateCache = new Map();
+let gitHistoryUsable = null;
+function gitLastCommitDate(path) {
+  if (gitHistoryUsable === null) {
+    try {
+      gitHistoryUsable =
+        execFileSync("git", ["rev-parse", "--is-shallow-repository"], { encoding: "utf8" }).trim() === "false";
+    } catch {
+      gitHistoryUsable = false;
+    }
+  }
+  if (!gitHistoryUsable) return null;
+  if (!gitDateCache.has(path)) {
+    let out = "";
+    try {
+      out = execFileSync("git", ["log", "-1", "--format=%cs", "--", path], { encoding: "utf8" }).trim();
+    } catch {}
+    gitDateCache.set(path, out || null);
+  }
+  return gitDateCache.get(path);
+}
+
+// Paginated templates also change when their data file changes.
+const PAGINATED_DATA = {
+  "service-area-page.njk": "src/_data/serviceAreas.json",
+  "project-page.njk": "src/_data/projectStories.json",
+};
 
 export default function (eleventyConfig) {
   // Cache-bust filter — appends ?v=<timestamp> to asset URLs
@@ -29,12 +62,15 @@ export default function (eleventyConfig) {
   //      layout already uses for BlogPosting dateModified, so the two agree
   //   2. blog posts: their `date:` (publish date)
   //   3. /blog/ index: newest updated/date across all posts
-  //   4. anything else: "" -> <lastmod> omitted. Google treats a missing
-  //      lastmod as fine and a wrong one as noise.
+  //   4. every other page: last git commit touching the page's own source
+  //      (plus its data file if paginated), floored at the launch date.
+  //      Sitewide layout/footer edits deliberately don't count.
+  //   5. no usable git history (e.g. shallow CI clone): "" -> <lastmod>
+  //      omitted. Google treats a missing lastmod as fine, a wrong one as noise.
   // Never fall back to page.date on non-blog pages: on a fresh Cloudflare
   // clone that's the file timestamp = build time, so every deploy would claim
   // every page changed today.
-  eleventyConfig.addFilter("lastmod", function (item, blogItems) {
+  eleventyConfig.addFilter("lastmod", function (item, blogItems, launched) {
     const iso = (v) => new Date(v).toISOString().split("T")[0];
     const d = item.data || {};
     if (d.updated) return iso(d.updated);
@@ -42,7 +78,12 @@ export default function (eleventyConfig) {
     if (item.url === "/blog/" && blogItems && blogItems.length) {
       return iso(Math.max(...blogItems.map((p) => new Date(p.data.updated || p.date).getTime())));
     }
-    return "";
+    const src = (item.inputPath || "").replace(/^\.\//, "");
+    const extra = PAGINATED_DATA[src.split("/").pop()];
+    const dates = [src, extra].filter(Boolean).map(gitLastCommitDate).filter(Boolean).sort();
+    if (!dates.length) return "";
+    const latest = dates[dates.length - 1];
+    return launched && latest < launched ? launched : latest;
   });
 
   // Years-in-business filter — computed from site.founded at build time so the
