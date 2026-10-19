@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // the menu is open (e.g. rotating a tablet), reset everything so the
     // scroll lock and fixed panel don't get stuck.
     window.addEventListener("resize", () => {
-      if (window.innerWidth >= 768 && !menu.classList.contains("hidden")) {
+      // Must match the Tailwind xl breakpoint used in header.njk (1280px).
+      if (window.innerWidth >= 1280 && !menu.classList.contains("hidden")) {
         menu.classList.add("hidden");
         toggle.setAttribute("aria-expanded", "false");
         toggle.setAttribute("aria-label", "Open menu");
