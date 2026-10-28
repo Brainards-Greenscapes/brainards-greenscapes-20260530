@@ -126,7 +126,7 @@ For plant beds and trees, the answer is usually [switching to drip irrigation](/
 
 The Southwest monsoon runs mid-June through September, and Las Cruces gets over half its annual rainfall — about 4.9 inches — in just those few months. (For a full prep checklist beyond just irrigation, see our [monsoon season prep guide](/blog/monsoon-prep-las-cruces/).) The problem isn't the total amount; it's the delivery. It arrives as intense, short bursts that can dump an inch in 30 minutes.
 
-That kind of runoff moves things. Drip lines get buried under silt, emitters get disconnected or packed with mud, and valve boxes fill with water. If you're on a slope, [erosion](/services/irrigation/erosion-control/) can expose buried pipes.
+That kind of runoff moves things. Drip lines get buried under silt, emitters get disconnected or packed with mud, and valve boxes fill with water. If you're on a slope, [erosion](/services/drainage/erosion-control/) can expose buried pipes.
 
 **After every big storm:** Walk your zones. Turn on each zone one at a time and verify that emitters are still flowing, heads are still spraying correctly, and no new wet spots have appeared where they shouldn't. This takes 20 minutes and can save you from discovering a problem in August when your plants are already stressed.
 

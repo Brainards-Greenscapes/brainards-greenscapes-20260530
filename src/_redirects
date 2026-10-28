@@ -112,6 +112,10 @@ https://brainardsgreenscapes.com/* https://www.brainardsgreenscapes.com/:splat 3
 # -> misc
 /policy/cookie-policy/ /privacy/ 301
 
+# Broken internal link fix (2026-10-28): 4 blog posts linked to a caliche slug
+# that never existed. Links corrected; this catches anything Google already saw.
+/blog/what-is-caliche-las-cruces/ /blog/caliche-las-cruces/ 301
+
 # Catch-all: any remaining old /areas-of-service/ URL not explicitly mapped above
 # MUST stay at the bottom — Cloudflare Pages matches top-down, specific rules first
 /areas-of-service/* /service-areas/las-cruces-nm/ 301

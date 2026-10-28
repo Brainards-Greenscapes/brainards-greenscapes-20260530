@@ -85,7 +85,7 @@ The planting technique matters more here than in most climates. Our soil conditi
 
 Before you buy a tree, dig a test hole where you plan to plant it. Go at least 24 inches deep — 36 if you can. You're looking for two things:
 
-**Caliche.** If you hit a hard, white, cement-like layer, that's [caliche](/blog/what-is-caliche-las-cruces/). Water can't drain through it and roots can't penetrate it. If you plant a tree above an intact caliche layer, the planting hole fills with water every time you irrigate. The roots sit in standing water, rot, and the tree dies — usually within one to two years.
+**Caliche.** If you hit a hard, white, cement-like layer, that's [caliche](/blog/caliche-las-cruces/). Water can't drain through it and roots can't penetrate it. If you plant a tree above an intact caliche layer, the planting hole fills with water every time you irrigate. The roots sit in standing water, rot, and the tree dies — usually within one to two years.
 
 **Drainage rate.** Fill the test hole with water and time how fast it drains. You want at least 1 inch per hour. If the water is still sitting there after several hours, you have a drainage problem — either caliche, compacted clay, or both — that needs to be solved before a tree goes in.
 

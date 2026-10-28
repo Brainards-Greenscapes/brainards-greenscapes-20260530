@@ -112,7 +112,7 @@ Bermuda grass — the most common warm-season turf in Las Cruces — actually do
 - **Mow higher.** Raise your mowing height to 2–2.5 inches. Taller grass shades its own root zone and retains soil moisture better. Never remove more than one-third of the blade height in a single mow.
 - **Leave the clippings.** They decompose quickly in this heat and return nitrogen to the soil. It's free fertilizer.
 - **Water on your assigned days, early morning.** Bermuda needs about 1–1.5 inches of water per week in summer. With your three allowed watering days, that means putting down about half an inch per session.
-- **Aerate if you haven't this year.** Late spring and summer are the right time for warm-season grasses. Compacted soil (especially our clay-heavy Mesilla Valley stuff) prevents water from reaching roots. [Aeration](/services/landscaping/aeration/) opens it up.
+- **Aerate if you haven't this year.** Late spring and summer are the right time for warm-season grasses. Compacted soil (especially our clay-heavy Mesilla Valley stuff) prevents water from reaching roots. [Aeration](/contact/) opens it up.
 - **Hold off on heavy fertilization** until the worst heat passes. Pushing growth during extreme heat stresses the turf more. Light feeding is fine; heavy doses of nitrogen in July are asking for trouble.
 
 ## When the Desert Wins

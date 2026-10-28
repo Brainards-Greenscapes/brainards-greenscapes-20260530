@@ -16,7 +16,7 @@ category: Landscaping
 - [Field-tested, not just Google-searched](#how-we-chose-these-plants) — Every plant here meets three criteria: university research says it works, local nurseries carry it, and we've installed it successfully.
 - [Low-water doesn't mean low-beauty](#low-water-trees) — Desert Willow, Texas Sage, Bird of Paradise, and Red Yucca are some of the most colorful plants in any Las Cruces yard.
 - [Match your emitters to your plants](#designing-around-water-needs) — You don't need separate irrigation zones for every water level. Different emitter sizes on the same zone let low-water and moderate-water plants coexist.
-- [Moderate-water plants work here too](#plants-that-do-well-here-too--with-a-little-more-water) — Butterfly Bush, Chinese Pistache, and Crape Myrtle do great if you give them a bit more irrigation.
+- [Moderate-water plants work here too](#plants-that-do-well-here-too-with-a-little-more-water) — Butterfly Bush, Chinese Pistache, and Crape Myrtle do great if you give them a bit more irrigation.
 - [Some popular plants are a bad idea](#a-few-plants-to-skip) — Cottonwood, Chinaberry, and Weeping Mulberry cause more problems than they're worth.
 
 </div>

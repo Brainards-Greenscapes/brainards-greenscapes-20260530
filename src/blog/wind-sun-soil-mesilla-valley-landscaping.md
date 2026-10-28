@@ -73,7 +73,7 @@ This is where strategic shade planning pays off. A well-placed Mesquite or Deser
 
 Dig a hole anywhere in the Las Cruces metro area and you'll find alkaline soil. Typical pH runs between 7.5 and 8.5 — well above the neutral 7.0 that most plants prefer. This isn't a flaw in your specific lot; it's the baseline for the entire Mesilla Valley.
 
-The alkalinity comes from calcium carbonate in the soil, the same mineral that forms [caliche](/blog/what-is-caliche-las-cruces/) — the hardpan layer that sits under much of the valley. Some properties have caliche two feet down. Some have it six inches down. Some have multiple layers. It varies by neighborhood, by lot, and even within the same yard.
+The alkalinity comes from calcium carbonate in the soil, the same mineral that forms [caliche](/blog/caliche-las-cruces/) — the hardpan layer that sits under much of the valley. Some properties have caliche two feet down. Some have it six inches down. Some have multiple layers. It varies by neighborhood, by lot, and even within the same yard.
 
 What the alkaline soil does to plants is straightforward: it locks up iron and other micronutrients so roots can't absorb them. The plant has iron in the soil around it and still develops iron chlorosis — yellow leaves with green veins. It's the most common plant health issue in Las Cruces, and it's not a disease or a pest. It's chemistry.
 

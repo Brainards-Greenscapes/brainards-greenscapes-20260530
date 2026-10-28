@@ -30,7 +30,7 @@ Water that falls on your property needs to do one of three things: soak into the
 
 When drainage fails, it's because one or more of those pathways is blocked. In Las Cruces, the blocks are predictable:
 
-**The ground won't absorb it.** Compacted desert soil, especially after construction, has very low infiltration rates. Add a layer of [caliche](/blog/what-is-caliche-las-cruces/) underneath and water has nowhere to go vertically.
+**The ground won't absorb it.** Compacted desert soil, especially after construction, has very low infiltration rates. Add a layer of [caliche](/blog/caliche-las-cruces/) underneath and water has nowhere to go vertically.
 
 **The surface won't move it.** Flat grading, or grading that slopes toward the house instead of away from it, traps water against foundations and in low spots. This is common in newer subdivisions where the builder graded for the structure but didn't think much about the landscape.
 
@@ -42,7 +42,7 @@ Every landscaping market has drainage challenges, but ours are specific to the M
 
 ### Caliche: The Underground Dam
 
-[Caliche](/blog/what-is-caliche-las-cruces/) is a layer of calcium carbonate hardpan that sits under much of the Las Cruces metro area. It varies from a few inches to several feet thick, and from a soft chalky layer to something that requires a jackhammer to break through. The depth varies too — some lots have it six inches down, others at three feet, and some properties have multiple layers.
+[Caliche](/blog/caliche-las-cruces/) is a layer of calcium carbonate hardpan that sits under much of the Las Cruces metro area. It varies from a few inches to several feet thick, and from a soft chalky layer to something that requires a jackhammer to break through. The depth varies too — some lots have it six inches down, others at three feet, and some properties have multiple layers.
 
 From a drainage perspective, caliche acts like an impermeable floor. Water that soaks through the top few inches of soil hits the caliche and stops. It pools on top of the hardpan, saturating the root zone above it. This is why trees and shrubs planted above intact caliche often develop root rot even in the desert — the water has nowhere to go.
 
