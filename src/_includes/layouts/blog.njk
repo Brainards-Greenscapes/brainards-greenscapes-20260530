@@ -7,18 +7,18 @@ layout: layouts/base.njk
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "{{ title }}",
-  "description": "{{ description }}",
+  "headline": {{ title | dump | safe }},
+  "description": {{ description | dump | safe }},
   "datePublished": "{{ date | date('iso') }}",
   {% if updated %}"dateModified": "{{ updated | date('iso') }}",{% endif %}
   "author": {
     "@type": "Organization",
-    "name": "{{ site.name }}",
+    "name": {{ site.name | dump | safe }},
     "url": "{{ site.url }}"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "{{ site.name }}",
+    "name": {{ site.name | dump | safe }},
     "url": "{{ site.url }}",
     "logo": {
       "@type": "ImageObject",
